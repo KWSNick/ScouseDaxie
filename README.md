@@ -1,39 +1,91 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Scouse Daxie - README
 
-Welcome USER_NAME,
+A social space targeting Dachshund owners in Liverpool. The site aims to provide community through existing social media and free organsied social events. The site offers advice and tips on dog friendly bars, pubs, restaurants and other venues/establishments along with training tips and 3rd party training in the area.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+The site could eventually generate revenue through attracting local businesses and suppliers to advertise or promote their relevant offerings. One future option is to create an online store platform selling relevant products either directly or in acting as an intermediary.
 
-## Gitpod Reminders
+Whist the site currently heavily relies upon existing social media platforms for inter-user interaction, user to business interaction and events sign-up and bookings the intention is to build thie functionality locally into the site with time. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The site can expand to include additional content for other dog breeds in the geographic area and also expand to other locations in the future. By narrowing the target audience initially it allows bespoke, attractive content and a managable scope. Choosing a popular breed increases the interest in the content and initial user pick-up. 
 
-`python3 -m http.server`
+## UX Design
 
-A blue button should appear to click: *Make Public*,
+### Strategy
 
-Another blue button should appear to click: *Open Browser*.
+### Scope
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Structure
 
-A blue button should appear to click: *Make Public*,
+### Skeleton
 
-Another blue button should appear to click: *Open Browser*.
+### Surface
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## Features
 
-## Updates Since The Instructional Video
+### Existing Features
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+### Future Features
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Technologies Used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Bootstrap 4.4.1
+Bootstrap was used to provide a front-end component library structure and responsive design framework.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### License
+The MIT License (MIT)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Copyright (c) 2011-2020 Twitter, Inc.
+Copyright (c) 2011-2020 The Bootstrap Authors
 
---------
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Happy coding!
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+### LogoMakr
+Produced the brand logo using a combination of Google Fonts and icons.
+
+https://logomakr.com  
+
+https://logomakr.com/getstarted/terms-conditions/ 
+
+### Google Fonts
+Google Fonts offers open source font styling options for personal and commercial use. 
+
+#### License
+The use of this product was inline with Google API's terms of service https://developers.google.com/terms 
+
+### Font Awesome 5.1.3.
+Font Awesome provides text based icons which can be manipulated and controlled by CSS styling. 
+
+#### License
+Icons are licensed under the CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+
+Fonts are licensed under SIL OFL 1.1 https://scripts.sil.org/OFL 
+
+Code is licensed under MIT https://opensource.org/licenses/MIT 
+
+## Testing
+
+## Deployment
+
+## Credits
+
+### Content
+
+### Media
+
+### Acknowledgements

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua:wght@100;200;300;400;500;600;700;800;900&family=Fredoka+One:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    font-size: 2vmax;
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------------------------------------Colours*/
+.none {    
+    color: #8e24ae;/*Primary*/
+    color: #c159e1;/*Primary Light*/
+    color: #5c007e;/*Primary Dark*/
+    color: #99fcff;/*Secondary*/
+    color: #ceffff;/*Secondary Light*/
+    color: #65c9cc;/*Secondary Dark*/
+    color: #fbffe2;/*Primary Text*/
+    color: #324749;/*Secondary Text*/
+
+}
+
+.navigation,
+.dropdown-menu {
+    background-color: #8e24ae;
+}
+
+#logo,
+.strapline,
+.navbar-dark .navbar-nav .nav-link,
+.dropdown-item {
+    color: #fbffe2;
+}
+
+/* ------------------------------------------Header*/
+
+.navigation {
+    padding: 0;
+}
+
+.navbar-branding {
+    margin: 2vw;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+#logo {
+    width: 30vw; 
+}
+
+.navbar-toggler {
+    font-size:2.75em;
+    border: none;
+    padding: 1rem .75rem;
+}
+
+.navbar-toggler-icon {
+    width: 3.5em;
+    height: 3.5em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+
+font-family: 'Fredoka One', cursive;
+font-family: 'Jua', sans-serif;
