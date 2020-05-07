@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jua:wght@100;200;300;400;500;600;700;800;900&family=Fredoka+One:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua:wght@100;200;300;400;500;600;700;800;900&family=Londrina+Solid:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
     font-size: 2vmax;
@@ -24,7 +24,6 @@
     background-color: #8e24ae;
 }
 
-#logo,
 .strapline,
 .navbar-dark .navbar-nav .nav-link,
 .dropdown-item {
@@ -37,12 +36,21 @@
     padding: 0;
 }
 
-.navbar-branding {
-    margin: 2vw;
-}
-
 .navbar-brand {
     padding: 0;
+    margin: 2vw 2vw 0 2vw;
+}
+
+.strapline {
+    margin: 0 2vw;
+    padding: 0;
+    font-family: 'Londrina Solid', cursive;
+    text-transform: uppercase;
+}
+
+.strapline p{
+    font-size: 2em;
+    margin: 0;
 }
 
 #logo {
@@ -61,16 +69,15 @@
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    font-family: 'Fredoka One', cursive;
+    height: 100%;
+    font-family: 'Londrina Solid', cursive;
     font-size: 1.5em;
     text-align: center;
     text-transform: uppercase;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.dropdown-menu {
-    border: none;
-}
 
-
-font-family: 'Fredoka One', cursive;
+font-family: 'Londrina Solid', cursive;
 font-family: 'Jua', sans-serif;
