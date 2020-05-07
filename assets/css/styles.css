@@ -49,7 +49,7 @@
 }
 
 .strapline p{
-    font-size: 2em;
+    font-size: 1.75em;
     margin: 0;
 }
 
@@ -78,6 +78,23 @@
     padding-right: 1rem;
 }
 
+.navbar-item a i {
+    font-size: 1.5em;
+}
+
+/* ------------------------------------------Media Queries*/
+
+@media (min-width: 992px) {
+    .navbar-dark .navbar-nav .nav-link {
+    font-size: 1.25em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar-item a i {
+    font-size: 1.25em;
+}
+}
 
 font-family: 'Londrina Solid', cursive;
 font-family: 'Jua', sans-serif;
