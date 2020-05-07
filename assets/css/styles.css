@@ -1,100 +1,103 @@
 @import url("https://fonts.googleapis.com/css2?family=Jua:wght@100;200;300;400;500;600;700;800;900&family=Londrina+Solid:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-    font-size: 2vmax;
-    padding: 0;
-    margin: 0;
+  font-size: 2vmax;
+  padding: 0;
+  margin: 0;
 }
 
 /* ------------------------------------------Colours*/
-.none {    
-    color: #8e24ae;/*Primary*/
-    color: #c159e1;/*Primary Light*/
-    color: #5c007e;/*Primary Dark*/
-    color: #99fcff;/*Secondary*/
-    color: #ceffff;/*Secondary Light*/
-    color: #65c9cc;/*Secondary Dark*/
-    color: #fbffe2;/*Primary Text*/
-    color: #324749;/*Secondary Text*/
-
+.none {
+  color: #8e24ae; /*Primary*/
+  color: #c159e1; /*Primary Light*/
+  color: #5c007e; /*Primary Dark*/
+  color: #99fcff; /*Secondary*/
+  color: #ceffff; /*Secondary Light*/
+  color: #65c9cc; /*Secondary Dark*/
+  color: #fbffe2; /*Primary Text*/
+  color: #324749; /*Secondary Text*/
 }
 
 .navigation,
 .dropdown-menu {
-    background-color: #8e24ae;
+  background-color: #8e24ae;
 }
 
 .strapline,
 .navbar-dark .navbar-nav .nav-link,
 .dropdown-item {
-    color: #fbffe2;
+  color: #fbffe2;
 }
 
 /* ------------------------------------------Header*/
 
 .navigation {
-    padding: 0;
+  padding: 0;
 }
 
 .navbar-brand {
-    padding: 0;
-    margin: 2vw 2vw 0 2vw;
+  padding: 0;
+  margin: 1vw 1vw 0 1vw;
 }
 
 .strapline {
-    margin: 0 2vw;
-    padding: 0;
-    font-family: 'Londrina Solid', cursive;
-    text-transform: uppercase;
+  margin: 0 2vw;
+  padding: 0;
+  font-family: "Londrina Solid", cursive;
+  text-transform: uppercase;
 }
 
-.strapline p{
-    font-size: 1.75em;
-    margin: 0;
+h1 {
+  font-size: 1.75em;
+  margin: 0;
 }
 
 #logo {
-    width: 30vw; 
+  width: 30vw;
 }
 
 .navbar-toggler {
-    font-size:2.75em;
-    border: none;
-    padding: 1rem .75rem;
+  font-size: 2.75em;
+  border: none;
+  padding: 1rem 0.75rem;
 }
 
 .navbar-toggler-icon {
-    width: 3.5em;
-    height: 3.5em;
+  width: 3.5em;
+  height: 3.5em;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    height: 100%;
-    font-family: 'Londrina Solid', cursive;
-    font-size: 1.5em;
-    text-align: center;
-    text-transform: uppercase;
-    padding-left: 1rem;
-    padding-right: 1rem;
+  height: 100%;
+  font-family: "Londrina Solid", cursive;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .navbar-item a i {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 /* ------------------------------------------Media Queries*/
 
 @media (min-width: 992px) {
-    .navbar-dark .navbar-nav .nav-link {
+  #logo {
+      width: 25vw;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
     font-size: 1.25em;
     padding-left: 1rem;
     padding-right: 1rem;
-}
+  }
 
-.navbar-item a i {
+  .navbar-item a i {
     font-size: 1.25em;
-}
+  }
 }
 
-font-family: 'Londrina Solid', cursive;
-font-family: 'Jua', sans-serif;
+font-family: "Londrina Solid", cursive;
+font-family: "Jua", sans-serif;
