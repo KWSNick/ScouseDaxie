@@ -23,7 +23,8 @@
 }
 
 .navigation,
-.dropdown-menu {
+.dropdown-menu,
+.footer {
   background-color: #8e24ae;
 }
 
