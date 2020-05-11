@@ -87,6 +87,14 @@ h1 {
   font-size: 1.5em;
 }
 
+/* ------------------------------------------Footer*/
+
+.footer-right,
+.footer-right small strong,
+.footer-right small a {
+    font-size: 0.5rem;
+}
+
 /* ------------------------------------------Media Queries*/
 
 @media (min-width: 992px) {
