@@ -56,6 +56,18 @@
     -moz-background-size: cover;
 }
 
+.content-a {
+    background-color: #ceffff;
+    color: #324749;
+}
+
+.content-b {
+    background-color: #c159e1;
+    color: #324749;
+    
+}
+}
+
 /* ------------------------------------------Header*/
 
 .navigation {
