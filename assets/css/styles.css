@@ -120,6 +120,7 @@ h1 {
 
 .btn-secondary {
     border: none;
+    text-transform: uppercase;
 }
 
 /* ------------------------------------------Footer*/
