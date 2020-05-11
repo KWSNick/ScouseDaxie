@@ -45,6 +45,7 @@
   padding: 0;
   font-family: "Londrina Solid", cursive;
   text-transform: uppercase;
+  letter-spacing: 0.75vw;
 }
 
 h1 {
