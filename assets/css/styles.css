@@ -65,6 +65,14 @@
     color: #fbffe2;
 }
 
+.content-b a {
+    color: #99fcff;
+}
+
+.content-b a:hover {
+    color: #65c9cc;
+}
+
 /* ------------------------------------------Header*/
 
 .navigation {
@@ -137,6 +145,7 @@ h1 {
     text-align: center;
     font-family: "Rubik", sans-serif;
 }
+
 
 .intro-button-container {
     text-align: right;
