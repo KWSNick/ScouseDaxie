@@ -105,6 +105,10 @@ h1 {
 .footer-right {
     text-align: right;
 }
+.socials {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
 
 .social-link i {
   font-size: 1.5em;
