@@ -37,6 +37,12 @@
   color: #fbffe2;
 }
 
+.btn-secondary {
+    background-color: #99fcff;
+    border: none;
+    color: #324749;
+}
+
 /* ------------------------------------------Header*/
 
 .navigation {
