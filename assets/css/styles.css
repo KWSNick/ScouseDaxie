@@ -52,6 +52,9 @@
     height: 65vh;
     background: url("../images/object_hero_a.jpg") no-repeat top right;
     background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
 }
 
 /* ------------------------------------------Header*/
