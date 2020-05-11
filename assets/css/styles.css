@@ -48,6 +48,12 @@
     color: #fbffe2;
 }
 
+.hero-image-a {
+    height: 65vh;
+    background: url("../images/object_hero_a.jpg") no-repeat top right;
+    background-size: cover;
+}
+
 /* ------------------------------------------Header*/
 
 .navigation {
