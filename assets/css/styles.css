@@ -76,6 +76,7 @@ h1 {
   text-transform: uppercase;
   padding-left: 1rem;
   padding-right: 1rem;
+  letter-spacing: 0.5vw;
 }
 
 .navbar-item a i {
