@@ -19,6 +19,7 @@ The site can expand to include additional content for other dog breeds in the ge
 ### Skeleton
 
 ### Surface
+Where possible the use of absolute units has been avoided in preference for relative units. This is to ensure maximum site responsiveness.
 
 ## Features
 
