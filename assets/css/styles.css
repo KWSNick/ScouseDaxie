@@ -98,6 +98,10 @@ h1 {
     font-size: 0.5rem;
 }
 
+.footer-right {
+    text-align: right;
+}
+
 /* ------------------------------------------Media Queries*/
 
 @media (min-width: 992px) {
