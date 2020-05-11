@@ -216,6 +216,10 @@ h5 {
 /* ------------------------------------------Media Queries*/
 
 @media (min-width: 992px) {
+  body {
+      zoom: 0.8;
+  }
+
   #logo {
       width: 25vw;
   }
