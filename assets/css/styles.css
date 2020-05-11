@@ -161,5 +161,11 @@ h1 {
   }
 }
 
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 0.5rem;
+    }
+}
+
 font-family: "Londrina Solid", cursive;
 font-family: "Jua", sans-serif;
