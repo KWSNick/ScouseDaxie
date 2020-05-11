@@ -133,6 +133,10 @@ h1 {
     text-transform: uppercase;
 }
 
+.main-content {
+    text-align: center;
+}
+
 .intro-button-container {
     text-align: right;
     padding: 0 3vw 0 0;
