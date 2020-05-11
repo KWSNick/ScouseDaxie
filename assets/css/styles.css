@@ -39,7 +39,6 @@
 
 .btn-secondary {
     background-color: #99fcff;
-    border: none;
     color: #324749;
 }
 
@@ -116,6 +115,11 @@ h1 {
 .hero-tron {
     padding-bottom: 0.5rem;
     text-align: center;
+    font-family: "Jua", sans-serif;
+}
+
+.btn-secondary {
+    border: none;
 }
 
 /* ------------------------------------------Footer*/
