@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 /* ------------------------------------------Colours*/
 .none {
   color: #8e24ae; /*Primary*/
