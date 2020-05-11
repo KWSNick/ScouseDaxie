@@ -30,7 +30,9 @@
 
 .strapline,
 .navbar-dark .navbar-nav .nav-link,
-.dropdown-item {
+.dropdown-item,
+.footer,
+.footer a {
   color: #fbffe2;
 }
 
