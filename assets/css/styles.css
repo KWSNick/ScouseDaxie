@@ -123,6 +123,10 @@ h1 {
     text-transform: uppercase;
 }
 
+#button-intro {
+    text-align: right;
+}
+
 /* ------------------------------------------Footer*/
 
 .footer-right,
