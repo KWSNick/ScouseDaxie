@@ -152,6 +152,10 @@ h6 {
     margin: 3rem 0 0 0;
 }
 
+#breed-info {
+    padding: 1rem 3rem;
+}
+
 /* ------------------------------------------Footer*/
 
 .footer-right,
