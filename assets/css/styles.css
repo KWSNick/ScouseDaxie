@@ -43,6 +43,11 @@
     color: #324749;
 }
 
+.btn-secondary:hover {
+    background-color: #65c9cc;
+    color: #fbffe2;
+}
+
 /* ------------------------------------------Header*/
 
 .navigation {
