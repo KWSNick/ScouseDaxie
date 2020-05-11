@@ -98,6 +98,10 @@ h1 {
     font-size: 0.5rem;
 }
 
+.footer-mid {
+    text-align: center;
+}
+
 .footer-right {
     text-align: right;
 }
