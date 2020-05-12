@@ -322,6 +322,7 @@ h5 {
   }
   .footer-right {
     text-align: right;
+    padding-right: 1vh !important;
   }
   .footer-left {
     text-align: left;
