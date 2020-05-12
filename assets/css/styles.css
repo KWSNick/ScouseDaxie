@@ -47,16 +47,6 @@ ul {
   background-color: #5c007e;
 }
 
-.btn-secondary {
-  background-color: #99fcff;
-  color: #324749;
-}
-
-.btn-secondary:hover {
-  background-color: #65c9cc;
-  color: #fbffe2;
-}
-
 .content-a {
   color: #324749;
 }
@@ -70,11 +60,13 @@ ul {
   color: #fbffe2;
 }
 
-.content-b a {
+.content-b a,
+.content-a a {
   color: #99fcff;
 }
 
 .content-b a:hover,
+.content-a a:hover,
 .footer a:hover {
   color: #65c9cc;
 }
@@ -85,6 +77,16 @@ ul {
 
 .event-b {
   background-color: #ceffff;
+}
+
+.btn-secondary {
+  background-color: #99fcff;
+  color: #324749;
+}
+
+.btn-secondary:hover {
+  background-color: #65c9cc;
+  color: #fbffe2;
 }
 
 /* ------------------------------------------Header*/
