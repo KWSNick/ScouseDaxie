@@ -91,6 +91,10 @@ ul {
     font-weight: 700;
 }
 
+.events-button-container {
+    padding: 3vh;
+}
+
 /* ------------------------------------------Header*/
 
 .navigation {
