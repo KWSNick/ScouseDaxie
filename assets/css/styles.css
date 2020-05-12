@@ -91,6 +91,14 @@ ul {
   color: #fbffe2;
 }
 
+.content-a .btn-secondary:hover {
+    color: #fbffe2;
+}
+
+.content-b .btn-secondary:hover {
+    color: #fbffe2;
+}
+
 /* ------------------------------------------Header*/
 
 .navigation {
