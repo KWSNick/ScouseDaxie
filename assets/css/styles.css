@@ -57,15 +57,6 @@ ul {
     color: #fbffe2;
 }
 
-.hero-image-a {
-    height: 65vh;
-    background: url("../images/object_hero_a.jpg") no-repeat top right;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-}
-
 .content-a {
     color: #324749;
 }
@@ -161,6 +152,15 @@ h1 {
     text-align: center;
     font-family: "Rubik", sans-serif;
     margin: 0;
+}
+
+.hero-image-a {
+    height: 65vh;
+    background: url("../images/object_hero_a.jpg") no-repeat top right;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
 }
 
 .btn-secondary {
