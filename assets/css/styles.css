@@ -262,6 +262,13 @@ h5 {
     padding: 3vh;
 }
 
+.image-circle-container img {
+    border-radius: 50%;
+    height: 20vh;
+    border: 0.5vh solid #99fcff;
+    padding: 0.5vh;
+}
+
 /* ------------------------------------------Footer*/
 
 .footer-right,
