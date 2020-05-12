@@ -70,7 +70,8 @@ ul {
   color: #99fcff;
 }
 
-.content-b a:hover {
+.content-b a:hover,
+.footer a:hover {
   color: #65c9cc;
 }
 
@@ -216,6 +217,7 @@ h5 {
 .footer-right {
   margin: auto 0;
 }
+
 .socials {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
