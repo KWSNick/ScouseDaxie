@@ -39,6 +39,10 @@ ul {
     background-color: #5c007e;
 }
 
+.navbar-nav .active {
+    background-color: #5c007e;
+}
+
 .btn-secondary {
     background-color: #99fcff;
     color: #324749;
