@@ -236,6 +236,10 @@ h5 {
     margin: 1vh;
 }
 
+.event-desc p {
+    margin-bottom: 1vh;
+}
+
 .event-summary-item-header {
     text-transform: uppercase;
 }
