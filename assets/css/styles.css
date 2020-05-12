@@ -231,7 +231,8 @@ h5 {
   padding: 0;
 }
 
-.event-details-item {
+.event-details-item,
+.event-desc {
     margin: 1vh;
 }
 
