@@ -229,6 +229,7 @@ h1 {
   
   .navbar-dark .navbar-nav .nav-link {
     font-size: 2vw;
+    padding-top: 3vw;
   }
 
   .navbar-item a i {
