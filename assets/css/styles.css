@@ -223,6 +223,10 @@ h5 {
   padding: 0;
 }
 
+.event-details-item {
+    margin: 1vh;
+}
+
 .event-details-item-category {
     font-weight: 700;
 }
