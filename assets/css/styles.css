@@ -80,6 +80,14 @@ ul {
   background-color: #ceffff;
 }
 
+.event-b a {
+    color: #8e24ae;
+}
+
+.event-b a:hover {
+    color: #5c007e;
+}
+
 .btn-secondary,
 .content-a .btn-secondary,
 .content-b .btn-secondary {
