@@ -121,6 +121,7 @@ h1 {
 
 .navbar-item {
     width: 100%;
+    margin: auto;
 }
 
 .navbar-dark .navbar-nav .nav-link {
