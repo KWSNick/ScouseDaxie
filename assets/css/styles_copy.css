@@ -1,11 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;700;800;900&family=Londrina+Solid:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+* {
+  font-size: 2vmax;
+  padding: 0;
+  margin: 0;
+}
+
 .container-fluid {
     padding: 0;
 }
 
 ul {
     list-style: none;
+}
+
+.row {
+    height: 20%;
 }
 
 /* ------------------------------------------Colours*/
@@ -109,7 +119,7 @@ h1 {
 }
 
 .navbar-toggler {
-  font-size: 4vw;
+  font-size: 2.75em;
   border: none;
   padding: 1rem 0.75rem;
 }
