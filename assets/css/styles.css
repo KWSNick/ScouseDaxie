@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;700;800;900&family=Londrina+Solid:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .container-fluid {
-    padding: 0;
+  padding: 0;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 /* ------------------------------------------Colours*/
@@ -36,52 +36,51 @@ ul {
 }
 
 .navbar-item:hover {
-    background-color: #5c007e;
+  background-color: #5c007e;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #99fcff;
+  color: #99fcff;
 }
 
 .navbar-nav .active {
-    background-color: #5c007e;
+  background-color: #5c007e;
 }
 
 .btn-secondary {
-    background-color: #99fcff;
-    color: #324749;
+  background-color: #99fcff;
+  color: #324749;
 }
 
 .btn-secondary:hover {
-    background-color: #65c9cc;
-    color: #fbffe2;
+  background-color: #65c9cc;
+  color: #fbffe2;
 }
 
 .content-a {
-    color: #324749;
+  color: #324749;
 }
 
 .content-b {
-    background-color: #5c007e;
-    color: #fbffe2;
+  background-color: #5c007e;
+  color: #fbffe2;
 }
 
 .content-b a {
-    color: #99fcff;
+  color: #99fcff;
 }
 
 .content-b a:hover {
-    color: #65c9cc;
+  color: #65c9cc;
 }
 
 .event-a {
-    background-color: #c159e1;
+  background-color: #c159e1;
 }
 
-.event-b { 
-    background-color: #ceffff;
+.event-b {
+  background-color: #ceffff;
 }
-
 
 /* ------------------------------------------Header*/
 
@@ -95,7 +94,7 @@ ul {
 }
 
 .navbar-brand img:hover {
-    filter: hue-rotate(210deg) saturate(2) brightness(2);
+  filter: hue-rotate(210deg) saturate(2) brightness(2);
 }
 
 .strapline {
@@ -127,9 +126,9 @@ h1 {
 }
 
 .navbar-item {
-    width: 100%;
-    height: 13vw;
-    padding: 0 4vw;
+  width: 100%;
+  height: 13vw;
+  padding: 0 4vw;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -148,79 +147,78 @@ h1 {
 /* ------------------------------------------Main Content*/
 
 .jumbotron-fluid {
-    padding: 2rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .hero-tron {
-    padding-bottom: 0.5rem;
-    text-align: center;
-    font-family: "Rubik", sans-serif;
-    margin: 0;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  margin: 0;
 }
 
 .hero-image-a {
-    height: 65vh;
-    background: url("../images/object_hero_a.jpg") no-repeat top right;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+  height: 65vh;
+  background: url("../images/object_hero_a.jpg") no-repeat top right;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
 }
 
 .btn-secondary {
-    border: none;
-    text-transform: uppercase;
+  border: none;
+  text-transform: uppercase;
 }
 
 .main-content {
-    text-align: center;
-    font-family: "Rubik", sans-serif;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
 }
 
-
 .intro-button-container {
-    text-align: right;
-    padding: 0 3vw 1rem 0;
+  text-align: right;
+  padding: 0 3vw 1rem 0;
 }
 
 h2 {
-    font-size: 1.5em;
-    margin: 3rem 0;
+  font-size: 1.5em;
+  margin: 3rem 0;
 }
 
 h6 {
-    margin: 3rem 0 0 0;
+  margin: 3rem 0 0 0;
 }
 
 h5 {
-    font-size: 1.25em;
-    margin: 1rem;
+  font-size: 1.25em;
+  margin: 1rem;
 }
 
 #breed-info {
-    padding: 0 3rem 1rem;
+  padding: 0 3rem 1rem;
 }
-
 
 /* ------------------------------------------Footer*/
 
 .footer-right,
 .footer-right small strong,
 .footer-right small a {
-    font-size: 0.5rem;
+  font-size: 0.5rem;
 }
 
-.footer-mid {
-    text-align: center;
+.footer-mid,
+.footer-right,
+.footer-left {
+  text-align: center;
 }
 
 .footer-right {
-    text-align: right;
-    margin-top: 0.2rem;
+  margin-top: 0.2rem;
 }
 .socials {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .social-link i {
@@ -230,15 +228,14 @@ h5 {
 /* ------------------------------------------Media Queries*/
 
 @media (min-width: 992px) {
+  h1 {
+    font-size: 2.4vw;
+  }
 
-h1 {
-  font-size: 2.4vw;
-}
-
- #logo {
+  #logo {
     width: 20vw;
   }
-  
+
   .navbar-dark .navbar-nav .nav-link {
     font-size: 2vw;
     padding-top: 3vw;
@@ -247,12 +244,18 @@ h1 {
   .navbar-item a i {
     font-size: 1.25em;
   }
-}*/
+}
 
 @media (min-width: 768px) {
-    .jumbotron-fluid {
-        padding-top: 0.5rem;
-    }
+  .jumbotron-fluid {
+    padding-top: 0.5rem;
+  }
+  .footer-right {
+    text-align: right;
+  }
+  .footer-left {
+    text-align: left;
+  }
 }
 
 font-family: "Londrina Solid", cursive;
