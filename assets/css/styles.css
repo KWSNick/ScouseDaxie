@@ -83,6 +83,14 @@ ul {
   background-color: #ceffff;
 }
 
+.event-details {
+  padding: 0;
+}
+
+.event-details-item-category {
+    font-weight: 700;
+}
+
 /* ------------------------------------------Header*/
 
 .navigation {
