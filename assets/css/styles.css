@@ -61,6 +61,10 @@ ul {
   color: #324749;
 }
 
+.divider {
+    background-color: #324749;
+}
+
 .content-b {
   background-color: #5c007e;
   color: #fbffe2;
@@ -174,6 +178,12 @@ h1 {
 .main-content {
   text-align: center;
   font-family: "Rubik", sans-serif;
+}
+
+.divider {
+    width: 25%;
+    height: 0.5vh;
+    margin: 5vh auto 0 auto;
 }
 
 .intro-button-container {
