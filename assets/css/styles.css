@@ -119,6 +119,10 @@ h1 {
   height: 15vw;
 }
 
+.navbar-item {
+    width: 100%;
+}
+
 .navbar-dark .navbar-nav .nav-link {
   height: 100%;
   font-family: "Londrina Solid", cursive;
