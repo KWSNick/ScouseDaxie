@@ -83,18 +83,6 @@ ul {
   background-color: #ceffff;
 }
 
-.event-details {
-  padding: 0;
-}
-
-.event-details-item-category {
-    font-weight: 700;
-}
-
-.events-button-container {
-    padding: 3vh;
-}
-
 /* ------------------------------------------Header*/
 
 .navigation {
@@ -207,6 +195,18 @@ h5 {
 
 #breed-info {
   padding: 0 5vh 3vh;
+}
+
+.event-details {
+  padding: 0;
+}
+
+.event-details-item-category {
+    font-weight: 700;
+}
+
+.events-button-container {
+    padding: 3vh;
 }
 
 /* ------------------------------------------Footer*/
