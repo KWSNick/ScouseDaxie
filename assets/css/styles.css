@@ -249,7 +249,7 @@ h5 {
 
 @media (min-width: 768px) {
   .jumbotron-fluid {
-    padding-top: 0.5rem;
+    padding-top: 1.5vh;
   }
   .footer-right {
     text-align: right;
