@@ -94,6 +94,10 @@ ul {
   margin: 1vw 1vw 0 1vw;
 }
 
+.navbar-brand img:hover {
+    filter: saturate(25);
+}
+
 .strapline {
   margin: 0 2vw;
   padding: 0;
