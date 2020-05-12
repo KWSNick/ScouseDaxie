@@ -95,7 +95,7 @@ ul {
 }
 
 .navbar-brand img:hover {
-    filter: saturate(25);
+    filter: hue-rotate(210deg) saturate(2) brightness(2);
 }
 
 .strapline {
