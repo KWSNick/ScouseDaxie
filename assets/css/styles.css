@@ -235,6 +235,10 @@ h5 {
     margin: 1vh;
 }
 
+.event-summary-item-header {
+    text-transform: uppercase;
+}
+
 .event-details-item-category {
     font-weight: 700;
 }
