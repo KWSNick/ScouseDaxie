@@ -79,7 +79,9 @@ ul {
   background-color: #ceffff;
 }
 
-.btn-secondary {
+.btn-secondary,
+.content-a .btn-secondary,
+.content-b .btn-secondary {
   background-color: #99fcff;
   color: #324749;
 }
