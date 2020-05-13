@@ -271,6 +271,12 @@ h5 {
 
 /* ------------------------------------------Footer*/
 
+#back-to-top {
+    background: transparent;
+    border: none;
+    font-size: 3vh;
+}
+
 .footer-right,
 .footer-right small strong,
 .footer-right small a {
