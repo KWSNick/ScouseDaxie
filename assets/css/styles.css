@@ -206,6 +206,15 @@ h1 {
   -moz-background-size: cover;
 }
 
+.hero-image-d {
+  height: 65vh;
+  background: url("../images/object_hero_d.jpg") no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+}
+
 .btn-secondary {
   border: none;
   text-transform: uppercase;
