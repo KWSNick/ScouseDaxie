@@ -275,12 +275,12 @@ h5 {
 }
 
 #back-to-top {
-    width: 6vh;
-    height: 6vh;
+    width: 10vw;
+    height: 10vw;
     border: none;
     border-radius: 50%;
-    font-size: 4vh;
-    margin: 0 1vh 1vh 0;
+    font-size: 6.6vw;
+    margin: 0 1.3vw 1.3vw 0;
     padding: 0;
     position: fixed;
     bottom: 0;
