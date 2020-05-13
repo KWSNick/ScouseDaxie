@@ -275,10 +275,13 @@ h5 {
 }
 
 #back-to-top {
+    width: 6vh;
+    height: 6vh;
     border: none;
     border-radius: 50%;
     font-size: 4vh;
     margin: 0 1vh 1vh 0;
+    padding: 0;
     position: fixed;
     bottom: 0;
     right: 0;
