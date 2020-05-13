@@ -267,6 +267,11 @@ h5 {
   padding: 3vh;
 }
 
+.event-desc-image {
+    width: 90%;
+    margin-bottom: 1vh;
+}
+
 .image-circle-container img {
   border-radius: 50%;
   height: 20vh;
