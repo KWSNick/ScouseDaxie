@@ -119,6 +119,7 @@ ul {
 }
 
 #back-to-top {
+    background-color: #8e24ae;
     color: #99fcff;
 }
 
@@ -273,17 +274,18 @@ h5 {
     padding: 0.5vh;
 }
 
-/* ------------------------------------------Footer*/
-
 #back-to-top {
-    background: transparent;
     border: none;
+    border-radius: 50%;
     font-size: 4vh;
+    margin: 0 1vh 1vh 0;
     position: fixed;
     bottom: 0;
     right: 0;
     z-index: 9999;
 }
+
+/* ------------------------------------------Footer*/
 
 .footer-right,
 .footer-right small strong,
