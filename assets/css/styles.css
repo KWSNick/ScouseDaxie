@@ -340,11 +340,11 @@ h5 {
     padding-top: 1.5vh;
   }
   .footer-right {
-    text-align: right;
+    text-align: left;
     padding-right: 1vh !important;
   }
   .footer-left {
-    text-align: left;
+    text-align: right;
   }
 }
 
