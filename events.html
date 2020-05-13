@@ -1,1 +1,376 @@
-Events
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Nick Bowley" />
+    <meta name="description" content="All things Dachshund in Liverpool UK" />
+    <meta
+      name="keywords"
+      content="dog, dogs, dachshund, minature, standard, wire haired, smooth, long, liverpool, city, urban, bar, pub, restaurant, dog friendly, dogs allowed, training"
+    />
+    <title>Scouse Daxie</title>
+    <!--Bootstrap 4.4.1-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/edea6a1559.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div id="top"></div>
+    <!--Header-->
+    <header class="container-fluid header sticky-top">
+      <nav
+        class="col navbar navbar-expand-lg navbar-dark no-gutters navigation"
+      >
+        <!--Modified Bootstrap Navbar-->
+        <div class="col navbar-branding">
+          <a href="index.html" class="navbar-brand" aria-label="main logo link to homepage">
+            <img
+              src="assets/images/object_logo.png"
+              alt="Scouse Daxies"
+              id="logo"
+            />
+            <!--Logo created on Logomakr-->
+          </a>
+          <div class="col strapline d-none d-md-block">
+            <h1>Urban Dogs</h1>
+          </div>
+        </div>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navcontent"
+          aria-controls="navcontent"
+          aria-expanded="false"
+          aria-label="Expands navigation menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col collapse navbar-collapse" id="navcontent">
+          <ul class="navbar-nav align-items-center ml-auto">
+            <li class="active navbar-item" id="home">
+              <a class="nav-link" href="index.html"
+                ><i class="fas fa-home"></i>
+                <br class="d-none d-lg-inline" />Home</a
+              >
+            </li>
+            <li class="navbar-item" id="dogfriendly">
+              <a class="nav-link" href="dogfriendly.html"
+                ><i class="fas fa-beer"></i><br class="d-none d-lg-inline" />
+                Dogs <br class="d-none d-lg-inline" />
+                Allowed</a
+              >
+            </li>
+            <li class="navbar-item" id="training">
+              <a class="nav-link" href="training.html"
+                ><i class="fas fa-dog"></i><br class="d-none d-lg-inline" />
+                Training</a
+              >
+            </li>
+            <li class="navbar-item" id="events">
+              <a class="nav-link" href="events.html"
+                ><i class="fas fa-calendar-alt"></i
+                ><br class="d-none d-lg-inline" />
+                Events</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--Main Content-->
+    <section class="container-fluid main-content">
+      <div class="row no-gutters jumbo">
+        <div class="col-12 hero">
+          <div class="jumbotron-fluid hero-tron hero-image-a">
+            <p class="d-none d-md-block">
+              Subscribe to our newsletter to keep up-to-date with the latest
+              info
+            </p>
+            <button
+              type="button"
+              class="btn btn-secondary btn-lg"
+              id="button-tron"
+              data-toggle="modal"
+              data-target="#"
+              aria-haspopup="true"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <!--Upcoming Events-->
+        <article class="col-12 col-lg-4 content content-a" id="upcoming-events">
+          <h2>Upcoming Events.</h2>
+          <div class="row no-gutters events-summary">
+            <!--Event 1-->
+            <div
+              class="col-12 col-md-4 col-lg-12 events-summary-item event-a"
+              id="event-1"
+            >
+              <h5>
+                <a href="https://www.facebook.com/events/1865225460274372/" target="_blank" class="event-summary-item-header" aria-label="link to event on facebook"
+                  >Sausage Stroll</a
+                >
+              </h5>
+              <!--Collapse function from Bootstrap 4-->
+              <a
+                href="#event-1-desc"
+                data-toggle="collapse"
+                class="more-info"
+                aria-expanded="false"
+                aria-controls="event-1-desc"
+                aria-label="expands more information for event 1"
+              >
+                More Info</a
+              >
+              <div class="collapse event-desc event-desc-a" id="event-1-desc">
+                <img class="event-desc-image" src="assets/images/object_stroll.jpg" alt="A group of dachshunds taking a walk">
+                <p>
+                  It's a walk in the park! Meet at the Boathouse Kiosk by the
+                  lake in Sefton Park. Great for Sausage socialisation and
+                  exercise!
+                </p>
+                <a
+                  type="button"
+                  class="btn btn-secondary btn-sm button-event-a-link"
+                  id="button-event-1"
+                  href="https://www.facebook.com/events/1865225460274372/"
+                  target="_blank"
+                  aria-label="link to event on facebook"
+                >
+                  I'm Going!
+                </a>
+              </div>
+              <!--Event Particulars-->
+              <ul class="event-details">
+                <li class="event-details-item">
+                  <span class="event-details-item-category">Date :</span>
+                  1st August 2020
+                </li>
+                <li class="event-details-item">
+                  <span class="event-details-item-category">Time :</span>
+                  2pm
+                </li>
+                <li class="event-details-item">
+                  <span class="event-details-item-category">Duration :</span>
+                  1hr
+                </li>
+                <li class="event-details-item">
+                  <span class="event-details-item-category">Location :</span>
+                  The Boathouse Kiosk, Sefton Park, Liverpool, L17 4JE
+                </li>
+              </ul>
+            </div>
+            <!--Event 2-->
+            <div
+              class="col-12 col-md-4 col-lg-12 events-summary-item event-b"
+              id="event-2"
+            >
+              <h5>
+                <a href="https://www.facebook.com/events/3221406737889516/" target="_blank" class="event-summary-item-header" aria-label="link to event on facebook"
+                  >Puppuccino</a
+                >
+              </h5>
+              <!--Collapse function from Bootstrap 4-->
+              <a
+                href="#event-2-desc"
+                data-toggle="collapse"
+                class="more-info"
+                aria-expanded="false"
+                aria-controls="event-2-desc"
+                aria-label="expands more information for event 2"
+              >
+                More Info</a
+              >
+              <div class="collapse event-desc event-desc-b" id="event-2-desc">
+                <img class="event-desc-image" src="assets/images/object_puppuccino.jpg" alt="A dachshund enjoying a puppuccino">
+                <p>
+                  Coffee. Cake. Chat. Human friendly produce also available.
+                </p>
+                <a
+                  type="button"
+                  class="btn btn-secondary btn-sm button-event-b-link"
+                  id="button-event-2"
+                  href="https://www.facebook.com/events/3221406737889516/"
+                  target="_blank"
+                  aria-label="link to event on facebook"
+                >
+                  I'm Going!
+                </a>
+                <!--Event Particulars-->
+              </div>
+              <ul class="event-details">
+                <li class="event-details-item">
+                  <span class="event-details-item-category">Date :</span>
+                  16th August 2020
+                </li>
+                <li class="event-details-item">
+                  <span class="event-details-item-category">Time :</span>
+                  10am
+                </li>
+                <li class="event-details-item">
+                  <span class="event-details-item-category">Duration :</span>
+                  2hrs
+                </li>
+                <li class="event-details-item">
+                  <span class="event-details-item-category">Location :</span>
+                  Tusk, Cains Brewery Village, Liverpool, L8 5AF
+                </li>
+              </ul>
+            </div>
+            <!--Event 3-->
+            <div
+              class="col-12 col-md-4 col-lg-12 d-none d-md-block d-lg-none events-summary-item event-a"
+              id="event-3"
+            >
+              <h5>
+                <a href="https://www.facebook.com/events/179897359897272/" target="_blank" class="event-summary-item-header" aria-label="link to event on facebook"
+                  >Pupsercise</a
+                >
+              </h5>
+              <!--Collapse function from Bootstrap 4-->
+              <a
+                href="#event-3-desc"
+                data-toggle="collapse"
+                class="more-info"
+                aria-expanded="false"
+                aria-controls="event-3-desc"
+                aria-label="expands more information for event 3"
+              >
+                More Info</a
+              >
+              <div class="collapse event-desc event-desc-a" id="event-3-desc">
+                <img class="event-desc-image" src="assets/images/object_pupsercise.jpg" alt="A group of dachshunds taking a walk">
+                <p>
+                  No more puppy-fat. High intensity games and play to keep your
+                  sausages leaner than Mo's Quorn bangers! Meet at the Wood
+                  Henge, Princes Park.
+                </p>
+                <a
+                  type="button"
+                  class="btn btn-secondary btn-sm button-event-a-link"
+                  id="button-event-3"
+                  href="https://www.facebook.com/events/179897359897272/"
+                  target="_blank"
+                  aria-label="link to event on facebook"
+                >
+                  I'm Going!
+                </a>
+              </div>
+              <!--Event Particulars-->
+              <ul class="event-details">
+                <li class="event-details-item">
+                  <span class="event-details-item-category">Date :</span>
+                  19th August 2020
+                </li>
+                <li class="event-details-item">
+                  <span class="event-details-item-category">Time :</span>
+                  7pm
+                </li>
+                <li class="event-details-item">
+                  <span class="event-details-item-category">Duration :</span>
+                  1hr
+                </li>
+                <li class="event-details-item">
+                  <span class="event-details-item-category">Location :</span>
+                  Wood Henge, Princes Park, Liverpool, L8 3TZ
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row no-gutters events-button-container">
+            <div class="col-12 events-button-allevents">
+              <a
+                type="button"
+                class="btn btn-secondary btn-sm"
+                id="button-events"
+                href="events.html"
+              >
+                All Events
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <!--Back To Top Button-->
+      <div class="row no-gutters back-to-top-container">
+        <a type="button" class="btn btn-primary d-xl-none" id="back-to-top" href="#top"><i class="fas fa-angle-double-up"></i></a>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer class="container-fluid footer">
+      <div class="row no-gutters">
+        <!--Footer Left-->
+        <div class="col-12 col-md-4 footer-left">
+        </div>
+        <!--Footer Middle-->
+        <div class="col-12 col-md-4 footer-mid">
+          <ul class="list-inline socials">
+            <li class="list-inline-item">
+              <a class="social-link" target="_blank" href="https://www.facebook.com/groups/urbandogs.scousedaxie" aria-label="link to scouse daxie facebook page">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="social-link" target="_blank" href="https://twitter.com/UDaxie" aria-label="link to scouse daxie on twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="social-link" target="_blank" href="https://www.instagram.com/urbandogsscousedaxie/" aria-label="link to scouse daxie on instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="social-link" target="_blank" href="https://www.youtube.com/channel/UCPiK5em9i6WYIIlru3VcbTw" aria-label="link to scouse daxie on youtube">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Footer Right-->
+        <div class="col-12 col-md-4 footer-right">
+          <small
+            ><strong>Copyright</strong> &copy; 2020 Nicholas Bowley.<br />
+            All Rights Reserved<br /><a
+              href="https://www.logomakr.com"
+              target="_blank" aria-label="link to logomakr"
+              >Created my free logo at LogoMakr.com</a
+            ></small
+          >
+        </div>
+      </div>
+    </footer>
+    <!--Bootstrap JavaScript-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
