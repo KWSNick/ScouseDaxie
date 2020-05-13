@@ -118,6 +118,10 @@ ul {
     color: #99fcff;
 }
 
+#back-to-top {
+    color: #99fcff;
+}
+
 /* ------------------------------------------Header*/
 
 .navigation {
@@ -274,7 +278,11 @@ h5 {
 #back-to-top {
     background: transparent;
     border: none;
-    font-size: 3vh;
+    font-size: 4vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
 }
 
 .footer-right,
