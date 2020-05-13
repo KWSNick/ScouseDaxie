@@ -293,7 +293,7 @@ h5 {
 .footer-right,
 .footer-right small strong,
 .footer-right small a {
-  font-size: 1vh;
+  font-size: 1.3vw;
 }
 
 .footer-mid,
@@ -307,11 +307,11 @@ h5 {
 }
 
 .socials {
-  margin: 1.5vh 0;
+  margin: 2.3vw 0;
 }
 
 .social-link i {
-  font-size: 5vh;
+  font-size: 7vw;
 }
 
 /* ------------------------------------------Media Queries*/
