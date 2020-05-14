@@ -306,15 +306,18 @@ h5 {
     overflow-x: scroll;
 }
 
-.scroll-left {
+.scroll-control {
     background: transparent;
     font-size: 7vh;
     position: absolute;
-    top: auto;
-    left: 0;
     z-index: 9998;
     width: 3%;
     height: 100%;
+}
+
+.scroll-left {
+    top: auto;
+    left: 0;
 }
 
 .scroll-left i {
