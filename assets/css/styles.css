@@ -80,20 +80,24 @@ ul {
   color: #65c9cc;
 }
 
-.event-a {
+.event-a,
+.place-a {
   background-color: #c159e1;
   color: #fbffe2;
 }
 
-.event-b {
+.event-b,
+.place-b {
   background-color: #ceffff;
 }
 
-.event-b a {
+.event-b a,
+.place-b a {
   color: #8e24ae;
 }
 
-.event-b a:hover {
+.event-b a:hover,
+.place-b a:hover {
   color: #5c007e;
 }
 
@@ -121,12 +125,14 @@ ul {
   color: #fbffe2;
 }
 
-.event-desc-b .btn-secondary {
+.event-desc-b .btn-secondary,
+.place-desc-b .btn-secondary {
   background-color: #8e24ae;
   color: #fbffe2;
 }
 
-.event-desc-b .btn-secondary:hover {
+.event-desc-b .btn-secondary:hover,
+.place-desc-b .btn-secondary:hover {
   background-color: #5c007e;
   color: #99fcff;
 }
@@ -269,15 +275,18 @@ h5 {
 }
 
 .event-details-item,
-.event-desc {
+.event-desc,
+.place-desc {
   margin: 1vh;
 }
 
-.event-desc p {
+.event-desc p,
+.place-desc p {
   margin-bottom: 1vh;
 }
 
-.event-summary-item-header {
+.event-summary-item-header,
+.place-item-header {
   text-transform: uppercase;
 }
 
@@ -289,7 +298,8 @@ h5 {
   padding: 3vh;
 }
 
-.event-desc-image {
+.event-desc-image,
+.place-desc-image {
     width: 90%;
     margin-bottom: 1vh;
 }
