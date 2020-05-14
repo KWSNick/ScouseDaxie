@@ -340,6 +340,7 @@ h5 {
 .scroll-control a i {
     position: relative;
     top: 30%;
+    vertical-align: middle;
 }
 
 /* ------------------------------------------Footer*/
