@@ -55,6 +55,10 @@ ul {
     color: #fbffe2;
 }
 
+.scroll-control:hover {
+    background-color: rgba(0,0,0,0.2)
+}
+
 .divider {
   background-color: #324749;
 }
