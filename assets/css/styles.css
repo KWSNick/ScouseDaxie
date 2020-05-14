@@ -51,12 +51,13 @@ ul {
 .scroll-control a i {
   color: #324749;
 }
-.scroll-control a i:hover {
-    color: #fbffe2;
+
+.scroll-control a:hover {
+    background-color: rgba(0,0,0,0.2)
 }
 
-.scroll-control:hover {
-    background-color: rgba(0,0,0,0.2)
+.scroll-control a i:hover {
+    color: #fbffe2;
 }
 
 .divider {
@@ -330,6 +331,10 @@ h5 {
 
 .scroll-right {
     right: 0;
+}
+.scroll-control a {
+    height: 100%;
+    width: 100%;
 }
 
 .scroll-control a i {
