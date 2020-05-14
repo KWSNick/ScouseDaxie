@@ -53,11 +53,11 @@ ul {
 }
 
 .scroll-control a:hover {
-    background-color: rgba(0,0,0,0.2)
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .scroll-control a i:hover {
-    color: #fbffe2;
+  color: #fbffe2;
 }
 
 .divider {
@@ -114,7 +114,7 @@ ul {
 }
 
 .btn-secondary:active {
-    background-color: #324749;
+  background-color: #324749;
 }
 
 .content-a .btn-secondary:hover {
@@ -298,14 +298,14 @@ h5 {
   padding: 3vh;
 }
 
-.event-desc-image, {
-    width: 90%;
-    margin-bottom: 1vh;
+.event-desc-image {
+  width: 90%;
+  margin-bottom: 1vh;
 }
 
 .place-desc-image {
-    width: 40%;
-    margin-bottom: 1vh;
+  width: 40%;
+  margin-bottom: 1vh;
 }
 
 .image-circle-container img {
@@ -330,43 +330,43 @@ h5 {
 }
 
 .scroll-x {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .scroll-control {
-    background: transparent;
-    font-size: 7vh;
-    position: absolute;
-    top: auto;
-    z-index: 9998;
-    width: 3%;
-    height: 100%;
+  background: transparent;
+  font-size: 7vh;
+  position: absolute;
+  top: auto;
+  z-index: 9998;
+  width: 3%;
+  height: 100%;
 }
 
 .scroll-left {
-    left: 0;
+  left: 0;
 }
 
 .scroll-right {
-    right: 0;
+  right: 0;
 }
 .scroll-control a {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .scroll-control a i {
-    position: relative;
-    top: 30%;
-    vertical-align: middle;
+  position: relative;
+  top: 30%;
+  vertical-align: middle;
 }
 
 .venue-icons p i {
-    margin: 0 1vw;
+  margin: 0 1vw;
 }
 
 .venue-keywords p {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 /* ------------------------------------------Footer*/
@@ -427,6 +427,10 @@ h5 {
 
   .navbar-item a i {
     font-size: 2vw;
+  }
+  .places-info-container {
+    height: 460px;
+    overflow-y: scroll;
   }
 }
 
