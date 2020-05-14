@@ -302,6 +302,19 @@ h5 {
   z-index: 9999;
 }
 
+.scroll-x {
+    overflow-x: scroll;
+}
+
+.scroll-left {
+    background: transparent;
+    font-size: 3vh;
+    position: absolute;
+    top: auto;
+    left: 0;
+    z-index: 9998;
+}
+
 /* ------------------------------------------Footer*/
 
 .footer-right,
