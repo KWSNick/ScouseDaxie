@@ -365,6 +365,10 @@ h5 {
     margin: 0 1vw;
 }
 
+.venue-keywords p {
+    text-transform: capitalize;
+}
+
 /* ------------------------------------------Footer*/
 
 .footer-right,
