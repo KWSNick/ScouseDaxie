@@ -47,8 +47,12 @@ ul {
   background-color: #5c007e;
 }
 
-.content-a {
+.content-a,
+.scroll-control a i {
   color: #324749;
+}
+.scroll-control a i:hover {
+    color: #fbffe2;
 }
 
 .divider {
@@ -324,7 +328,7 @@ h5 {
     right: 0;
 }
 
-.scroll-control i {
+.scroll-control a i {
     position: relative;
     top: 30%;
 }
