@@ -310,17 +310,21 @@ h5 {
     background: transparent;
     font-size: 7vh;
     position: absolute;
+    top: auto;
     z-index: 9998;
     width: 3%;
     height: 100%;
 }
 
 .scroll-left {
-    top: auto;
     left: 0;
 }
 
-.scroll-left i {
+.scroll-right {
+    right: 0;
+}
+
+.scroll-control i {
     position: relative;
     top: 30%;
 }
