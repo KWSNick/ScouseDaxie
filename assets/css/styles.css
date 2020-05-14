@@ -109,6 +109,10 @@ ul {
   color: #fbffe2;
 }
 
+.btn-secondary:active {
+    background-color: #324749;
+}
+
 .content-a .btn-secondary:hover {
   color: #fbffe2;
 }
