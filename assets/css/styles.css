@@ -308,11 +308,12 @@ h5 {
 
 .scroll-left {
     background: transparent;
-    font-size: 3vh;
+    font-size: 7vh;
     position: absolute;
     top: auto;
     left: 0;
     z-index: 9998;
+    width: 3%;
 }
 
 /* ------------------------------------------Footer*/
