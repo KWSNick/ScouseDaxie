@@ -105,77 +105,84 @@
           <div class="row no-gutters dog-places">
             <div class="col-12 col-lg-8 map-container"></div>
             <div class="col-12 col-lg-4 places-info-container">
-              <!--Place 1-->
-              <div class="col-12 place-item place-a" id="place-1">
-                <h5>
+              <div class="row no-gutters places">
+                <!--Place 1-->
+                <div class="col-12 place-item place-a" id="place-1">
+                  <h5>
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="place-item-header"
+                      aria-label="link to venue website"
+                      >Place 1</a
+                    >
+                  </h5>
+                  <!--Venue Summary-->
+                  <div class="col-12 venue-keywords">
+                    <p>keywords placeholder text.</p>
+                  </div>
+                  <div class="col-8 venue-icons d-inline-block">
+                    <p>Placeholder for icons</p>
+                  </div>
+                  <div class="col-4 venue-weblink d-inline">
+                    <a
+                      type="button"
+                      class="btn btn-secondary btn-sm button-event-a-link"
+                      id="button-place-1"
+                      href="#"
+                      target="_blank"
+                      aria-label="link to venue website"
+                    >
+                      Website
+                    </a>
+                  </div>
+                  <!--Collapse function from Bootstrap 4-->
                   <a
-                    href="#"
-                    target="_blank"
-                    class="place-item-header"
-                    aria-label="link to venue website"
-                    >Place 1</a
+                    href="#place-1-desc"
+                    data-toggle="collapse"
+                    class="more-info"
+                    aria-expanded="false"
+                    aria-controls="place-1-desc"
+                    aria-label="expands more information for place 1"
                   >
-                </h5>
-                <!--Venue Summary-->
-                <div class="col-12 venue-keywords">
-                  <p>keywords placeholder text.</p>
-                </div>
-                <div class="col-8 venue-icons">
-                  <p>Placeholder for icons</p>
-                </div>
-                <div class="col-4 venue-weblink">
-                  <a
-                    type="button"
-                    class="btn btn-secondary btn-sm button-event-a-link"
-                    id="button-place-1"
-                    href="#"
-                    target="_blank"
-                    aria-label="link to venue website"
+                    More Info</a
                   >
-                    Website
-                  </a>
+                  <div
+                    class="collapse place-desc place-desc-a"
+                    id="place-1-desc"
+                  >
+                    <img
+                      class="place-desc-image"
+                      src="assets/images/object_logo.png"
+                      alt="PLACEHOLDER"
+                    />
+                    <p>
+                      Placeholder text.
+                    </p>
+                  </div>
                 </div>
-                <!--Collapse function from Bootstrap 4-->
-                <a
-                  href="#place-1-desc"
-                  data-toggle="collapse"
-                  class="more-info"
-                  aria-expanded="false"
-                  aria-controls="place-1-desc"
-                  aria-label="expands more information for place 1"
+                <!--Place 2-->
+                <div
+                  class="col-12 col-md-4 col-lg-12 place-item place-b"
+                  id="place-2"
                 >
-                  More Info</a
-                >
-                <div class="collapse place-desc place-desc-a" id="place-1-desc">
-                  <img
-                    class="place-desc-image"
-                    src="assets/images/object_logo.png"
-                    alt="PLACEHOLDER"
-                  />
-                  <p>
-                    Placeholder text.
-                  </p>
-                </div>
-              </div>
-              <!--Place 2-->
-              <div class="col-12 col-md-4 col-lg-12 place-item place-b" id="place-2">
-                <h5>
-                  <a
-                    href="#"
-                    target="_blank"
-                    class="place-item-header"
-                    aria-label="link to venue website"
-                    >Place 2</a
-                  >
-                </h5>
-                <!--Venue Summary-->
-                <div class="col-12 venue-keywords">
-                  <p>keywords placeholder text.</p>
-                </div>
-                <div class="col-8 venue-icons">
-                  <p>Placeholder for icons</p>
-                </div>
-                <div class="col-4 venue-weblink">
+                  <h5>
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="place-item-header"
+                      aria-label="link to venue website"
+                      >Place 2</a
+                    >
+                  </h5>
+                  <!--Venue Summary-->
+                  <div class="col-12 venue-keywords">
+                    <p>keywords placeholder text.</p>
+                  </div>
+                  <div class="col-8 venue-icons">
+                    <p>Placeholder for icons</p>
+                  </div>
+                  <div class="col-4 venue-weblink">
                     <a
                       type="button"
                       class="btn btn-secondary btn-sm button-place-b-link"
@@ -186,7 +193,7 @@
                     >
                       Website
                     </a>
-                </div>
+                  </div>
                   <!--Collapse function from Bootstrap 4-->
                   <a
                     href="#place-2-desc"
@@ -211,11 +218,12 @@
                       Placeholder text.
                     </p>
                   </div>
+                </div>
               </div>
             </div>
-        </div>
-            <!--How To Be Dog Friendly-->
-            <div class="row no-gutters how-to-dog-friendly"></div>
+          </div>
+          <!--How To Be Dog Friendly-->
+          <div class="row no-gutters how-to-dog-friendly"></div>
         </article>
       </div>
       <!--Back To Top Button-->
