@@ -393,6 +393,10 @@ h5 {
   top: 30%;
 }
 
+.how-to-item-text p {
+    padding: 0 2vh;
+}
+
 /* ------------------------------------------Footer*/
 
 .footer-right,
