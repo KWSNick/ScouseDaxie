@@ -81,13 +81,15 @@ ul {
 }
 
 .event-a,
-.place-a {
+.place-a,
+.how-to-item-a {
   background-color: #c159e1;
   color: #fbffe2;
 }
 
 .event-b,
-.place-b {
+.place-b,
+.how-to-item-b {
   background-color: #ceffff;
 }
 
@@ -386,6 +388,11 @@ h5 {
   font-size: 10vh;
 }
 
+.how-to-item-icon i {
+  position: relative;
+  top: 30%;
+}
+
 /* ------------------------------------------Footer*/
 
 .footer-right,
@@ -429,6 +436,9 @@ h5 {
     height: 460px;
     overflow-y: scroll;
   }
+  .how-to-item-icon i {
+  position: unset;
+}
 }
 
 /* -------------------------------Large Viewport*/
