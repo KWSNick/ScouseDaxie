@@ -369,6 +369,10 @@ h5 {
   text-transform: capitalize;
 }
 
+.map-container iframe {
+    border: none;
+}
+
 /* ------------------------------------------Footer*/
 
 .footer-right,
