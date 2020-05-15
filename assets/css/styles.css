@@ -64,19 +64,22 @@ ul {
   background-color: #324749;
 }
 
-.content-b {
+.content-b,
+.sub-link {
   background-color: #5c007e;
   color: #fbffe2;
 }
 
 .content-b a,
-.content-a a {
+.content-a a,
+.sub-link a {
   color: #99fcff;
 }
 
 .content-b a:hover,
 .content-a a:hover,
-.footer a:hover {
+.footer a:hover,
+.sub-link a:hover {
   color: #65c9cc;
 }
 
@@ -308,6 +311,11 @@ h5 {
 .event-desc-image {
   width: 90%;
   margin-bottom: 1vh;
+}
+
+.sub-link {
+    font-family: "Londrina Solid", cursive;
+    font-size: 4vw;
 }
 
 .place-desc-image {
