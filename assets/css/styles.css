@@ -258,6 +258,10 @@ h2 {
   margin: 5vh 0;
 }
 
+.how-to-dog-friendly-head-title h2 {
+  padding: 0 5vh;
+}
+
 h6 {
   margin: 5vh 0 0 0;
 }
@@ -370,7 +374,15 @@ h5 {
 }
 
 .map-container iframe {
-    border: none;
+  border: none;
+}
+
+.how-to-item {
+  padding: 0;
+}
+
+.how-to-item-icon {
+  font-size: 5vh;
 }
 
 /* ------------------------------------------Footer*/
