@@ -290,7 +290,8 @@ h5 {
 }
 
 .event-summary-item-header,
-.place-item-header {
+.place-item-header,
+.how-to-item-text h5 {
   text-transform: uppercase;
 }
 
@@ -382,7 +383,7 @@ h5 {
 }
 
 .how-to-item-icon {
-  font-size: 5vh;
+  font-size: 10vh;
 }
 
 /* ------------------------------------------Footer*/
