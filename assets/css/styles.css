@@ -385,6 +385,10 @@ h5 {
     margin: 0;
 }
 
+.how-to-item-row {
+    height: 100%;
+}
+
 .how-to-item-icon {
   font-size: 10vh;
 }
