@@ -1,1 +1,1139 @@
-Training Tips
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Nick Bowley" />
+    <meta name="description" content="All things Dachshund in Liverpool UK" />
+    <meta
+      name="keywords"
+      content="dog, dogs, dachshund, minature, standard, wire haired, smooth, long, liverpool, city, urban, bar, pub, restaurant, dog friendly, dogs allowed, training"
+    />
+    <title>Scouse Daxie</title>
+    <!--Bootstrap 4.4.1-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/edea6a1559.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div id="top"></div>
+    <!--Header-->
+    <header class="container-fluid header sticky-top">
+      <nav
+        class="col navbar navbar-expand-lg navbar-dark no-gutters navigation"
+      >
+        <!--Modified Bootstrap Navbar-->
+        <div class="col navbar-branding">
+          <a
+            href="index.html"
+            class="navbar-brand"
+            aria-label="main logo link to homepage"
+          >
+            <img
+              src="assets/images/object_logo.png"
+              alt="Scouse Daxies"
+              id="logo"
+            />
+            <!--Logo created on Logomakr-->
+          </a>
+          <div class="col strapline d-none d-md-block">
+            <h1>Urban Dogs</h1>
+          </div>
+        </div>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navcontent"
+          aria-controls="navcontent"
+          aria-expanded="false"
+          aria-label="Expands navigation menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col collapse navbar-collapse" id="navcontent">
+          <ul class="navbar-nav align-items-center ml-auto">
+            <li class="navbar-item" id="home">
+              <a class="nav-link" href="index.html"
+                ><i class="fas fa-home"></i>
+                <br class="d-none d-lg-inline" />Home</a
+              >
+            </li>
+            <li class="active navbar-item" id="dogfriendly">
+              <a class="nav-link" href="dogfriendly.html"
+                ><i class="fas fa-beer"></i><br class="d-none d-lg-inline" />
+                Dogs <br class="d-none d-lg-inline" />
+                Allowed</a
+              >
+            </li>
+            <li class="navbar-item" id="training">
+              <a class="nav-link" href="training.html"
+                ><i class="fas fa-dog"></i><br class="d-none d-lg-inline" />
+                Training</a
+              >
+            </li>
+            <li class="navbar-item" id="events">
+              <a class="nav-link" href="events.html"
+                ><i class="fas fa-calendar-alt"></i
+                ><br class="d-none d-lg-inline" />
+                Events</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--Main Content-->
+    <section class="container-fluid main-content">
+      <div class="row no-gutters">
+        <!--Dog Friendly Places-->
+        <article class="col-12 content content-a" id="dogs-allowed">
+          <div class="row no-gutters dog-places">
+            <div class="col-12 d-md-none sub-link" id="how-to-link">
+              <a href="#how-to-dog-friendly"
+                ><i class="fas fa-caret-down"></i> How To Be Dog Friendly -
+                Advice for businesses <i class="fas fa-caret-down"></i
+              ></a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-8 map-container">
+              <iframe
+                src="https://www.google.com/maps/d/embed?mid=1_NztbweFqaGFpinyfV_qAOjhvVC14XQF&hl=en"
+                width="100%"
+                height="460"
+              ></iframe>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 places-info-container">
+              <div class="row no-gutters places">
+                <!--Place 1-->
+                <div class="col-12 place-item place-a" id="place-1">
+                  <h5>
+                    <a
+                      href="https://g.page/BalticMarketLiv?share"
+                      target="_blank"
+                      class="place-item-header"
+                      aria-label="link to googlemaps location"
+                      >Baltic Market</a
+                    >
+                  </h5>
+                  <!--Venue Summary-->
+                  <div class="col-12 venue-keywords">
+                    <p>
+                      Food all. Street food. Bar. Coffee. Live music. Doggy
+                      curfew.
+                    </p>
+                  </div>
+                  <div class="col-8 venue-icons d-inline-block">
+                    <p>
+                      <i class="fas fa-hotdog"></i><i class="fas fa-beer"></i
+                      ><i class="fas fa-coffee"></i><i class="fas fa-guitar"></i
+                      ><i class="fas fa-clock"></i>
+                    </p>
+                  </div>
+                  <div class="col-4 venue-weblink d-inline">
+                    <a
+                      type="button"
+                      class="btn btn-secondary btn-sm button-event-a-link"
+                      id="button-place-1"
+                      href="https://www.balticmarket.co.uk/"
+                      target="_blank"
+                      aria-label="link to venue website"
+                    >
+                      Website
+                    </a>
+                  </div>
+                  <!--Collapse function from Bootstrap 4-->
+                  <div class="col-12 more-info">
+                    <a
+                      href="#place-1-desc"
+                      data-toggle="collapse"
+                      class="more-info"
+                      aria-expanded="false"
+                      aria-controls="place-1-desc"
+                      aria-label="expands more information for place 1"
+                    >
+                      More Info</a
+                    >
+                    <div
+                      class="collapse place-desc place-desc-a"
+                      id="place-1-desc"
+                    >
+                      <div class="col-12 d-inline-block place-desc-text">
+                        <p>
+                          Open Thursday-Sunday, this street market is open to
+                          dogs until 7pm every day and usually all evening
+                          Thursdays and Sundays.<br />
+                          Lots of food choice and plenty behind the bar!
+                        </p>
+                      </div>
+                      <!--Image not displayed as no appropriate image currently exists-->
+                      <div class="col-12 d-none place-desc-image-container">
+                        <img
+                          class="place-desc-image"
+                          src="assets/images/object_logo.png"
+                          alt="PLACEHOLDER"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Place 2-->
+                <div class="col-12 place-item place-b" id="place-2">
+                  <h5>
+                    <a
+                      href="https://goo.gl/maps/EvuFPVxGKExGLpxS8"
+                      target="_blank"
+                      class="place-item-header"
+                      aria-label="link to googlemaps location"
+                      >The Tank Room</a
+                    >
+                  </h5>
+                  <!--Venue Summary-->
+                  <div class="col-12 venue-keywords">
+                    <p>Tank beer. Ruin bar. Live music. No curfew.</p>
+                  </div>
+                  <div class="col-8 venue-icons d-inline-block">
+                    <p>
+                      <i class="fas fa-beer"></i><i class="fas fa-guitar"></i>
+                    </p>
+                  </div>
+                  <div class="col-4 venue-weblink-b d-inline">
+                    <a
+                      type="button"
+                      class="btn btn-secondary btn-sm button-place-b-link"
+                      id="button-place-2"
+                      href="https://www.facebook.com/thetankroomliverpool/"
+                      target="_blank"
+                      aria-label="link to venue website"
+                    >
+                      Website
+                    </a>
+                  </div>
+                  <!--Collapse function from Bootstrap 4-->
+                  <div class="col-12 more-info">
+                    <a
+                      href="#place-2-desc"
+                      data-toggle="collapse"
+                      class="more-info"
+                      aria-expanded="false"
+                      aria-controls="place-2-desc"
+                      aria-label="expands more information for place 2"
+                    >
+                      More Info</a
+                    >
+                    <div
+                      class="collapse place-desc place-desc-b"
+                      id="place-2-desc"
+                    >
+                      <div class="col-12 d-inline-block place-desc-text">
+                        <p>
+                          A cosy venue with a lively, friendly atmosphere. This
+                          bar sports a tank in its rafters to ensure you receive
+                          the freshest Czech beer. Dogs welcome all the time!
+                        </p>
+                      </div>
+                      <!--Image not displayed as no appropriate image currently exists-->
+                      <div class="col-12 d-none place-desc-image-container">
+                        <img
+                          class="place-desc-image"
+                          src="assets/images/object_logo.png"
+                          alt="PLACEHOLDER"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Place 3-->
+                <div class="col-12 place-item place-a" id="place-3">
+                  <h5>
+                    <a
+                      href="https://goo.gl/maps/uVhWH7iCKgm7r3xV7"
+                      target="_blank"
+                      class="place-item-header"
+                      aria-label="link to googlemaps location"
+                      >Tusk</a
+                    >
+                  </h5>
+                  <!--Venue Summary-->
+                  <div class="col-12 venue-keywords">
+                    <p>Vegan. Ethical. Treats. Water Bowls.</p>
+                  </div>
+                  <div class="col-8 venue-icons d-inline-block">
+                    <p>
+                      <i class="fas fa-utensils"></i><i class="fas fa-beer"></i
+                      ><i class="fas fa-cocktail"></i><i class="fas fa-bone"></i
+                      ><i class="fas fa-ring"></i>
+                    </p>
+                  </div>
+                  <div class="col-4 venue-weblink d-inline">
+                    <a
+                      type="button"
+                      class="btn btn-secondary btn-sm button-event-a-link"
+                      id="button-place-3"
+                      href="http://www.tuskbaltic.co.uk/"
+                      target="_blank"
+                      aria-label="link to venue website"
+                    >
+                      Website
+                    </a>
+                  </div>
+                  <!--Collapse function from Bootstrap 4-->
+                  <div class="col-12 more-info">
+                    <a
+                      href="#place-3-desc"
+                      data-toggle="collapse"
+                      class="more-info"
+                      aria-expanded="false"
+                      aria-controls="place-3-desc"
+                      aria-label="expands more information for place 3"
+                    >
+                      More Info</a
+                    >
+                    <div
+                      class="collapse place-desc place-desc-a"
+                      id="place-3-desc"
+                    >
+                      <div class="col-12 d-inline-block place-desc-text">
+                        <p>
+                          A bohemian haven that focuses on a vegan menu but
+                          still offers some ethically sourced meat dishes. Cosy
+                          up with your pooch by the log burner!
+                        </p>
+                      </div>
+                      <!--Image not displayed as no appropriate image currently exists-->
+                      <div class="col-12 place-desc-image-container d-none">
+                        <img
+                          class="place-desc-image"
+                          src="assets/images/object_logo.png"
+                          alt="PLACEHOLDER"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Place 4-->
+                <div class="col-12 place-item place-b" id="place-4">
+                  <h5>
+                    <a
+                      href="https://g.page/thedeadcraftybeercompany?share"
+                      target="_blank"
+                      class="place-item-header"
+                      aria-label="link to googlemaps location"
+                      >The Dead Crafty Beer Company</a
+                    >
+                  </h5>
+                  <!--Venue Summary-->
+                  <div class="col-12 venue-keywords">
+                    <p>Craft Beer. Treats. Takeout.</p>
+                  </div>
+                  <div class="col-8 venue-icons d-inline-block">
+                    <p>
+                      <i class="fas fa-beer"></i><i class="fas fa-bone"></i>
+                    </p>
+                  </div>
+                  <div class="col-4 venue-weblink-b d-inline">
+                    <a
+                      type="button"
+                      class="btn btn-secondary btn-sm button-place-b-link"
+                      id="button-place-4"
+                      href="https://www.facebook.com/thedeadcraftybeercompany/"
+                      target="_blank"
+                      aria-label="link to venue website"
+                    >
+                      Website
+                    </a>
+                  </div>
+                  <!--Collapse function from Bootstrap 4-->
+                  <div class="col-12 more-info">
+                    <a
+                      href="#place-4-desc"
+                      data-toggle="collapse"
+                      class="more-info"
+                      aria-expanded="false"
+                      aria-controls="place-4-desc"
+                      aria-label="expands more information for place 4"
+                    >
+                      More Info</a
+                    >
+                    <div
+                      class="collapse place-desc place-desc-b"
+                      id="place-4-desc"
+                    >
+                      <div class="col-12 d-inline-block place-desc-text">
+                        <p>
+                          Tucked away at the top of Dale Street you are
+                          guaranteed to try new beers!
+                        </p>
+                      </div>
+                      <!--Image not displayed as no appropriate image currently exists-->
+                      <div class="col-12 place-desc-image-container d-none">
+                        <img
+                          class="place-desc-image"
+                          src="assets/images/object_logo.png"
+                          alt="PLACEHOLDER"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Place 5-->
+                <div class="col-12 place-item place-a" id="place-5">
+                  <h5>
+                    <a
+                      href="https://goo.gl/maps/4cjfAfe62oWS3HPR6"
+                      target="_blank"
+                      class="place-item-header"
+                      aria-label="link to googlemaps location"
+                      >Brasco Lounge</a
+                    >
+                  </h5>
+                  <!--Venue Summary-->
+                  <div class="col-12 venue-keywords">
+                    <p>Gastro. Casual. Treats. Beer Garden.</p>
+                  </div>
+                  <div class="col-8 venue-icons d-inline-block">
+                    <p>
+                      <i class="fas fa-utensils"></i>
+                      <i class="fas fa-beer"></i
+                      ><i class="fas fa-wine-glass"></i
+                      ><i class="fas fa-coffee"></i><i class="fas fa-bone"></i>
+                    </p>
+                  </div>
+                  <div class="col-4 venue-weblink d-inline">
+                    <a
+                      type="button"
+                      class="btn btn-secondary btn-sm button-event-a-link"
+                      id="button-place-5"
+                      href="https://thelounges.co.uk/brasco/"
+                      target="_blank"
+                      aria-label="link to venue website"
+                    >
+                      Website
+                    </a>
+                  </div>
+                  <!--Collapse function from Bootstrap 4-->
+                  <div class="col-12 more-info">
+                    <a
+                      href="#place-5-desc"
+                      data-toggle="collapse"
+                      class="more-info"
+                      aria-expanded="false"
+                      aria-controls="place-5-desc"
+                      aria-label="expands more information for place 5"
+                    >
+                      More Info</a
+                    >
+                    <div
+                      class="collapse place-desc place-desc-a"
+                      id="place-5-desc"
+                    >
+                      <div class="col-12 d-inline-block place-desc-text">
+                        <p>
+                          Cafe Bar in the heart of Liverpool's waterfront. Great
+                          food from breakfast through to dinner.
+                        </p>
+                      </div>
+                      <!--Image not displayed as no appropriate image currently exists-->
+                      <div class="col-12 place-desc-image-container d-none">
+                        <img
+                          class="place-desc-image"
+                          src="assets/images/object_logo.png"
+                          alt="PLACEHOLDER"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Place 6-->
+                <div class="col-12 place-item place-b" id="place-6">
+                  <h5>
+                    <a
+                      href="https://goo.gl/maps/MjUobMBA3vFHFmxbA"
+                      target="_blank"
+                      class="place-item-header"
+                      aria-label="link to googlemaps location"
+                      >Milo Lounge</a
+                    >
+                  </h5>
+                  <!--Venue Summary-->
+                  <div class="col-12 venue-keywords">
+                    <p>Gastro. Casual. Treats. Brasco's Sister.</p>
+                  </div>
+                  <div class="col-8 venue-icons d-inline-block">
+                    <p>
+                      <i class="fas fa-utensils"></i> <i class="fas fa-beer"></i
+                      ><i class="fas fa-wine-glass"></i
+                      ><i class="fas fa-coffee"></i><i class="fas fa-bone"></i>
+                    </p>
+                  </div>
+                  <div class="col-4 venue-weblink-b d-inline">
+                    <a
+                      type="button"
+                      class="btn btn-secondary btn-sm button-place-b-link"
+                      id="button-place-6"
+                      href="#"
+                      target="_blank"
+                      aria-label="link to venue website"
+                    >
+                      Website
+                    </a>
+                  </div>
+                  <!--Collapse function from Bootstrap 4-->
+                  <div class="col-12 more-info">
+                    <a
+                      href="#place-6-desc"
+                      data-toggle="collapse"
+                      class="more-info"
+                      aria-expanded="false"
+                      aria-controls="place-6-desc"
+                      aria-label="expands more information for place 6"
+                    >
+                      More Info</a
+                    >
+                    <div
+                      class="collapse place-desc place-desc-b"
+                      id="place-6-desc"
+                    >
+                      <div class="col-12 d-inline-block place-desc-text">
+                        <p>
+                          Cafe Bar a stones throw from Sefton Park. Great food
+                          from breakfast through to dinner. Can get busy!
+                        </p>
+                      </div>
+                      <!--Image not displayed as no appropriate image currently exists-->
+                      <div class="col-12 place-desc-image-container d-none">
+                        <img
+                          class="place-desc-image"
+                          src="assets/images/object_logo.png"
+                          alt="PLACEHOLDER"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Place 7-->
+                <div class="col-12 place-item place-a" id="place-7">
+                  <h5>
+                    <a
+                      href="https://goo.gl/maps/ZpqcjNJHqkBwX2xq9"
+                      target="_blank"
+                      class="place-item-header"
+                      aria-label="link to googlemaps location"
+                      >Love & Rockets</a
+                    >
+                  </h5>
+                  <!--Venue Summary-->
+                  <div class="col-12 venue-keywords">
+                    <p>Pizza. Wings. Ales. Beer Garden. Sports.</p>
+                  </div>
+                  <div class="col-8 venue-icons d-inline-block">
+                    <p>
+                      <i class="fas fa-beer"></i
+                      ><i class="fas fa-pizza-slice"></i
+                      ><i class="fas fa-drumstick-bite"></i
+                      ><i class="fas fa-ring"></i>
+                    </p>
+                  </div>
+                  <div class="col-4 venue-weblink d-inline">
+                    <a
+                      type="button"
+                      class="btn btn-secondary btn-sm button-event-a-link"
+                      id="button-place-7"
+                      href="https://www.loveandrocketslarklane.com/"
+                      target="_blank"
+                      aria-label="link to venue website"
+                    >
+                      Website
+                    </a>
+                  </div>
+                  <!--Collapse function from Bootstrap 4-->
+                  <div class="col-12 more-info">
+                    <a
+                      href="#place-7-desc"
+                      data-toggle="collapse"
+                      class="more-info"
+                      aria-expanded="false"
+                      aria-controls="place-7-desc"
+                      aria-label="expands more information for place 7"
+                    >
+                      More Info</a
+                    >
+                    <div
+                      class="collapse place-desc place-desc-a"
+                      id="place-7-desc"
+                    >
+                      <div class="col-12 d-inline-block place-desc-text">
+                        <p>
+                          Relaxed atmosphere with plent of great beers and
+                          pizzas to die for! A log burner, beer garden and
+                          sports are all available.
+                        </p>
+                      </div>
+                      <!--Image not displayed as no appropriate image currently exists-->
+                      <div class="col-12 place-desc-image-container d-none">
+                        <img
+                          class="place-desc-image"
+                          src="assets/images/object_logo.png"
+                          alt="PLACEHOLDER"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Place 8-->
+                <div class="col-12 place-item place-b" id="place-8">
+                  <h5>
+                    <a
+                      href="https://goo.gl/maps/rbxArFN8kQeqLYqm6"
+                      target="_blank"
+                      class="place-item-header"
+                      aria-label="link to googlemaps location"
+                      >Clockworks</a
+                    >
+                  </h5>
+                  <!--Venue Summary-->
+                  <div class="col-12 venue-keywords">
+                    <p>Steam-punk. Indulgent. Beer. Cocktails.</p>
+                  </div>
+                  <div class="col-8 venue-icons d-inline-block">
+                    <p>
+                      <i class="fas fa-utensils"></i><i class="fas fa-beer"></i
+                      ><i class="fas fa-cocktail"></i>
+                    </p>
+                  </div>
+                  <div class="col-4 venue-weblink-b d-inline">
+                    <a
+                      type="button"
+                      class="btn btn-secondary btn-sm button-place-b-link"
+                      id="button-place-8"
+                      href="http://www.clockworksliverpool.com/"
+                      target="_blank"
+                      aria-label="link to venue website"
+                    >
+                      Website
+                    </a>
+                  </div>
+                  <!--Collapse function from Bootstrap 4-->
+                  <div class="col-12 more-info">
+                    <a
+                      href="#place-8-desc"
+                      data-toggle="collapse"
+                      class="more-info"
+                      aria-expanded="false"
+                      aria-controls="place-8-desc"
+                      aria-label="expands more information for place 8"
+                    >
+                      More Info</a
+                    >
+                    <div
+                      class="collapse place-desc place-desc-b"
+                      id="place-8-desc"
+                    >
+                      <div class="col-12 d-inline-block place-desc-text">
+                        <p>
+                          Nestled in Wolstenholme Square their 200 year old
+                          building has been given a modern urban re-vamp. Great
+                          music, relaxed atmosphere and the best black pudding
+                          bon-bons you'll find in Merseyside.
+                        </p>
+                      </div>
+                      <!--Image not displayed as no appropriate image currently exists-->
+                      <div class="col-12 place-desc-image-container d-none">
+                        <img
+                          class="place-desc-image"
+                          src="assets/images/object_logo.png"
+                          alt="PLACEHOLDER"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Place 9-->
+                <div class="col-12 place-item place-a" id="place-9">
+                  <h5>
+                    <a
+                      href="https://goo.gl/maps/YnZybrGER5Q4tukr5"
+                      target="_blank"
+                      class="place-item-header"
+                      aria-label="link to googlemaps location"
+                      >Frederiks</a
+                    >
+                  </h5>
+                  <!--Venue Summary-->
+                  <div class="col-12 venue-keywords">
+                    <p>Bar. Cocktails. Trendy. Food.</p>
+                  </div>
+                  <div class="col-8 venue-icons d-inline-block">
+                    <p>
+                      <i class="fas fa-utensils"></i
+                      ><i class="fas fa-cocktail"></i
+                      ><i class="fas fa-beer"></i>
+                    </p>
+                  </div>
+                  <div class="col-4 venue-weblink d-inline">
+                    <a
+                      type="button"
+                      class="btn btn-secondary btn-sm button-event-a-link"
+                      id="button-place-9"
+                      href="http://frederikshopestreet.com/"
+                      target="_blank"
+                      aria-label="link to venue website"
+                    >
+                      Website
+                    </a>
+                  </div>
+                  <!--Collapse function from Bootstrap 4-->
+                  <div class="col-12 more-info">
+                    <a
+                      href="#place-9-desc"
+                      data-toggle="collapse"
+                      class="more-info"
+                      aria-expanded="false"
+                      aria-controls="place-9-desc"
+                      aria-label="expands more information for place 9"
+                    >
+                      More Info</a
+                    >
+                    <div
+                      class="collapse place-desc place-desc-a"
+                      id="place-9-desc"
+                    >
+                      <div class="col-12 d-inline-block place-desc-text">
+                        <p>
+                          This trendy bar & kitchen surprises many as also being
+                          dog friendly. Scandi styled fireplace and a brilliant
+                          Sunday roast.
+                        </p>
+                      </div>
+                      <!--Image not displayed as no appropriate image currently exists-->
+                      <div class="col-12 place-desc-image-container d-none">
+                        <img
+                          class="place-desc-image"
+                          src="assets/images/object_logo.png"
+                          alt="PLACEHOLDER"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Place 10-->
+                <div class="col-12 place-item place-b" id="place-10">
+                  <h5>
+                    <a
+                      href="https://goo.gl/maps/whcvqxwGKgBuuf9D8"
+                      target="_blank"
+                      class="place-item-header"
+                      aria-label="link to googlemaps location"
+                      >Love Lane Brewery</a
+                    >
+                  </h5>
+                  <!--Venue Summary-->
+                  <div class="col-12 venue-keywords">
+                    <p>Brewery. Pale Ale. Kitchen. Shop.</p>
+                  </div>
+                  <div class="col-8 venue-icons d-inline-block">
+                    <p>
+                      <i class="fas fa-utensils"></i><i class="fas fa-beer"></i
+                      ><i class="fas fa-ring"></i
+                      ><i class="fas fa-shopping-basket"></i>
+                    </p>
+                  </div>
+                  <div class="col-4 venue-weblink-b d-inline">
+                    <a
+                      type="button"
+                      class="btn btn-secondary btn-sm button-place-b-link"
+                      id="button-place-10"
+                      href="https://www.lovelanebrewing.com/"
+                      target="_blank"
+                      aria-label="link to venue website"
+                    >
+                      Website
+                    </a>
+                  </div>
+                  <!--Collapse function from Bootstrap 4-->
+                  <div class="col-12 more-info">
+                    <a
+                      href="#place-10-desc"
+                      data-toggle="collapse"
+                      class="more-info"
+                      aria-expanded="false"
+                      aria-controls="place-10-desc"
+                      aria-label="expands more information for place 10"
+                    >
+                      More Info</a
+                    >
+                    <div
+                      class="collapse place-desc place-desc-b"
+                      id="place-10-desc"
+                    >
+                      <div class="col-12 d-inline-block place-desc-text">
+                        <p>
+                          Local brewery bar & kitchen serving traditional pub
+                          grub. Located in the bustling Baltic Triangle. Dog
+                          bowls available. On-site shop.
+                        </p>
+                      </div>
+                      <div class="col-12 place-desc-image-container">
+                        <img
+                          class="place-desc-image"
+                          src="assets/images/object_lovelane.jpg"
+                          alt="Dachshund next to Love Lane dog bowl"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Place 11-->
+                <div class="col-12 place-item place-a" id="place-11">
+                  <h5>
+                    <a
+                      href="https://goo.gl/maps/gC9UXTpR1Zt4aRmK6"
+                      target="_blank"
+                      class="place-item-header"
+                      aria-label="link to googlemaps location"
+                      >Camp & Furnace</a
+                    >
+                  </h5>
+                  <!--Venue Summary-->
+                  <div class="col-12 venue-keywords">
+                    <p>Warehouse. Beer. Wine. Street Food. Dog Curfew.</p>
+                  </div>
+                  <div class="col-8 venue-icons d-inline-block">
+                    <p>
+                      <i class="fas fa-beer"></i
+                      ><i class="fas fa-wine-glass"></i
+                      ><i class="fas fa-hotdog"></i>
+                      <i class="fas fa-clock"></i>
+                    </p>
+                  </div>
+                  <div class="col-4 venue-weblink d-inline">
+                    <a
+                      type="button"
+                      class="btn btn-secondary btn-sm button-event-a-link"
+                      id="button-place-11"
+                      href="http://www.campandfurnace.com/"
+                      target="_blank"
+                      aria-label="link to venue website"
+                    >
+                      Website
+                    </a>
+                  </div>
+                  <!--Collapse function from Bootstrap 4-->
+                  <div class="col-12 more-info">
+                    <a
+                      href="#place-11-desc"
+                      data-toggle="collapse"
+                      class="more-info"
+                      aria-expanded="false"
+                      aria-controls="place-11-desc"
+                      aria-label="expands more information for place 11"
+                    >
+                      More Info</a
+                    >
+                    <div
+                      class="collapse place-desc place-desc-a"
+                      id="place-11-desc"
+                    >
+                      <div class="col-12 d-inline-block place-desc-text">
+                        <p>
+                          This bustling evening venue is perfect for pooches in
+                          the daytime and offers street food and beer. Their
+                          Sunday roasts are popular too!
+                        </p>
+                      </div>
+                      <!--Image not displayed as no appropriate image currently exists-->
+                      <div class="col-12 place-desc-image-container d-none">
+                        <img
+                          class="place-desc-image"
+                          src="assets/images/object_logo.png"
+                          alt="PLACEHOLDER"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Place 12-->
+                <div class="col-12 place-item place-b" id="place-12">
+                  <h5>
+                    <a
+                      href="https://goo.gl/maps/LANCtqafyLhxKMc4A"
+                      target="_blank"
+                      class="place-item-header"
+                      aria-label="link to googlemaps location"
+                      >BrewDog Liverpool</a
+                    >
+                  </h5>
+                  <!--Venue Summary-->
+                  <div class="col-12 venue-keywords">
+                    <p>Bar. Kitchen. Doggy Fro-Yo. Punk.</p>
+                  </div>
+                  <div class="col-8 venue-icons d-inline-block">
+                    <p>
+                      <i class="fas fa-beer"></i><i class="fas fa-utensils"></i
+                      ><i class="fas fa-bone"></i>
+                    </p>
+                  </div>
+                  <div class="col-4 venue-weblink-b d-inline">
+                    <a
+                      type="button"
+                      class="btn btn-secondary btn-sm button-place-b-link"
+                      id="button-place-12"
+                      href="https://www.brewdog.com/bars/uk/brewdog-liverpool"
+                      target="_blank"
+                      aria-label="link to venue website"
+                    >
+                      Website
+                    </a>
+                  </div>
+                  <!--Collapse function from Bootstrap 4-->
+                  <div class="col-12 more-info">
+                    <a
+                      href="#place-12-desc"
+                      data-toggle="collapse"
+                      class="more-info"
+                      aria-expanded="false"
+                      aria-controls="place-12-desc"
+                      aria-label="expands more information for place 12"
+                    >
+                      More Info</a
+                    >
+                    <div
+                      class="collapse place-desc place-desc-b"
+                      id="place-12-desc"
+                    >
+                      <div class="col-12 d-inline-block place-desc-text">
+                        <p>
+                          Dog friendly all day. BrewDog beers, burgers. Located
+                          in the heart of Liverpool City Centre.
+                        </p>
+                      </div>
+                      <!--Image not displayed as no appropriate image currently exists-->
+                      <div class="col-12 place-desc-image-container d-none">
+                        <img
+                          class="place-desc-image"
+                          src="assets/images/object_logo.png"
+                          alt="PLACEHOLDER"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!--How To Be Dog Friendly-->
+        <article class="col-12 content content-a" id="how-to-dog-friendly">
+          <div class="row no-gutters how-to-dog-friendly-head">
+            <div class="col-12 how-to-dog-friendly-head-title">
+              <h2>How To Be Dog Friendly</h2>
+            </div>
+          </div>
+          <div class="row no-gutters how-to-dog-friendly-content">
+            <!--How To Item 1-->
+            <div class="col-12 col-md-4 col-lg-2 how-to-item">
+              <div class="row no-gutters how-to-item-row how-to-item-a">
+                <div class="col-4 col-md-12 how-to-item-icon">
+                  <i class="fas fa-bone"></i>
+                </div>
+                <div class="col-8 col-md-12 how-to-item-text">
+                  <h5>Treats</h5>
+                  <p>
+                    Dogs love treats and they'll love you too if they know tasty
+                    treats can be found in your establishment! They can also
+                    help to relax and settle down nervous pooches.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--How To Item 2-->
+            <div class="col-12 col-md-4 col-lg-2 how-to-item">
+              <div class="row no-gutters how-to-item-row how-to-item-b">
+                <div class="col-8 col-md-12 how-to-item-text">
+                  <h5>Water Bowls</h5>
+                  <p>
+                    Have a selection of water bowls available, either to bring
+                    to your guests tables or at designated stations.
+                  </p>
+                </div>
+                <div class="col-4 col-md-12 how-to-item-icon">
+                  <i class="fas fa-ring"></i>
+                </div>
+              </div>
+            </div>
+            <!--How To Item 3-->
+            <div class="col-12 col-md-4 col-lg-2 how-to-item">
+              <div class="row no-gutters how-to-item-row how-to-item-a">
+                <div class="col-4 col-md-12 how-to-item-icon">
+                  <i class="fas fa-toilet"></i>
+                </div>
+                <div class="col-8 col-md-12 how-to-item-text">
+                  <h5>Doggy Loo</h5>
+                  <p>
+                    If possible have a patch of grass nearby designated for
+                    pooch business and you'll have less chance of accidents and
+                    doggy owners will relax easy! If this isn't possible make a
+                    note of nearby green space that would be suitable for a
+                    quick visit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--How To Item 4-->
+            <div class="col-12 col-md-4 col-lg-2 how-to-item">
+              <div class="row no-gutters how-to-item-row how-to-item-b">
+                <div class="col-8 col-md-12 how-to-item-text">
+                  <h5>Careful Curfews</h5>
+                  <p>
+                    It's always best to avoid a curfew if you can, but if your
+                    venue gets particularly busy or loud its probably best to
+                    advise that four legged patrons depart. An alternative could
+                    be to provide a quite area.
+                  </p>
+                </div>
+                <div class="col-4 col-md-12 how-to-item-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+              </div>
+            </div>
+            <!--How To Item 5-->
+            <div class="col-12 col-md-4 col-lg-2 how-to-item">
+              <div class="row no-gutters how-to-item-row how-to-item-a">
+                <div class="col-4 col-md-12 how-to-item-icon">
+                  <i class="fas fa-sign"></i>
+                </div>
+                <div class="col-8 col-md-12 how-to-item-text">
+                  <h5>Put up a Sign</h5>
+                  <p>
+                    Let your customers know you are dog friendly! Not only does
+                    this help attract dog owners but it also establishes that
+                    its OK with all your other guests.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--How To Item 6-->
+            <div class="col-12 col-md-4 col-lg-2 how-to-item">
+              <div class="row no-gutters how-to-item-row how-to-item-b">
+                <div class="col-8 col-md-12 how-to-item-text">
+                  <h5>Specify An Area</h5>
+                  <p>
+                    You may want to keep dogs in certain parts of your premise,
+                    and thats fine! Make it clear to your customers and ensure
+                    to offer your full range of services if possible!
+                  </p>
+                </div>
+                <div class="col-4 col-md-12 how-to-item-icon">
+                  <i class="fas fa-flag"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <!--Back To Top Button-->
+      <div class="row no-gutters back-to-top-container">
+        <a
+          type="button"
+          class="btn btn-primary d-xl-none"
+          id="back-to-top"
+          href="#top"
+          ><i class="fas fa-angle-double-up"></i
+        ></a>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer class="container-fluid footer">
+      <div class="row no-gutters">
+        <!--Footer Left-->
+        <div class="col-12 col-md-4 footer-left"></div>
+        <!--Footer Middle-->
+        <div class="col-12 col-md-4 footer-mid">
+          <ul class="list-inline socials">
+            <li class="list-inline-item">
+              <a
+                class="social-link"
+                target="_blank"
+                href="https://www.facebook.com/groups/urbandogs.scousedaxie"
+                aria-label="link to scouse daxie facebook page"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="social-link"
+                target="_blank"
+                href="https://twitter.com/UDaxie"
+                aria-label="link to scouse daxie on twitter"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="social-link"
+                target="_blank"
+                href="https://www.instagram.com/urbandogsscousedaxie/"
+                aria-label="link to scouse daxie on instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="social-link"
+                target="_blank"
+                href="https://www.youtube.com/channel/UCPiK5em9i6WYIIlru3VcbTw"
+                aria-label="link to scouse daxie on youtube"
+              >
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Footer Right-->
+        <div class="col-12 col-md-4 footer-right">
+          <small
+            ><strong>Copyright</strong> &copy; 2020 Nicholas Bowley.<br />
+            All Rights Reserved<br /><a
+              href="https://www.logomakr.com"
+              target="_blank"
+              aria-label="link to logomakr"
+              >Created my free logo at LogoMakr.com</a
+            ></small
+          >
+        </div>
+      </div>
+    </footer>
+    <!--Bootstrap JavaScript-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

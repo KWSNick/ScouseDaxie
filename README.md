@@ -27,6 +27,8 @@ Where possible the use of absolute units has been avoided in preference for rela
 
 ### Future Features
 
+Tooltips on venue icons.
+
 ## Technologies Used
 
 ### Bootstrap 4.4.1
