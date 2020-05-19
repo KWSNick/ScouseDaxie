@@ -4,9 +4,9 @@ A social space targeting Dachshund owners in Liverpool. The site aims to provide
 
 The site could eventually generate revenue through attracting local businesses and suppliers to advertise or promote their relevant offerings. One future option is to create an online store platform selling relevant products either directly or in acting as an intermediary.
 
-Whist the site currently heavily relies upon existing social media platforms for inter-user interaction, user to business interaction and events sign-up and bookings the intention is to build thie functionality locally into the site with time. 
+Whist the site currently heavily relies upon existing social media platforms for inter-user interaction, user to business interaction and events sign-up and bookings the intention is to build thie functionality locally into the site with time.
 
-The site can expand to include additional content for other dog breeds in the geographic area and also expand to other locations in the future. By narrowing the target audience initially it allows bespoke, attractive content and a managable scope. Choosing a popular breed increases the interest in the content and initial user pick-up. 
+The site can expand to include additional content for other dog breeds in the geographic area and also expand to other locations in the future. By narrowing the target audience initially it allows bespoke, attractive content and a managable scope. Choosing a popular breed increases the interest in the content and initial user pick-up.
 
 ## UX Design
 
@@ -19,6 +19,7 @@ The site can expand to include additional content for other dog breeds in the ge
 ### Skeleton
 
 ### Surface
+
 Where possible the use of absolute units has been avoided in preference for relative units. This is to ensure maximum site responsiveness.
 
 ## Features
@@ -32,9 +33,11 @@ Tooltips on venue icons.
 ## Technologies Used
 
 ### Bootstrap 4.4.1
+
 Bootstrap was used to provide a front-end component library structure and responsive design framework.
 
 #### License
+
 The MIT License (MIT)
 
 Copyright (c) 2011-2020 Twitter, Inc.
@@ -59,27 +62,40 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 ### LogoMakr
+
 Produced the brand logo using a combination of Google Fonts and icons.
 
-https://logomakr.com  
+https://logomakr.com
 
-https://logomakr.com/getstarted/terms-conditions/ 
+https://logomakr.com/getstarted/terms-conditions/
 
 ### Google Fonts
-Google Fonts offers open source font styling options for personal and commercial use. 
+
+Google Fonts offers open source font styling options for personal and commercial use.
 
 #### License
-The use of this product was inline with Google API's terms of service https://developers.google.com/terms 
+
+The use of this product was inline with Google API's terms of service https://developers.google.com/terms
 
 ### Font Awesome 5.1.3.
-Font Awesome provides text based icons which can be manipulated and controlled by CSS styling. 
+
+Font Awesome provides text based icons which can be manipulated and controlled by CSS styling.
 
 #### License
+
 Icons are licensed under the CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 
-Fonts are licensed under SIL OFL 1.1 https://scripts.sil.org/OFL 
+Fonts are licensed under SIL OFL 1.1 https://scripts.sil.org/OFL
 
-Code is licensed under MIT https://opensource.org/licenses/MIT 
+Code is licensed under MIT https://opensource.org/licenses/MIT
+
+### Google Maps
+
+Specific maps were created in Google Maps highlighting specific groups of locations. these were embedded as iframes into various pages on the site.
+
+#### License
+
+The use of this product was inline with Google API's terms of service https://cloud.google.com/maps-platform/terms?_ga=2.160045053.1717626391.1589905262-667397718.1588149057
 
 ## Testing
 
@@ -89,6 +105,18 @@ Code is licensed under MIT https://opensource.org/licenses/MIT
 
 ### Content
 
+Site content is original and developed by the author to offer an opinion and reccomendation in good faith. No liability is assumed for any user experiences outside of this website.
+
+The content was correct to the best of the authors knowledge at the time of issue.
+
+The content was created without outside influence including but not limited to payment for advertisement or promotion and bias based upon personal relationships and experiences.
+
 ### Media
+
+All images are originals and the property of the author and subject to copyright restrictions and limitations.
+
+All videos are orginals and the propery of the author and subject to copyright restrictions and limitations.
+
+The logo was created by the author in logomakr online tool and is accredited as per the instruction of the tool's developer. It is subject to copyright restrictions and limitations
 
 ### Acknowledgements
