@@ -152,6 +152,14 @@ ul {
     background-color: #5c007e;
 }
 
+.steps-text {
+    text-align: left;
+}
+
+.steps-text ol {
+    padding-inline-start: 20px;
+}
+
 /* ------------------------------------------Header*/
 
 .navigation {
