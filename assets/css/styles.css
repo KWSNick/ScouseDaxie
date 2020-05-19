@@ -413,6 +413,11 @@ h5 {
     padding: 0 2vh;
 }
 
+.training-tips-video iframe {
+    position: relative;
+    vertical-align: middle;
+}
+
 /* ------------------------------------------Footer*/
 
 .footer-right,
