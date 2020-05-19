@@ -149,15 +149,15 @@ ul {
 }
 
 #training-intro a {
-    background-color: #5c007e;
+  background-color: #5c007e;
 }
 
 .steps-text {
-    text-align: left;
+  text-align: left;
 }
 
 .steps-text ol {
-    padding-inline-start: 20px;
+  padding-inline-start: 20px;
 }
 
 /* ------------------------------------------Header*/
@@ -330,8 +330,8 @@ h5 {
 }
 
 .sub-link {
-    font-family: "Londrina Solid", cursive;
-    font-size: 4vw;
+  font-family: "Londrina Solid", cursive;
+  font-size: 4vw;
 }
 
 .place-desc-image {
@@ -405,12 +405,12 @@ h5 {
 }
 
 .how-to-item {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .how-to-item-row {
-    height: 100%;
+  height: 100%;
 }
 
 .how-to-item-icon {
@@ -424,22 +424,22 @@ h5 {
 
 .how-to-item-text p,
 .training-tips-text p {
-    padding: 0 2vh;
+  padding: 0 2vh;
 }
 
 .training-tips-video iframe {
-    position: relative;
-    vertical-align: middle;
-    padding: 5%;
+  position: relative;
+  vertical-align: middle;
+  padding: 5%;
 }
 
 .uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .training-tips-video iframe {
-    width: 100vw;
-    height: 61vw;
+  width: 100vw;
+  height: 61vw;
 }
 
 /* ------------------------------------------Footer*/
@@ -487,8 +487,12 @@ h5 {
     overflow-y: scroll;
   }
   .how-to-item-icon i {
-  position: unset;
-}
+    position: unset;
+  }
+  .training-tips-video iframe {
+    width: 50vw;
+    height: 30.5vw;
+  }
 }
 
 /* -------------------------------Large Viewport*/
