@@ -419,6 +419,10 @@ h5 {
     padding: 5%;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 /* ------------------------------------------Footer*/
 
 .footer-right,
