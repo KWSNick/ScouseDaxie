@@ -98,12 +98,14 @@ ul {
 }
 
 .event-b a,
-.place-b a {
+.place-b a,
+.training-tips-item-b a {
   color: #8e24ae;
 }
 
 .event-b a:hover,
-.place-b a:hover {
+.place-b a:hover,
+.training-tips-item-b a:hover {
   color: #5c007e;
 }
 
