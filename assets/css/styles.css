@@ -276,7 +276,9 @@ h5 {
   margin: 2.5vh;
 }
 
-#breed-info {
+#breed-info,
+#training-intro,
+#training-recc-intro {
   padding: 0 5vh 3vh;
 }
 
