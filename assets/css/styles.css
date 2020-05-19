@@ -416,6 +416,7 @@ h5 {
 .training-tips-video iframe {
     position: relative;
     vertical-align: middle;
+    padding: 5%;
 }
 
 /* ------------------------------------------Footer*/
