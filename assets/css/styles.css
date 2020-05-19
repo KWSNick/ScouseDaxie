@@ -84,14 +84,16 @@ ul {
 
 .event-a,
 .place-a,
-.how-to-item-a {
+.how-to-item-a,
+.training-tips-item-a {
   background-color: #c159e1;
   color: #fbffe2;
 }
 
 .event-b,
 .place-b,
-.how-to-item-b {
+.how-to-item-b,
+.training-tips-item-b {
   background-color: #ceffff;
 }
 
