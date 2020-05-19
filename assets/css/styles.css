@@ -437,6 +437,11 @@ h5 {
     text-transform: uppercase;
 }
 
+.training-tips-video iframe {
+    width: 100vw;
+    height: 61vw;
+}
+
 /* ------------------------------------------Footer*/
 
 .footer-right,
