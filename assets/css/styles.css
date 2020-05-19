@@ -295,7 +295,8 @@ h5 {
 
 .event-summary-item-header,
 .place-item-header,
-.how-to-item-text h5 {
+.how-to-item-text h5,
+.training-tips-text h5 {
   text-transform: uppercase;
 }
 
@@ -405,7 +406,8 @@ h5 {
   top: 30%;
 }
 
-.how-to-item-text p {
+.how-to-item-text p,
+.training-tips-text p {
     padding: 0 2vh;
 }
 
