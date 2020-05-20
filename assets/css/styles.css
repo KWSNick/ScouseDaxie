@@ -43,7 +43,9 @@ ul {
 .place-a,
 .how-to-item-a,
 .training-tips-item-a,
-.modal-content {
+.modal-content,
+.content-a .btn-secondary:hover,
+.content-b .btn-secondary:hover {
   color: #fbffe2;
 }
 
@@ -84,15 +86,16 @@ ul {
   color: #65c9cc;
 }
 
+/*Primary Light*/
 .event-a,
 .place-a,
 .how-to-item-a,
 .training-tips-item-a,
 .modal-content {
   background-color: #c159e1;
-  color: #fbffe2;
 }
 
+/*Secondary Light*/
 .event-b,
 .place-b,
 .how-to-item-b,
@@ -100,6 +103,7 @@ ul {
   background-color: #ceffff;
 }
 
+/*Card B overriders Primary Color Palette*/
 .event-b a,
 .place-b a,
 .training-tips-item-b a {
@@ -129,11 +133,11 @@ ul {
   background-color: #324749;
 }
 
-.content-a .btn-secondary:hover {
+ {
   color: #fbffe2;
 }
 
-.content-b .btn-secondary:hover {
+ {
   color: #fbffe2;
 }
 
