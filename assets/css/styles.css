@@ -462,6 +462,10 @@ h5 {
     border: none;
 }
 
+.subscribe-button {
+    text-align: center;
+}
+
 /* ------------------------------------------Footer*/
 
 .footer-right,
