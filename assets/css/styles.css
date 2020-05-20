@@ -278,10 +278,6 @@ h2 {
   margin: 5vh 0;
 }
 
-.modal-header h2 {
-    margin: 0;
-}
-
 .how-to-dog-friendly-head-title h2 {
   padding: 0 5vh;
 }
@@ -446,6 +442,21 @@ h5 {
 .training-tips-video iframe {
   width: 100vw;
   height: 61vw;
+}
+
+/* ------------------------------------------Modal*/
+.modal-content {
+    font-family: "Rubik", sans-serif;
+}
+
+.modal-header h2 {
+    margin: 0;
+}
+
+.required {
+    text-align: right;
+    font-style: italic;
+    margin: 20px 0;
 }
 
 /* ------------------------------------------Footer*/
