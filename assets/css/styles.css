@@ -47,7 +47,9 @@ ul {
   background-color: #5c007e;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover,
+.content-b a,
+.content-a a  {
   color: #99fcff;
 }
 
@@ -62,15 +64,6 @@ ul {
 
 .divider {
   background-color: #324749;
-}
-
- {
-  color: #fbffe2;
-}
-
-.content-b a,
-.content-a a {
-  color: #99fcff;
 }
 
 .content-b a:hover,
