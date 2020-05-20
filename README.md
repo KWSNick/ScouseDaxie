@@ -93,6 +93,26 @@ General Consumer | [The General Consumer User Story](assets/docs/general_consume
 3rd Party Businesses | [3rd Party Businesses User Story](assets/docs/3rd_party_business_user_story.pdf)
 
 ### Structure
+As an unestablished brand it is critical that the structure provide an intuitive, rewarding and positive user experience. 
+All users will be unfamiliar with the site and if navigating it proves difficult the user is unlikely to return. 
+
+The header and footer will be common across all pages to improve familiarity across the site. 
+
+The inital navigation structure was planned in a simple tree, minimising the number of clicks for the user. All pages are accessible from all other pages thanks to the common header and footer. 
+
+![Planned Site Structure](assets/images/planned_structure.PNG)
+
+This was revised following the initial planning meeting to further reduce the site complexity by merging the sub-pages into their parent pages i.e. "How to become a dog friendly venue" content is present on the "Dog Friendly" page.
+
+A possible future structure was also proposed should business goals be achieved and the scope of the brand, the site and its content expands. 
+
+The purpose of the revised structure would be to reduce the reliance on external social media platforms and increase the potential user base by expanding across different dog breeds and different geographic locations. 
+
+As an aside this is the justification for the inclusion of a strapline or sub-heading, as this would form the overarching brand as currently the main brand is both geographically and breed constrained. 
+
+![Planned Site Structure](assets/images/future_structure.PNG)
+
+The expanded structure would segregate geographic content, and breed specific content within that and add in common features such as an online store. 
 
 ### Skeleton
 
