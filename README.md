@@ -116,6 +116,18 @@ The expanded structure would segregate geographic content, and breed specific co
 
 ### Skeleton
 
+A modern site must be responsive across multiple device sizes as consumers digest content in a vairety of methods in a multitude of locations. 
+
+As the site is intended for casual and leisure use it is also likely that the content will be first encountered on a mobile device. 
+
+It is therefore prudent to utilise a mobile first approach and Bootstrap provides such a framework that is also highly responsive. Bootstrap was used to achieve the skeleton objectives towards the identified users. 
+
+Wireframes were constructed in Basamiq Wireframe 4 in order to provide a design brief for the project, maximise coding productivity and minimise mission creep. 
+
+In some instances the wireframe plan was deviated from in order to achieve a better asthetic and user experience not forseen in the wireframe design phase. 
+
+[Post Production Wireframe Analysis](#.pdf) provides an overview of the planned wireframes and deviations found in the final product if applicable. 
+
 ### Surface
 
 Where possible the use of absolute units has been avoided in preference for relative units. This is to ensure maximum site responsiveness.
