@@ -34,7 +34,9 @@ ul {
 .footer,
 .footer a,
 .modal-header,
-.scroll-control a i:hover {
+.scroll-control a i:hover,
+.content-b,
+.sub-link {
   color: #fbffe2;
 }
 
@@ -58,16 +60,11 @@ ul {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
- {
-  color: #fbffe2;
-}
-
 .divider {
   background-color: #324749;
 }
 
-.content-b,
-.sub-link {
+ {
   color: #fbffe2;
 }
 
