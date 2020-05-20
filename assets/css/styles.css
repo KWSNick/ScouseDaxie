@@ -513,8 +513,7 @@ h5 {
   .footer-left {
     text-align: right;
   }
-  .places-info-container,
-  .training-recc-info-container {
+  .card-scroll-y-container {
     height: 460px;
     overflow-y: scroll;
   }
