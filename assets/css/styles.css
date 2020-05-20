@@ -24,8 +24,39 @@ ul {
 .navigation,
 .dropdown-menu,
 .footer,
-.modal-header {
+.modal-header,
+.event-desc-b .btn-secondary,
+.venue-weblink-b .btn-secondary {
   background-color: #8e24ae;
+}
+
+/*Button*/
+.btn-secondary,
+.content-a .btn-secondary,
+.content-b .btn-secondary {
+  background-color: #99fcff;
+  color: #324749;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #65c9cc;
+  color: #fbffe2;
+}
+
+.btn-secondary:active {
+  background-color: #324749;
+}
+
+.event-desc-b .btn-secondary,
+.venue-weblink-b .btn-secondary {
+  color: #fbffe2;
+}
+
+.event-desc-b .btn-secondary:hover,
+.venue-weblink-b .btn-secondary:hover {
+  background-color: #5c007e;
+  color: #99fcff;
 }
 
 /*Primary Text*/
@@ -114,43 +145,6 @@ ul {
 .place-b a:hover,
 .training-tips-item-b a:hover {
   color: #5c007e;
-}
-
-.btn-secondary,
-.content-a .btn-secondary,
-.content-b .btn-secondary {
-  background-color: #99fcff;
-  color: #324749;
-}
-
-.btn-secondary:hover,
-.btn-secondary:focus {
-  background-color: #65c9cc;
-  color: #fbffe2;
-}
-
-.btn-secondary:active {
-  background-color: #324749;
-}
-
- {
-  color: #fbffe2;
-}
-
- {
-  color: #fbffe2;
-}
-
-.event-desc-b .btn-secondary,
-.venue-weblink-b .btn-secondary {
-  background-color: #8e24ae;
-  color: #fbffe2;
-}
-
-.event-desc-b .btn-secondary:hover,
-.venue-weblink-b .btn-secondary:hover {
-  background-color: #5c007e;
-  color: #99fcff;
 }
 
 #back-to-top {
