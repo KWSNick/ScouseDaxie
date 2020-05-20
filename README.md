@@ -17,6 +17,50 @@ Colour schemes, font types and icons were all researched and in advance and a co
 
 A review meeting refined the initial plan, scaling back the number of pages by combining several in singular pages, and the colour palette and fonts were revised to ensure visual contrast and readibility. 
 ### Strategy
+The following Users were identified and their goals established:
+
+#### The Business
+
+* Establish a go-to brand for the Dachshund Owners in Liverpool (UK).
+    * First port of call for owners looking for advice on caring for their dogs, training, behaviour, most appropriate items for the breed i.e. harnesses, collars, jackets etc.
+* Build a network of users who “crowd-source” potential future site content i.e. new advice or tips.
+* Highlight the popularity of dog-friendly venues in Liverpool to encourage more venues to become dog friendly.
+* Work with venues to advise on top tips for becoming dog friendly.
+* Encourage venues to advertise on the site (potential revenue).
+* Encourage manufacturers/suppliers to advertise products on site (potential revenue).
+* Launch regular free events such as group walks, playdates and meetups.
+    * This could eventually lead to paid/ticketed events (potential revenue).
+
+#### General Consumers
+
+* Receive sound advice and provide best possible care for their dog(s).
+* Recommendations on products. 
+* Confidence in attending venues with the knowledge it caters for dogs well. 
+* Socialisation of both the owners and their dogs. 
+    * Remotely (via social media)
+    * Physically (walks, events)
+* Show off their pride and joy
+    * Image/video sharing
+* Show of their knowledge
+    * User to user interaction. 
+
+#### Other 3rd Party businesses
+
+* Increase revenue
+* Create repeat custom
+* Reach specific target market
+* Diversify
+* Potentially enter e-commerce via a 3rd party (i.e. the site). 
+
+#### Minimum Viable product
+The mimimum product required to achieve the majority of the above goals was defined as requiring:
+
+* A regular events calendar
+* Non-interactive "dog-friendly" venue guidance.
+* Non-interactive training and training provider advice.
+* Links to established social media pages to provide interactivity.
+
+An Opportunity Importance vs Feasibility assessment was carried out: [Opportunity Assessment PDF](assets/docs/opportunity_assessment.pdf)
 
 ### Scope
 
@@ -35,6 +79,17 @@ Where possible the use of absolute units has been avoided in preference for rela
 ### Future Features
 
 Tooltips on venue icons.
+
+Subscribe form functionality. 
+
+* Event sign-up on site
+    * Replace social media signup
+* Product review/advice
+* On site store for products
+* Site Gallery
+    * User photo/video upload
+    * Requires administrator review/approval
+
 
 ## Technologies Used
 
