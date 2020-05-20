@@ -134,7 +134,8 @@ ul {
 }
 
 .event-desc-b .btn-secondary,
-.venue-weblink-b .btn-secondary {
+.venue-weblink-b .btn-secondary,
+.modal-header {
   background-color: #8e24ae;
   color: #fbffe2;
 }
@@ -450,8 +451,6 @@ h5 {
 }
 
 .modal-header {
-    background: #8e24ae;
-    color: #fbffe2;
     border: none;
 }
 
