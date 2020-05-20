@@ -15,7 +15,7 @@ An initial site structure was outlined and with a proposed future expansion as c
 Wireframes provided a means of limiting mission creep and making key decisions prior to the commencement of coding.
 Colour schemes, font types and icons were all researched and in advance and a colour palette and template font-family code added to the initial styles.css file for ease of use and consitency. 
 
-A review meeting refined the initial plan, scaling back the number of pages by combining several in singular pages, and the colour palette and fonts were revised to ensure visual contrast and readibility. 
+A review meeting refined the initial plan, scaling back the number of pages by combining several in singular pages, and the colour palette and fonts were revised to ensure visual contrast and readibility. The use of free logo making utilies was also advised to reduce the number of utilised fonts.
 ### Strategy
 The following Users were identified and their goals established:
 
@@ -63,6 +63,10 @@ The mimimum product required to achieve the majority of the above goals was defi
 An Opportunity Importance vs Feasibility assessment was carried out: [Opportunity Assessment PDF](assets/docs/opportunity_assessment.pdf)
 
 ### Scope
+
+The scope of the project was to initially create a fun, catchy, visually appealling site and establish brand recognition. Written content was to be kept minimal and of value to the user. 
+At this stage user interactivty must be provided by external social media. 
+The aim was to build a site which focuses on satifying the **General Consumers** and **The Businesses** goals on the premise that establishing these will contribute towards brand appeal with the **3rd Party Business** user group and assist in achieving this groups goals.
 
 ### Structure
 
