@@ -130,6 +130,30 @@ In some instances the wireframe plan was deviated from in order to achieve a bet
 
 ### Surface
 
+The site is intended primarily for the leisure and hospitality market and the colour and themes are improtant in setting the correct tone.
+It was also identified that the geographic location could be represented by colour, text or imagery iconography. 
+
+As a site focusing geographically on Liverpool and Merseyside a palette focused around purple was chosen. This tactfully avoids red or blue colours which are synonymous with the cities major football team and prevents any unintential bias for the Scouse Daxie brand. 
+This primary colour also ties in nicely with one of the cities other promient features, its wheelie bins, which were colours purple as balance between both red and blue in order to avoid the same potential conflict.
+
+An initial colour palette was discussed at the planning meeting and enhanced with the use of Material Design's color tool which assists in the identification of complimentary shades and contrasting secondary and text colours. 
+
+A logo was created using an online tool in order to utilise decorative cursive fonts provided by Google without impacting page load time. The Monoton and Monofett fonts were identifed as the provided a conteporary styling which was bold and readable, which fits in well with Liverpools urban scene. 
+
+A further cursive font was utilised sparingly for the navigation links in the header bar and the strapline/subtitle in order to not overwhelm the user with intricate font faces whilst maintaining a fun and casual feel.
+
+A slightly more formal, but interesting sans-serif Google Font was used for all remaining text ot ensure legibility and maximum effectiveness of conveying the sites content. 
+
+Across the site and its pages it was critical to ensure consitency with styling of all elements including text, headers, buttons and media. This ensures maximum potential for user understanding and learning. 
+
+Where praticable icons from Font Awesome were used to convey and enhance the intended message to the user.
+
+All media utilised on the site is original in its source in part to avoid potential copyright infingement but also to promote the use of unique user-driven content on site in the future. 
+
+Google Maps were used to enhance the sites geographical importance. 
+
+![Material Design Color Palette](assets/images/color_palette.png)
+
 Where possible the use of absolute units has been avoided in preference for relative units. This is to ensure maximum site responsiveness.
 
 ## Features
@@ -220,6 +244,8 @@ The use of this product was inline with Google API's terms of service https://cl
 
 ## Testing
 
+Am I Responsive
+
 ## Deployment
 
 ## Credits
@@ -241,3 +267,7 @@ All videos are orginals and the propery of the author and subject to copyright r
 The logo was created by the author in logomakr online tool and is accredited as per the instruction of the tool's developer. It is subject to copyright restrictions and limitations
 
 ### Acknowledgements
+
+Material Design's Color Tool enhanced the colour palette of the site. https://material.io/resources/color/#!/?view.left=0&view.right=0
+
+Thanks to Liverpool City Council for the foresight in overcoming the Red and Blue divide by producing Purple wheelie bins!
