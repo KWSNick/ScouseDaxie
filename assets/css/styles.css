@@ -24,7 +24,8 @@ ul {
 .navigation,
 .dropdown-menu,
 .footer,
-.modal-header {
+.modal-header,
+#back-to-top {
   background-color: #8e24ae;
 }
 
@@ -61,7 +62,8 @@ ul {
 /*Secondary*/
 .navbar-dark .navbar-nav .nav-link:hover,
 .content-b a,
-.content-a a  {
+.content-a a,
+#back-to-top  {
   color: #99fcff;
 }
 
@@ -144,11 +146,6 @@ ul {
 .event-desc-b .btn-secondary:hover,
 .venue-weblink-b .btn-secondary:hover {
   background-color: #5c007e;
-  color: #99fcff;
-}
-
-#back-to-top {
-  background-color: #8e24ae;
   color: #99fcff;
 }
 
