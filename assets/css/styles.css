@@ -458,6 +458,10 @@ h5 {
     font-style: italic;
 }
 
+.modal-footer {
+    border: none;
+}
+
 /* ------------------------------------------Footer*/
 
 .footer-right,
