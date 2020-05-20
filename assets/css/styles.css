@@ -40,8 +40,7 @@ ul {
 .scroll-control a i:hover,
 .content-b,
 .sub-link,
-.event-a,
-.place-a,
+.card-a,
 .how-to-item-a,
 .training-tips-item-a,
 .modal-content,
@@ -90,8 +89,7 @@ ul {
 }
 
 /*Primary Light*/
-.event-a,
-.place-a,
+.card-a,
 .how-to-item-a,
 .training-tips-item-a,
 .modal-content {
@@ -99,23 +97,16 @@ ul {
 }
 
 /*Secondary Light*/
-.event-b,
-.place-b,
-.how-to-item-b,
-.training-tips-item-b {
+.card-b {
   background-color: #ceffff;
 }
 
 /*Card B overriders Primary Color Palette*/
-.event-b a,
-.place-b a,
-.training-tips-item-b a {
+.card-b a {
   color: #8e24ae;
 }
 
-.event-b a:hover,
-.place-b a:hover,
-.training-tips-item-b a:hover {
+.card-b a:hover {
   color: #5c007e;
 }
 
