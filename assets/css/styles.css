@@ -472,6 +472,13 @@ h5 {
 
 /* ------------------------------------------Media Queries*/
 
+/* -------------------------------Less Than Medium Viewport*/
+@media (max-width: 767px) {
+  .form-subscribe .form-group label {
+    display: none;
+  }
+}
+
 /* -------------------------------Medium Viewport*/
 @media (min-width: 768px) {
   .jumbotron-fluid {
