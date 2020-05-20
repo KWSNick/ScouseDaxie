@@ -278,6 +278,10 @@ h2 {
   margin: 5vh 0;
 }
 
+.modal-header h2 {
+    margin: 0;
+}
+
 .how-to-dog-friendly-head-title h2 {
   padding: 0 5vh;
 }
