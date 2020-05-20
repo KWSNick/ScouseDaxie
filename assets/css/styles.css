@@ -449,6 +449,12 @@ h5 {
     font-family: "Rubik", sans-serif;
 }
 
+.modal-header {
+    background: #8e24ae;
+    color: #fbffe2;
+    border: none;
+}
+
 .modal-header h2 {
     margin: 0;
 }
