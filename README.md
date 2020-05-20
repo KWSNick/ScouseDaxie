@@ -138,6 +138,8 @@ This primary colour also ties in nicely with one of the cities other promient fe
 
 An initial colour palette was discussed at the planning meeting and enhanced with the use of Material Design's color tool which assists in the identification of complimentary shades and contrasting secondary and text colours. 
 
+![Material Design Color Palette](assets/images/color_palette.png)
+
 A logo was created using an online tool in order to utilise decorative cursive fonts provided by Google without impacting page load time. The Monoton and Monofett fonts were identifed as the provided a conteporary styling which was bold and readable, which fits in well with Liverpools urban scene. 
 
 A further cursive font was utilised sparingly for the navigation links in the header bar and the strapline/subtitle in order to not overwhelm the user with intricate font faces whilst maintaining a fun and casual feel.
@@ -151,8 +153,6 @@ Where praticable icons from Font Awesome were used to convey and enhance the int
 All media utilised on the site is original in its source in part to avoid potential copyright infingement but also to promote the use of unique user-driven content on site in the future. 
 
 Google Maps were used to enhance the sites geographical importance. 
-
-![Material Design Color Palette](assets/images/color_palette.png)
 
 Where possible the use of absolute units has been avoided in preference for relative units. This is to ensure maximum site responsiveness.
 
