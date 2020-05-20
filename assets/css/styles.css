@@ -460,6 +460,8 @@ h5 {
 
 .modal-footer {
     border: none;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .subscribe-button {
