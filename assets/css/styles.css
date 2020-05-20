@@ -152,14 +152,6 @@ ul {
   color: #99fcff;
 }
 
-.steps-text {
-  text-align: left;
-}
-
-.steps-text ol {
-  padding-inline-start: 20px;
-}
-
 /* ------------------------------------------Header*/
 
 .navigation {
@@ -440,6 +432,14 @@ h5 {
 .training-tips-video iframe {
   width: 100vw;
   height: 61vw;
+}
+
+.steps-text {
+  text-align: left;
+}
+
+.steps-text ol {
+  padding-inline-start: 20px;
 }
 
 /* ------------------------------------------Modal*/
