@@ -9,7 +9,13 @@ Whist the site currently heavily relies upon existing social media platforms for
 The site can expand to include additional content for other dog breeds in the geographic area and also expand to other locations in the future. By narrowing the target audience initially it allows bespoke, attractive content and a managable scope. Choosing a popular breed increases the interest in the content and initial user pick-up.
 
 ## UX Design
+The Scouse Daxie site was designed following a User Experience Design process which established a set of goals for the core user groups, the minimum viable product to achieve these goals and future development potential. 
+The scope set out the required pages and content based on several developed user stories.
+An initial site structure was outlined and with a proposed future expansion as content and coverage increased. 
+Wireframes provided a means of limiting mission creep and making key decisions prior to the commencement of coding.
+Colour schemes, font types and icons were all researched and in advance and a colour palette and template font-family code added to the initial styles.css file for ease of use and consitency. 
 
+A review meeting refined the initial plan, scaling back the number of pages by combining several in singular pages, and the colour palette and fonts were revised to ensure visual contrast and readibility. 
 ### Strategy
 
 ### Scope
