@@ -9,7 +9,7 @@ ul {
 }
 
 /* ------------------------------------------Colours*/
-.none {
+.color-palette {
   color: #8e24ae; /*Primary*/
   color: #c159e1; /*Primary Light*/
   color: #5c007e; /*Primary Dark*/
@@ -20,6 +20,7 @@ ul {
   color: #324749; /*Secondary Text*/
 }
 
+/*Primary*/
 .navigation,
 .dropdown-menu,
 .footer,
@@ -27,6 +28,7 @@ ul {
   background-color: #8e24ae;
 }
 
+/*Primary Text*/
 .strapline,
 .navbar-dark .navbar-nav .nav-link,
 .dropdown-item,
@@ -36,10 +38,16 @@ ul {
 .modal-header,
 .scroll-control a i:hover,
 .content-b,
-.sub-link {
+.sub-link,
+.event-a,
+.place-a,
+.how-to-item-a,
+.training-tips-item-a,
+.modal-content {
   color: #fbffe2;
 }
 
+/*Primary Dark*/
 .navbar-item:hover,
 .navbar-nav .active,
 .content-b,
@@ -47,25 +55,28 @@ ul {
   background-color: #5c007e;
 }
 
+/*Secondary*/
 .navbar-dark .navbar-nav .nav-link:hover,
 .content-b a,
 .content-a a  {
   color: #99fcff;
 }
 
+/*Secondary Text*/
 .content-a,
 .scroll-control a i {
   color: #324749;
-}
-
-.scroll-control a:hover {
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .divider {
   background-color: #324749;
 }
 
+.scroll-control a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*Secondary Dark*/
 .content-b a:hover,
 .content-a a:hover,
 .footer a:hover,
