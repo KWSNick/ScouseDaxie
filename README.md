@@ -68,6 +68,30 @@ The scope of the project was to initially create a fun, catchy, visually appeall
 At this stage user interactivty must be provided by external social media. 
 The aim was to build a site which focuses on satifying the **General Consumers** and **The Businesses** goals on the premise that establishing these will contribute towards brand appeal with the **3rd Party Business** user group and assist in achieving this groups goals.
 
+The scope identified the following as required content:
+* Homepage.
+    * Introduction to brand and purpose.
+    * Highlight key content.
+* Dog-Friendly venues page.
+    * Immediate content with value to **General Consumers**.
+    * Links to **3rd Party Businesses** eventually attracting collaboration.
+    * Provide advice to **3rd Party Businesses** on how to qualify for inclusion.
+* Training Tips Page.
+    * Training advice is always sought by **General Consumers**. The inclusion of this content will increase traffic on the site. 
+    * Providing professional training reccomendations again provides buy-in for **3rd Party Businesses**.
+* Events page. 
+    * Builds community.
+    * Encourages interaction and repeat engagement. 
+    * Promotion through word-of-mouth. 
+
+User stories were created for representatives of each core user group. 
+
+User | Story
+-----|-------
+The Business | [The Businesses User Story](assets/docs/the_business_user_story.pdf)
+General Consumer | [The General Consumer User Story](assets/docs/general_consumer_user_story.pdf)
+3rd Party Businesses | [3rd Party Businesses User Story](assets/docs/3rd_party_business_user_story.pdf)
+
 ### Structure
 
 ### Skeleton
