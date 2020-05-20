@@ -38,7 +38,9 @@ ul {
 }
 
 .navbar-item:hover,
-.navbar-nav .active {
+.navbar-nav .active,
+.content-b,
+.sub-link {
   background-color: #5c007e;
 }
 
@@ -65,7 +67,6 @@ ul {
 
 .content-b,
 .sub-link {
-  background-color: #5c007e;
   color: #fbffe2;
 }
 
