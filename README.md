@@ -52,7 +52,7 @@ The following Users were identified and their goals established:
 * Diversify
 * Potentially enter e-commerce via a 3rd party (i.e. the site). 
 
-#### Minimum Viable product
+#### Minimum Viable Product
 The mimimum product required to achieve the majority of the above goals was defined as requiring:
 
 * A regular events calendar
@@ -60,7 +60,7 @@ The mimimum product required to achieve the majority of the above goals was defi
 * Non-interactive training and training provider advice.
 * Links to established social media pages to provide interactivity.
 
-An Opportunity Importance vs Feasibility assessment was carried out: [Opportunity Assessment PDF](opportunity_assessment.pdf)
+An Opportunity Importance vs Feasibility assessment was carried out: [Opportunity Assessment PDF](assets/docs/opportunity_assessment.pdf)
 
 ### Scope
 
