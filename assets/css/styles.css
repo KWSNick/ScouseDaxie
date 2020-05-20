@@ -22,7 +22,8 @@ ul {
 
 .navigation,
 .dropdown-menu,
-.footer {
+.footer,
+.modal-header {
   background-color: #8e24ae;
 }
 
@@ -31,7 +32,8 @@ ul {
 .dropdown-item,
 .hero-tron,
 .footer,
-.footer a {
+.footer a,
+.modal-header {
   color: #fbffe2;
 }
 
@@ -134,8 +136,7 @@ ul {
 }
 
 .event-desc-b .btn-secondary,
-.venue-weblink-b .btn-secondary,
-.modal-header {
+.venue-weblink-b .btn-secondary {
   background-color: #8e24ae;
   color: #fbffe2;
 }
