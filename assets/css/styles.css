@@ -33,7 +33,8 @@ ul {
 .hero-tron,
 .footer,
 .footer a,
-.modal-header {
+.modal-header,
+.scroll-control a i:hover {
   color: #fbffe2;
 }
 
@@ -57,7 +58,7 @@ ul {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.scroll-control a i:hover {
+ {
   color: #fbffe2;
 }
 
