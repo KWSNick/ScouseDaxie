@@ -37,16 +37,13 @@ ul {
   color: #fbffe2;
 }
 
-.navbar-item:hover {
+.navbar-item:hover,
+.navbar-nav .active {
   background-color: #5c007e;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #99fcff;
-}
-
-.navbar-nav .active {
-  background-color: #5c007e;
 }
 
 .content-a,
