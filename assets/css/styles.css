@@ -298,8 +298,7 @@ h5 {
   margin-bottom: 1vh;
 }
 
-.event-summary-item-header,
-.place-item-header,
+.card-item-header,
 .how-to-item-text h5,
 .training-tips-text h5 {
   text-transform: uppercase;
