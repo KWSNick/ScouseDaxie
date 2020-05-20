@@ -60,7 +60,7 @@ The mimimum product required to achieve the majority of the above goals was defi
 * Non-interactive training and training provider advice.
 * Links to established social media pages to provide interactivity.
 
-An Opportunity Importance vs Feasibility assessment was carried out: [Opportunity Assessment PDF](assets/docs/opportunity_assessment.pdf)
+An Opportunity Importance vs Feasibility assessment was carried out: [Opportunity Assessment PDF](opportunity_assessment.pdf)
 
 ### Scope
 
