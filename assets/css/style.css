@@ -301,6 +301,10 @@ h5 {
   margin-bottom: 1vh;
 }
 
+.image-circle-container {
+    margin: 6vh 0;
+}
+
 .image-circle-container img {
   border-radius: 50%;
   height: 20vh;
