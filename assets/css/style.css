@@ -96,15 +96,6 @@ ul {
   background-color: #c159e1;
 }
 
-/*Card B overriders Primary Color Palette*/
-.card-b a {
-  color: #8e24ae;
-}
-
-.card-b a:hover {
-  color: #5c007e;
-}
-
 /*Button*/
 .btn-secondary,
 .content-a .btn-secondary,
