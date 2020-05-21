@@ -330,11 +330,11 @@ h5 {
 }
 
 #back-to-top {
-  width: 10vw;
-  height: 10vw;
+  width: 8vw;
+  height: 8vw;
   border: none;
   border-radius: 50%;
-  font-size: 6.6vw;
+  font-size: 5.2vw;
   margin: 0 1.3vw 1.3vw 0;
   padding: 0;
   position: fixed;
