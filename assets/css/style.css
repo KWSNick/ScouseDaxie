@@ -464,9 +464,9 @@ h5 {
 
 /* ------------------------------------------Footer*/
 
-.footer-right,
-.footer-right small strong,
-.footer-right small a {
+.footer-left,
+.footer-left small strong,
+.footer-left small a {
   font-size: 1.3vw;
 }
 
@@ -476,7 +476,7 @@ h5 {
   text-align: center;
 }
 
-.footer-right {
+.footer-left {
   margin: auto 0;
 }
 
