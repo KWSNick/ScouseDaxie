@@ -119,14 +119,12 @@ ul {
   background-color: #324749;
 }
 
-.event-desc-b .btn-secondary,
-.venue-weblink-b .btn-secondary {
+.event-desc-b .btn-secondary {
   background-color: #8e24ae;
   color: #fbffe2;
 }
 
-.event-desc-b .btn-secondary:hover,
-.venue-weblink-b .btn-secondary:hover {
+.event-desc-b .btn-secondary:hover {
   background-color: #5c007e;
   color: #99fcff;
 }
