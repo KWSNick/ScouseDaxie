@@ -552,6 +552,10 @@ h5 {
 
 /* -------------------------------Extra-Large Viewport*/
 @media (min-width: 1200px) {
+  #logo {
+    width: 15vw;
+  }
+  
   .navbar-dark .navbar-nav .nav-link {
     font-size: 2vw;
     padding-top: 3vw;
