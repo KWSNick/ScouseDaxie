@@ -559,6 +559,10 @@ h5 {
   .strapline {
   font-size: 1.6vw;
 }
+
+.navbar-item {
+    height: 10vw;
+  }
   
   .navbar-dark .navbar-nav .nav-link {
     font-size: 2vw;
