@@ -53,6 +53,7 @@ ul {
 .navbar-item:hover,
 .navbar-nav .active,
 .sub-link,
+.card-b,
 #training-intro a {
   background-color: #5c007e;
 }
@@ -93,11 +94,6 @@ ul {
 .how-to-item-a,
 .training-tips-item-a {
   background-color: #c159e1;
-}
-
-/*Secondary Light*/
-.card-b {
-  background-color: #ceffff;
 }
 
 /*Card B overriders Primary Color Palette*/
