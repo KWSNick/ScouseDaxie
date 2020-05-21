@@ -531,6 +531,7 @@ h5 {
   }
   .footer-left {
     text-align: left;
+    padding-left: 1vh !important;
   }
   .card-scroll-y-container {
     height: 460px;
@@ -587,13 +588,6 @@ h5 {
 
   .social-link i {
     font-size: 3.5vw;
-  }
-  .footer-right {
-    text-align: right;
-    padding-right: 1vh !important;
-  }
-  .footer-left {
-    text-align: left;
   }
   .footer-left,
 .footer-left small strong,
