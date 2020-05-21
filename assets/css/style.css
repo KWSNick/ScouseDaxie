@@ -504,6 +504,10 @@ h5 {
     height: 10vw;
   }
 
+  #logo {
+    width: 20vw;
+  }
+
   .jumbotron-fluid {
     padding-top: 1.5vh;
   }
@@ -530,10 +534,6 @@ h5 {
 @media (min-width: 992px) {
   h1 {
     font-size: 2.4vw;
-  }
-
-  #logo {
-    width: 20vw;
   }
 
   .navbar-dark .navbar-nav .nav-link {
