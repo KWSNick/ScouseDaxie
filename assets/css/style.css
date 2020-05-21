@@ -54,9 +54,13 @@ ul {
 .navbar-item:hover,
 .navbar-nav .active,
 .sub-link,
-.card-b,
-#training-intro a {
+.card-b {
   background-color: #5c007e;
+}
+
+/*Alternative Link*/
+#training-intro a {
+    color: #5c007e;
 }
 
 /*Secondary*/
@@ -395,6 +399,10 @@ h5 {
 .how-to-item-text p,
 .training-tips-text p {
   padding: 0 2vh;
+}
+
+#training-intro a {
+    text-decoration: underline;
 }
 
 .training-tips-video iframe {
