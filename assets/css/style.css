@@ -536,14 +536,6 @@ h5 {
     font-size: 2.4vw;
   }
 
-  .navbar-dark .navbar-nav .nav-link {
-    font-size: 2vw;
-    padding-top: 3vw;
-  }
-
-  .navbar-item a i {
-    font-size: 2vw;
-  }
   .training-tips-video iframe {
     width: 30vw;
     height: 18.3vw;
@@ -552,6 +544,15 @@ h5 {
 
 /* -------------------------------Extra-Large Viewport*/
 @media (min-width: 1200px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 2vw;
+    padding-top: 3vw;
+  }
+
+  .navbar-item a i {
+    font-size: 2vw;
+  }
+  
   .footer-right,
   .footer-right small strong,
   .footer-right small a {
