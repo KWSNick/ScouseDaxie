@@ -136,21 +136,27 @@ In some instances the wireframe plan was deviated from in order to achieve a bet
 
 ### Surface
 
-The site is intended primarily for the leisure and hospitality market and the colour and themes are improtant in setting the correct tone.
+The site is intended primarily for the leisure and hospitality market. The colour and themes were important in setting the correct tone.
 It was also identified that the geographic location could be represented by colour, text or imagery iconography.
 
-As a site focusing geographically on Liverpool and Merseyside a palette focused around purple was chosen. This tactfully avoids red or blue colours which are synonymous with the cities major football team and prevents any unintential bias for the Scouse Daxie brand.
-This primary colour also ties in nicely with one of the cities other promient features, its wheelie bins, which were colours purple as balance between both red and blue in order to avoid the same potential conflict.
+As a site focusing geographically on Liverpool and Merseyside a palette focused around purple was chosen. This tactfully avoids red or blue colours which are synonymous with the cities major football teams and prevents any unintential bias or division for the Scouse Daxie brand.
+This primary colour also ties in nicely with one of the cities other promient features, its wheelie bins, which were coloured purple by the city council as balance between both red and blue in order to avoid the same potential conflict.
 
-An initial colour palette was discussed at the planning meeting and enhanced with the use of Material Design's color tool which assists in the identification of complimentary shades and contrasting secondary and text colours.
+An initial colour palette was discussed at the planning meeting and enhanced with the use of Material Design's Color Tool which assists in the identification of complimentary shades and contrasting secondary and text colours.
 
 ![Material Design Color Palette](assets/images/color_palette.png)
 
-A logo was created using an online tool in order to utilise decorative cursive fonts provided by Google without impacting page load time. The Monoton and Monofett fonts were identifed as the provided a conteporary styling which was bold and readable, which fits in well with Liverpools urban scene.
+A logo was created using an online tool in order to utilise decorative cursive fonts provided by Google without impacting page load time. The Monoton and Monofett fonts were identifed as the provided a conteporary styling which was bold and readable, whilst fitting in well with Liverpool's urban scene.
 
-A further cursive font was utilised sparingly for the navigation links in the header bar and the strapline/subtitle in order to not overwhelm the user with intricate font faces whilst maintaining a fun and casual feel.
+![Scouse Daxie Logo](assets/images/object_logo.png)
 
-A slightly more formal, but interesting sans-serif Google Font was used for all remaining text ot ensure legibility and maximum effectiveness of conveying the sites content.
+A further cursive font, Londrina Solid, was utilised sparingly for the navigation links in the header bar and the strapline/subtitle in order to not overwhelm the user with intricate font faces whilst maintaining a fun and casual feel.
+
+![Londrina Solid Font](assets/images/londrina_solid.PNG)
+
+A slightly more formal, but interesting sans-serif derived Google Font, Rubik, was used for all remaining text to ensure legibility and maximum effectiveness of conveying the sites content.
+
+![Rubik Font](assets/images/rubik.PNG)
 
 Across the site and its pages it was critical to ensure consitency with styling of all elements including text, headers, buttons and media. This ensures maximum potential for user understanding and learning.
 
@@ -166,19 +172,40 @@ Where possible the use of absolute units has been avoided in preference for rela
 
 ### Existing Features
 
+| Feature                         | The Business                                                                                                    | General Consumer                                                                                         | 3rd Party Businesses                                                                               |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Subscribe to Newsletter Form    | Collect contact information. Direct promotions. Build up user base.                                             | Keep up-to-date with latest information. Inclusion.                                                      | Promote their services or products to an opt in audience.                                          |
+| Homepage Introductory Text      | Sets the purpose of the site and brand and targets intended users                                               | Makes a decision on whether the site is useful to them. Understands its purpose.                         | Makes a decision on whether the site is useful to them. Understands its purpose.                   |
+| Homepage Upcoming Events        | Promote that there are lots more events.                                                                        | Become aware of events. Access events for sign up on social media. Access more events.                   | Sees the potential for hosting/supporting/attending future events.                                 |
+| Footer Social Media Links       | Provides interactivity to users.                                                                                | More familiar interface to become familiar with the brand. Interacts with the brand and each other.      | Becomes aware of the size of the userbase through their interactions.                              |
+| Dogs Allowed Venue Map          | Presents geospatial information in an intuitive way.                                                            | Recieves content in a familiar format. Able to interpret quickly to apply to their own needs.            | Awareness of competition. Awareness of value of this as a promotional tool. Fear of Missing Out.   |
+| Dogs Allowed Venue Cards        | Produces micro-review and opinion content to inform consumers and attract new 3rd party business collaboration. | Provided further information on venue specifics other than location.                                     | Provided information on competitors advantages and disadvantages. Potential promotion opportunity. |
+| How to be Dog Friendly Cards    | Actively targets the 3rd Party Business users to try and include them and provide value for this user group.    | Provides a benchmark to privately assess venues. Potential mouth-to-mouth marketing between user groups. | Receives advice. See's value in the sites content. Works to a standard. Works with the brand.      |
+| Training Tips (Video and Steps) | Recieves greater site traffic.                                                                                  | More likely to come across site. Is provided with practical information. May refer content to a friend.  | May see value in collaboration. Preceives value in site traffic.                                   |
+| Training Recommendations Map    | Presents geospatial information in an intuitive way.                                                            | Recieves content in a familiar format. Able to interpret quickly to apply to their own needs.            | Awareness of competition. Awareness of value of this as a promotional tool. Fear of Missing Out.   |
+| Dogs Allowed Venue Cards        | Produces micro-review and opinion content to inform consumers and attract new 3rd party business collaboration. | Provided further information on venue specifics other than location.                                     | Provided information on competitors advantages and disadvantages. Potential promotion opportunity. |
+| Events Cards                    | Promotes organised events and encourages user engagement. Sets the tone of the brand. Promotes user interaction | Attends events. Meets like-minded people. Potentially recommends site to others.                         | Perceives value of the site and brand. Collaborates on events.                                     |
+
+### Minor Improvements
+
+- Tooltips would be advantageous on venue icons to improve user understanding.
+
+- The events carousel at large breakpoints could be improved to allow a greater number of events to be posted. Currently it is limited to 12 due to the toggle buttons linking to the start and end of the overflowed container, with only 6 events displayed on the page at any one time.
+
+- The down caret icons added to all collapsing toggles could be made to switch to up carets when the collapsed item is open.
+
+- The map locations could link to the relevant cards and vice-versa.
+
+- Collapsable sections could better control related collapsable sections i.e. only one open at once, or an entire row opens and closes at the same time.
+
 ### Future Features
 
-Tooltips on venue icons.
-
-Subscribe form functionality.
-
-- Event sign-up on site
-  - Replace social media signup
-- Product review/advice
-- On site store for products
-- Site Gallery
-  - User photo/video upload
-  - Requires administrator review/approval
+| Feature                    | The Business                                                                                         | General Consumer                                                      | 3rd Party Businesses                                 |
+| -------------------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------- |
+| Event sign-up on site      | Reduces reliance on external providers. Keeps users on the businesses platform and near its content. | More streamlined user experience.                                     | More professional perception of brand and site.      |
+| Product review/advice      | Expands potential user base for consumers and 3rd party businesses.                                  | More content to consume. More frequent and longer visits to the site. | A new platform to promote their products.            |
+| On site store for products | Provides a revenue stream and further user base expansion.                                           | Source for content relevant products.                                 | A platform to collaborate and use. Also a competitor |
+| Site Gallery               | Enhances user interaction and provides crowd-sourced, self-sustaining content.                       | More streamlined user experience. Added site value.                   | Increase value perception of the brand and site.     |
 
 ## Technologies Used
 
