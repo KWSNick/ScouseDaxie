@@ -9,150 +9,156 @@ Whist the site currently heavily relies upon existing social media platforms for
 The site can expand to include additional content for other dog breeds in the geographic area and also expand to other locations in the future. By narrowing the target audience initially it allows bespoke, attractive content and a managable scope. Choosing a popular breed increases the interest in the content and initial user pick-up.
 
 ## UX Design
-The Scouse Daxie site was designed following a User Experience Design process which established a set of goals for the core user groups, the minimum viable product to achieve these goals and future development potential. 
-The scope set out the required pages and content based on several developed user stories.
-An initial site structure was outlined and with a proposed future expansion as content and coverage increased. 
-Wireframes provided a means of limiting mission creep and making key decisions prior to the commencement of coding.
-Colour schemes, font types and icons were all researched and in advance and a colour palette and template font-family code added to the initial styles.css file for ease of use and consitency. 
 
-A review meeting refined the initial plan, scaling back the number of pages by combining several in singular pages, and the colour palette and fonts were revised to ensure visual contrast and readibility. The use of free logo making utilies was also advised to reduce the number of utilised fonts.
+The Scouse Daxie site was designed following a User Experience Design planning process which established a set of goals for the core user groups, the minimum viable product to achieve these goals and future development potential.
+The scope set out the required pages and content based on several developed user stories.
+An initial site structure was outlined and a future expansion proposed as content and coverage increased.
+Wireframes provided a means of limiting mission creep and making key decisions prior to the commencement of coding.
+Colour schemes, font types and icons were all researched and in advance and a colour palette and template font-family code added to the initial styles.css file for ease of use and consitency.
+
+A review meeting refined the initial plan, scaling back the number of pages by combining several sub-pages into their parent pages, and the colour palette and fonts were revised to ensure visual contrast and readibility. The use of free logo making utilies was also advised to reduce the number of utilised fonts.
+
 ### Strategy
+
 The following Users were identified and their goals established:
 
 #### The Business
 
-* Establish a go-to brand for the Dachshund Owners in Liverpool (UK).
-    * First port of call for owners looking for advice on caring for their dogs, training, behaviour, most appropriate items for the breed i.e. harnesses, collars, jackets etc.
-* Build a network of users who “crowd-source” potential future site content i.e. new advice or tips.
-* Highlight the popularity of dog-friendly venues in Liverpool to encourage more venues to become dog friendly.
-* Work with venues to advise on top tips for becoming dog friendly.
-* Encourage venues to advertise on the site (potential revenue).
-* Encourage manufacturers/suppliers to advertise products on site (potential revenue).
-* Launch regular free events such as group walks, playdates and meetups.
-    * This could eventually lead to paid/ticketed events (potential revenue).
+- Establish a go-to brand for the Dachshund Owners in Liverpool (UK).
+  - First port of call for owners looking for advice on caring for their dogs, training, behaviour, most appropriate items for the breed i.e. harnesses, collars, jackets etc.
+- Build a network of users who “crowd-source” potential future site content i.e. new advice or tips.
+- Highlight the popularity of dog-friendly venues in Liverpool to encourage more venues to become dog friendly.
+- Work with venues to advise on top tips for becoming dog friendly.
+- Encourage venues to advertise on the site (potential revenue).
+- Encourage manufacturers/suppliers to advertise products on site (potential revenue).
+- Launch regular free events such as group walks, playdates and meetups.
+  - This could eventually lead to paid/ticketed events (potential revenue).
 
 #### General Consumers
 
-* Receive sound advice and provide best possible care for their dog(s).
-* Recommendations on products. 
-* Confidence in attending venues with the knowledge it caters for dogs well. 
-* Socialisation of both the owners and their dogs. 
-    * Remotely (via social media)
-    * Physically (walks, events)
-* Show off their pride and joy
-    * Image/video sharing
-* Show of their knowledge
-    * User to user interaction. 
+- Receive sound advice and provide best possible care for their dog(s).
+- Recommendations on products.
+- Confidence in attending venues with the knowledge it caters for dogs well.
+- Socialisation of both the owners and their dogs.
+  - Remotely (via social media)
+  - Physically (walks, events)
+- Show off their pride and joy
+  - Image/video sharing
+- Show of their knowledge
+  - User to user interaction.
 
 #### Other 3rd Party businesses
 
-* Increase revenue
-* Create repeat custom
-* Reach specific target market
-* Diversify
-* Potentially enter e-commerce via a 3rd party (i.e. the site). 
+- Increase revenue
+- Create repeat custom
+- Reach specific target market
+- Diversify
+- Potentially enter e-commerce via a 3rd party (i.e. the site).
 
 #### Minimum Viable Product
+
 The mimimum product required to achieve the majority of the above goals was defined as requiring:
 
-* A regular events calendar
-* Non-interactive "dog-friendly" venue guidance.
-* Non-interactive training and training provider advice.
-* Links to established social media pages to provide interactivity.
+- A regular events calendar
+- Non-interactive "dog-friendly" venue guidance.
+- Non-interactive training and training provider advice.
+- Links to established social media pages to provide interactivity.
 
 An Opportunity Importance vs Feasibility assessment was carried out: [Opportunity Assessment PDF](assets/docs/opportunity_assessment.pdf)
 
 ### Scope
 
-The scope of the project was to initially create a fun, catchy, visually appealling site and establish brand recognition. Written content was to be kept minimal and of value to the user. 
-At this stage user interactivty must be provided by external social media. 
-The aim was to build a site which focuses on satifying the **General Consumers** and **The Businesses** goals on the premise that establishing these will contribute towards brand appeal with the **3rd Party Business** user group and assist in achieving this groups goals.
+The scope of the project was to initially create a fun, catchy, visually appealling site and establish brand recognition. Written content was to be kept minimal and of value to the user.
+At this stage user interactivty must be provided by external social media in order to ensure a swift roll-out.
+The aim was to build a site which focuses on satifying the **General Consumers** and **The Businesses** goals on the premise that establishing these will contribute towards brand appeal with the **3rd Party Business** user group and assist in achieving this groups goals in the near future.
 
 The scope identified the following as required content:
-* Homepage.
-    * Introduction to brand and purpose.
-    * Highlight key content.
-* Dog-Friendly venues page.
-    * Immediate content with value to **General Consumers**.
-    * Links to **3rd Party Businesses** eventually attracting collaboration.
-    * Provide advice to **3rd Party Businesses** on how to qualify for inclusion.
-* Training Tips Page.
-    * Training advice is always sought by **General Consumers**. The inclusion of this content will increase traffic on the site. 
-    * Providing professional training reccomendations again provides buy-in for **3rd Party Businesses**.
-* Events page. 
-    * Builds community.
-    * Encourages interaction and repeat engagement. 
-    * Promotion through word-of-mouth. 
 
-User stories were created for representatives of each core user group. 
+- Homepage.
+  - Introduction to brand and purpose.
+  - Highlight key content.
+- Dog-Friendly venues page.
+  - Immediate content with value to **General Consumers**.
+  - Links to **3rd Party Businesses** eventually attracting collaboration.
+  - Provide advice to **3rd Party Businesses** on how to qualify for inclusion.
+- Training Tips Page.
+  - Training advice is always sought by **General Consumers**. The inclusion of this content will promote initial traffic on the site.
+  - Providing professional training recommendations again provides buy-in for **3rd Party Businesses**.
+- Events page.
+  - Builds community.
+  - Encourages interaction and repeat engagement.
+  - Promotion through word-of-mouth.
 
-User | Story
------|-------
-The Business | [The Businesses User Story](assets/docs/the_business_user_story.pdf)
-General Consumer | [The General Consumer User Story](assets/docs/general_consumer_user_story.pdf)
-3rd Party Businesses | [3rd Party Businesses User Story](assets/docs/3rd_party_business_user_story.pdf)
+User stories were created for representatives of each core user group.
+
+| User                 | Story                                                                            |
+| -------------------- | -------------------------------------------------------------------------------- |
+| The Business         | [The Businesses User Story](assets/docs/the_business_user_story.pdf)             |
+| General Consumer     | [The General Consumer User Story](assets/docs/general_consumer_user_story.pdf)   |
+| 3rd Party Businesses | [3rd Party Businesses User Story](assets/docs/3rd_party_business_user_story.pdf) |
 
 ### Structure
-As an unestablished brand it is critical that the structure provide an intuitive, rewarding and positive user experience. 
-All users will be unfamiliar with the site and if navigating it proves difficult the user is unlikely to return. 
 
-The header and footer will be common across all pages to improve familiarity across the site. 
+As an unestablished brand it is critical that the structure provide an intuitive, rewarding and positive user experience.
+All users will be unfamiliar with the site and if navigating it proves difficult or the experience is unrewarding or negative then the user is unlikely to return.
 
-The inital navigation structure was planned in a simple tree, minimising the number of clicks for the user. All pages are accessible from all other pages thanks to the common header and footer. 
+The header and footer will be common across all pages to improve familiarity across the site.
+
+The inital navigation structure was planned in a simple tree, minimising the number of clicks for the user. All pages are accessible from all other pages thanks to the common header and footer.
 
 ![Planned Site Structure](assets/images/planned_structure.PNG)
 
 This was revised following the initial planning meeting to further reduce the site complexity by merging the sub-pages into their parent pages i.e. "How to become a dog friendly venue" content is present on the "Dog Friendly" page.
 
-A possible future structure was also proposed should business goals be achieved and the scope of the brand, the site and its content expands. 
+A possible future structure was also proposed should business goals be achieved and the scope of the brand, the site and its content expands.
 
-The purpose of the revised structure would be to reduce the reliance on external social media platforms and increase the potential user base by expanding across different dog breeds and different geographic locations. 
+The purpose of the revised structure would be to reduce the reliance on external social media platforms and increase the potential user base by expanding across different dog breeds and different geographic locations.
 
-As an aside this is the justification for the inclusion of a strapline or sub-heading, as this would form the overarching brand as currently the main brand is both geographically and breed constrained. 
+As an aside this is the justification for the inclusion of a strapline or sub-heading, as this would form the overarching brand as currently the main brand is both geographically and breed constrained.
 
 ![Planned Site Structure](assets/images/future_structure.PNG)
 
-The expanded structure would segregate geographic content, and breed specific content within that and add in common features such as an online store. 
+The expanded structure would segregate geographic content, and breed specific content within that and add in common features such as an online store.
 
 ### Skeleton
 
-A modern site must be responsive across multiple device sizes as consumers digest content in a vairety of methods in a multitude of locations. 
+A modern site must be responsive across multiple device sizes as consumers digest content in a vairety of methods in a multitude of locations.
 
-As the site is intended for casual and leisure use it is also likely that the content will be first encountered on a mobile device. 
+As the site is intended for casual and leisure use it is also likely that the content will be first encountered on a mobile device.
 
-It is therefore prudent to utilise a mobile first approach and Bootstrap provides such a framework that is also highly responsive. Bootstrap was used to achieve the skeleton objectives towards the identified users. 
+It is therefore prudent to utilise a mobile first approach and Bootstrap provides such a framework that is also highly responsive. Bootstrap was used to achieve the skeleton objectives towards the identified users.
 
-Wireframes were constructed in Basamiq Wireframe 4 in order to provide a design brief for the project, maximise coding productivity and minimise mission creep. 
+Wireframes were constructed in Basamiq Wireframe 4 in order to provide a design brief for the project, maximise coding productivity and minimise mission creep.
 
-In some instances the wireframe plan was deviated from in order to achieve a better asthetic and user experience not forseen in the wireframe design phase. 
+In some instances the wireframe plan was deviated from in order to achieve a better asthetic and user experience not forseen in the wireframe design phase.
 
-[Post Production Wireframe Analysis](#.pdf) provides an overview of the planned wireframes and deviations found in the final product if applicable. 
+[Post Production Wireframe Analysis](wireframes.pdf) provides an overview of the planned wireframes and deviations found in the final product if applicable.
 
 ### Surface
 
 The site is intended primarily for the leisure and hospitality market and the colour and themes are improtant in setting the correct tone.
-It was also identified that the geographic location could be represented by colour, text or imagery iconography. 
+It was also identified that the geographic location could be represented by colour, text or imagery iconography.
 
-As a site focusing geographically on Liverpool and Merseyside a palette focused around purple was chosen. This tactfully avoids red or blue colours which are synonymous with the cities major football team and prevents any unintential bias for the Scouse Daxie brand. 
+As a site focusing geographically on Liverpool and Merseyside a palette focused around purple was chosen. This tactfully avoids red or blue colours which are synonymous with the cities major football team and prevents any unintential bias for the Scouse Daxie brand.
 This primary colour also ties in nicely with one of the cities other promient features, its wheelie bins, which were colours purple as balance between both red and blue in order to avoid the same potential conflict.
 
-An initial colour palette was discussed at the planning meeting and enhanced with the use of Material Design's color tool which assists in the identification of complimentary shades and contrasting secondary and text colours. 
+An initial colour palette was discussed at the planning meeting and enhanced with the use of Material Design's color tool which assists in the identification of complimentary shades and contrasting secondary and text colours.
 
 ![Material Design Color Palette](assets/images/color_palette.png)
 
-A logo was created using an online tool in order to utilise decorative cursive fonts provided by Google without impacting page load time. The Monoton and Monofett fonts were identifed as the provided a conteporary styling which was bold and readable, which fits in well with Liverpools urban scene. 
+A logo was created using an online tool in order to utilise decorative cursive fonts provided by Google without impacting page load time. The Monoton and Monofett fonts were identifed as the provided a conteporary styling which was bold and readable, which fits in well with Liverpools urban scene.
 
 A further cursive font was utilised sparingly for the navigation links in the header bar and the strapline/subtitle in order to not overwhelm the user with intricate font faces whilst maintaining a fun and casual feel.
 
-A slightly more formal, but interesting sans-serif Google Font was used for all remaining text ot ensure legibility and maximum effectiveness of conveying the sites content. 
+A slightly more formal, but interesting sans-serif Google Font was used for all remaining text ot ensure legibility and maximum effectiveness of conveying the sites content.
 
-Across the site and its pages it was critical to ensure consitency with styling of all elements including text, headers, buttons and media. This ensures maximum potential for user understanding and learning. 
+Across the site and its pages it was critical to ensure consitency with styling of all elements including text, headers, buttons and media. This ensures maximum potential for user understanding and learning.
 
 Where praticable icons from Font Awesome were used to convey and enhance the intended message to the user.
 
-All media utilised on the site is original in its source in part to avoid potential copyright infingement but also to promote the use of unique user-driven content on site in the future. 
+All media utilised on the site is original in its source in part to avoid potential copyright infingement but also to promote the use of unique user-driven content on site in the future.
 
-Google Maps were used to enhance the sites geographical importance. 
+Google Maps were used to enhance the sites geographical importance.
 
 Where possible the use of absolute units has been avoided in preference for relative units. This is to ensure maximum site responsiveness.
 
@@ -164,16 +170,15 @@ Where possible the use of absolute units has been avoided in preference for rela
 
 Tooltips on venue icons.
 
-Subscribe form functionality. 
+Subscribe form functionality.
 
-* Event sign-up on site
-    * Replace social media signup
-* Product review/advice
-* On site store for products
-* Site Gallery
-    * User photo/video upload
-    * Requires administrator review/approval
-
+- Event sign-up on site
+  - Replace social media signup
+- Product review/advice
+- On site store for products
+- Site Gallery
+  - User photo/video upload
+  - Requires administrator review/approval
 
 ## Technologies Used
 
