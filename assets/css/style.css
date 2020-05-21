@@ -508,6 +508,14 @@ h5 {
     width: 20vw;
   }
 
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 3vw;
+  }
+
+  .navbar-item a i {
+    font-size: 4vw;
+  }
+
   .jumbotron-fluid {
     padding-top: 1.5vh;
   }
