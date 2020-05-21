@@ -590,8 +590,8 @@ h5 {
     font-size: 3.5vw;
   }
   .footer-left,
-.footer-left small strong,
-.footer-left small a {
-  font-size: 1vw;
-}
+  .footer-left small strong,
+  .footer-left small a {
+    font-size: 1vw;
+  }
 }
