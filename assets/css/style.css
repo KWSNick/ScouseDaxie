@@ -495,6 +495,11 @@ h5 {
 
 /* -------------------------------Medium Viewport*/
 @media (min-width: 768px) {
+  .navbar-toggler-icon {
+    width: 10vw;
+    height: 10vw;
+  }
+
   .jumbotron-fluid {
     padding-top: 1.5vh;
   }
