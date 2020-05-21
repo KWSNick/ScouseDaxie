@@ -43,7 +43,6 @@ ul {
 .card-a,
 .how-to-item-a,
 .training-tips-item-a,
-.modal-content,
 .content-a .btn-secondary:hover,
 .content-b .btn-secondary:hover {
   color: #fbffe2;
@@ -68,6 +67,7 @@ ul {
 
 /*Secondary Text*/
 .content-a,
+.modal-content,
 .scroll-control a i {
   color: #324749;
 }
@@ -91,8 +91,7 @@ ul {
 /*Primary Light*/
 .card-a,
 .how-to-item-a,
-.training-tips-item-a,
-.modal-content {
+.training-tips-item-a {
   background-color: #c159e1;
 }
 
