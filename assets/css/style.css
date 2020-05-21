@@ -555,6 +555,10 @@ h5 {
   #logo {
     width: 15vw;
   }
+
+  .strapline {
+  font-size: 1.6vw;
+}
   
   .navbar-dark .navbar-nav .nav-link {
     font-size: 2vw;
