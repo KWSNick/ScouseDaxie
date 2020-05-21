@@ -211,32 +211,20 @@ Where possible the use of absolute units has been avoided in preference for rela
 
 ### Bootstrap 4.4.1
 
-Bootstrap was used to provide a front-end component library structure and responsive design framework.
+https://getbootstrap.com/
+
+Bootstrap was used to provide a front-end component library structure and responsive design framework. It also provided some basic JavaScript functionality which did not require developer interaction. 
 
 #### License
 
-The MIT License (MIT)
+Bootstrap is released under the MIT License (MIT)
 
+A copy of this license is provided in Bootstraps GitHub Project:
+https://github.com/twbs/bootstrap/blob/v4.5.0/LICENSE 
+
+Bootstrap Copyright is as follows:
 Copyright (c) 2011-2020 Twitter, Inc.
 Copyright (c) 2011-2020 The Bootstrap Authors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
 
 ### LogoMakr
 
@@ -248,7 +236,7 @@ https://logomakr.com/getstarted/terms-conditions/
 
 ### Google Fonts
 
-Google Fonts offers open source font styling options for personal and commercial use.
+Google Fonts offers open source font styling options for personal and commercial use. 2 fonts were used within styles.css. A further 2 fonts were used within Logomakr to create the site logo. 
 
 #### License
 
@@ -256,7 +244,7 @@ The use of this product was inline with Google API's terms of service https://de
 
 ### Font Awesome 5.1.3.
 
-Font Awesome provides text based icons which can be manipulated and controlled by CSS styling.
+Font Awesome provides text based icons which can be manipulated and controlled by CSS styling. These were used throughout the site to provide visual ques to content.
 
 #### License
 
@@ -273,6 +261,46 @@ Specific maps were created in Google Maps highlighting specific groups of locati
 #### License
 
 The use of this product was inline with Google API's terms of service https://cloud.google.com/maps-platform/terms?_ga=2.160045053.1717626391.1589905262-667397718.1588149057
+
+### Adobe Photoshop Express
+
+Photoshop Express was used to compress images using its save settings functionality to reduce the file size to 25% its original size. Occasionally the dimensions were also altered within save settings and/or via the crop tool. The results of this compression were comparable with other compression services. 
+
+#### Terms of Use
+
+Photoshop Express operates under its General Terms of Use: https://www.adobe.com/legal/terms-linkfree.html 
+
+### Youtube
+
+Hosts the sites embedded videos. 
+
+#### Terms of Use
+
+Youtube is utilised under its terms: https://www.youtube.com/t/terms
+
+### Facebook
+
+Hosts the interactivity of the brand including user posts and event registration. 
+
+#### Terms of service
+
+Facebooks terms of Service can be found here: https://www.facebook.com/terms.php
+
+### Instagram
+
+Instagram is utilised by the brand to post media content. As part of Facebook it falls under Facebooks Terms.
+
+#### Terms of Use
+
+A link to Instagrams' specific terms can be found here: https://help.instagram.com/581066165581870
+
+### Twitter
+
+Twitter is used as a tool to reach potential new users and promote the brand and its ideas. 
+
+#### Terms of Service
+
+Twitters terms of service can be found here: https://twitter.com/en/tos
 
 ## Testing
 
