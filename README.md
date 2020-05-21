@@ -308,11 +308,21 @@ Am I Responsive
 
 ## Deployment
 
+The site is stored and hosted on GitHub Pages. 
+
+It consists of 1 Master branch and no other branches.
+
+The URL for the site is: https://kwsnick.github.io/ScouseDaxie/ 
+
+The URL for the GitHub Project is: https://github.com/KWSNick/ScouseDaxie 
+
+The site is designed to work on any Modern Browser, but was designed and developed specifically in Google Chrome version 81.0.4044.138.
+
 ## Credits
 
 ### Content
 
-Site content is original and developed by the author to offer an opinion and reccomendation in good faith. No liability is assumed for any user experiences outside of this website.
+Site content is original and developed by the author to offer an opinion and recommendation in good faith. No liability is assumed for any user experiences outside of this website.
 
 The content was correct to the best of the authors knowledge at the time of issue.
 
