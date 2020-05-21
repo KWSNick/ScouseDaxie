@@ -62,7 +62,7 @@ ul {
 .navbar-dark .navbar-nav .nav-link:hover,
 .content-b a,
 .content-a a,
-#back-to-top  {
+#back-to-top {
   color: #99fcff;
 }
 
@@ -147,7 +147,7 @@ ul {
 }
 
 .navbar-branding {
-    margin: 0 0 0 1vw;
+  margin: 0 0 0 1vw;
 }
 
 .navbar-brand {
@@ -435,31 +435,31 @@ h5 {
 
 /* ------------------------------------------Modal*/
 .modal-content {
-    font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .modal-header {
-    border: none;
+  border: none;
 }
 
 .modal-header h2 {
-    margin: 0;
+  margin: 0;
 }
 
 .required {
-    text-align: right;
-    font-style: italic;
+  text-align: right;
+  font-style: italic;
 }
 
 .modal-footer {
-    border: none;
-    padding-top: 0;
-    padding-bottom: 0;
+  border: none;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .subscribe-button {
-    text-align: center;
-    margin: 1rem;
+  text-align: center;
+  margin: 1rem;
 }
 
 /* ------------------------------------------Footer*/
@@ -523,6 +523,9 @@ h5 {
   .jumbotron-fluid {
     padding-top: 1.5vh;
   }
+  .social-link i {
+    font-size: 5vw;
+  }
   .footer-right {
     text-align: left;
   }
@@ -557,13 +560,13 @@ h5 {
   }
 
   .strapline {
-  font-size: 1.2vw;
-}
+    font-size: 1.2vw;
+  }
 
-.navbar-item {
+  .navbar-item {
     height: 8vw;
   }
-  
+
   .navbar-dark .navbar-nav .nav-link {
     font-size: 1.2vw;
     padding-top: 1.5vw;
@@ -572,7 +575,7 @@ h5 {
   .navbar-item a i {
     font-size: 1.8vw;
   }
-  
+
   .footer-right,
   .footer-right small strong,
   .footer-right small a {
