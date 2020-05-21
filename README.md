@@ -341,3 +341,17 @@ The logo was created by the author in logomakr online tool and is accredited as 
 Material Design's Color Tool enhanced the colour palette of the site. https://material.io/resources/color/#!/?view.left=0&view.right=0
 
 Thanks to Liverpool City Council for the foresight in overcoming the Red and Blue divide by producing Purple wheelie bins!
+
+Also a special mention to the [Code Institute](https://codeinstitute.net/) for the training and Gitpod support files required in order to complete this site. 
+
+## Contributing
+
+This project is a closed example for educational and abilty demonstration purposes. Contribution is not permitted at this time. 
+
+## Support 
+
+For queries or support contact nicholasbowley@googlemail.com.
+
+## License
+
+
