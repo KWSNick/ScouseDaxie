@@ -553,15 +553,15 @@ h5 {
 /* -------------------------------Extra-Large Viewport*/
 @media (min-width: 1200px) {
   #logo {
-    width: 15vw;
+    width: 13vw;
   }
 
   .strapline {
-  font-size: 1.6vw;
+  font-size: 1.2vw;
 }
 
 .navbar-item {
-    height: 10vw;
+    height: 8vw;
   }
   
   .navbar-dark .navbar-nav .nav-link {
