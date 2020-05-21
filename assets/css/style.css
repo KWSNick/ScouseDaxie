@@ -512,6 +512,10 @@ h5 {
     font-size: 3vw;
   }
 
+  .navbar-item {
+    height: 8vw;
+  }
+
   .navbar-item a i {
     font-size: 4vw;
   }
