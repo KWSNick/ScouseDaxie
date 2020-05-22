@@ -362,6 +362,10 @@ h5 {
   vertical-align: middle;
 }
 
+.venue-icons p {
+    margin: 0;
+}
+
 .venue-icons p i {
   margin: 0 1vw;
 }
