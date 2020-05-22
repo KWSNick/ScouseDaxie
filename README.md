@@ -328,6 +328,8 @@ The content was correct to the best of the authors knowledge at the time of issu
 
 The content was created without outside influence including but not limited to payment for advertisement or promotion and bias based upon personal relationships and experiences.
 
+A link to Wikipedia is present on the homepage. This links to an explaination of what a Lambanana is. https://en.wikipedia.org/wiki/Superlambanana 
+
 ### Media
 
 All images are originals and the property of the author and subject to copyright restrictions and limitations.
