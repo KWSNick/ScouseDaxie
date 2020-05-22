@@ -272,6 +272,10 @@ h5 {
   margin-bottom: 1vh;
 }
 
+.card-item h5 {
+    margin: 1.5vh;
+}
+
 .card-item-header,
 .how-to-item-text h5,
 .training-tips-text h5 {
