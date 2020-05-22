@@ -364,6 +364,7 @@ h5 {
 
 .venue-keywords p {
   text-transform: capitalize;
+  margin-bottom: 0;
 }
 
 .venue-weblink {
