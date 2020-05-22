@@ -431,6 +431,10 @@ h5 {
   height: 61vw;
 }
 
+.step-by-step {
+    margin-bottom: 2vh;
+}
+
 .steps-text {
   text-align: left;
 }
