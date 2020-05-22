@@ -376,7 +376,8 @@ h5 {
   padding: 1vh;
 }
 
-.venue-weblink {
+.venue-weblink,
+.venue-weblink-b {
     margin: auto;
 }
 
