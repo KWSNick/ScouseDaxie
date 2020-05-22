@@ -130,11 +130,11 @@ It is therefore prudent to utilise a mobile first approach and Bootstrap provide
 
 The following table indicates the breakpoint viewport sizes:
 
-Bootstrap Breakpoint ID | Minimum Pixel Width | Maximum Pixel Width
-------------------------|---------------------|---------------------
-XS - SM                 | 1px                 | 767px
-MD - LG                 | 768px               | 1199px
-XL                      | 1200px              | Infinite
+| Bootstrap Breakpoint ID | Minimum Pixel Width | Maximum Pixel Width |
+| ----------------------- | ------------------- | ------------------- |
+| XS - SM                 | 1px                 | 767px               |
+| MD - LG                 | 768px               | 1199px              |
+| XL                      | 1200px              | Infinite            |
 
 Wireframes were constructed in Basamiq Wireframe 4 in order to provide a design brief for the project, maximise coding productivity and minimise mission creep.
 
@@ -221,14 +221,14 @@ Where possible the use of absolute units has been avoided in preference for rela
 
 https://getbootstrap.com/
 
-Bootstrap was used to provide a front-end component library structure and responsive design framework. It also provided some basic JavaScript functionality which did not require developer interaction. 
+Bootstrap was used to provide a front-end component library structure and responsive design framework. It also provided some basic JavaScript functionality which did not require developer interaction.
 
 #### License
 
 Bootstrap is released under the MIT License (MIT)
 
 A copy of this license is provided in Bootstraps GitHub Project:
-https://github.com/twbs/bootstrap/blob/v4.5.0/LICENSE 
+https://github.com/twbs/bootstrap/blob/v4.5.0/LICENSE
 
 Bootstrap Copyright is as follows:
 Copyright (c) 2011-2020 Twitter, Inc.
@@ -244,7 +244,7 @@ https://logomakr.com/getstarted/terms-conditions/
 
 ### Google Fonts
 
-Google Fonts offers open source font styling options for personal and commercial use. 2 fonts were used within styles.css. A further 2 fonts were used within Logomakr to create the site logo. 
+Google Fonts offers open source font styling options for personal and commercial use. 2 fonts were used within styles.css. A further 2 fonts were used within Logomakr to create the site logo.
 
 #### License
 
@@ -272,15 +272,15 @@ The use of this product was inline with Google API's terms of service https://cl
 
 ### Adobe Photoshop Express
 
-Photoshop Express was used to compress images using its save settings functionality to reduce the file size to 25% its original size. Occasionally the dimensions were also altered within save settings and/or via the crop tool. The results of this compression were comparable with other compression services. 
+Photoshop Express was used to compress images using its save settings functionality to reduce the file size to 25% its original size. Occasionally the dimensions were also altered within save settings and/or via the crop tool. The results of this compression were comparable with other compression services.
 
 #### Terms of Use
 
-Photoshop Express operates under its General Terms of Use: https://www.adobe.com/legal/terms-linkfree.html 
+Photoshop Express operates under its General Terms of Use: https://www.adobe.com/legal/terms-linkfree.html
 
 ### Youtube
 
-Hosts the sites embedded videos. 
+Hosts the sites embedded videos.
 
 #### Terms of Use
 
@@ -288,7 +288,7 @@ Youtube is utilised under its terms: https://www.youtube.com/t/terms
 
 ### Facebook
 
-Hosts the interactivity of the brand including user posts and event registration. 
+Hosts the interactivity of the brand including user posts and event registration.
 
 #### Terms of service
 
@@ -304,7 +304,7 @@ A link to Instagrams' specific terms can be found here: https://help.instagram.c
 
 ### Twitter
 
-Twitter is used as a tool to reach potential new users and promote the brand and its ideas. 
+Twitter is used as a tool to reach potential new users and promote the brand and its ideas.
 
 #### Terms of Service
 
@@ -312,33 +312,42 @@ Twitters terms of service can be found here: https://twitter.com/en/tos
 
 ## Testing
 
-###Responsiveness 
+### Browser Compatibility
+
+The site was launched in the following browsers and functionality is confirmed.
+
+| Browser         | Version             | Comments                                                                         |
+| ----------------| --------------------| ---------------------------------------------------------------------------------|
+| Google Chrome   | 83.0.4103.61 64 bit | Fully Functional                                                                 |
+| Mozilla Firefox | 76.0.1 64-bit       | Issue with scroll control dimensions due to element being inline and not a block |
+
+###Responsiveness
 
 The site was test for responsivness using [Am I Responsive](http://ami.responsivedesign.is/), the results of which can be found here: [Responsiveness.PDF](assets/docs/responsiveness.pdf)
 
-Bootstrap Breakpoint ID | Minimum Pixel Width | Maximum Pixel Width | Correctly Rendered?
-------------------------|---------------------|---------------------| -------------------
-XS - SM                 | 1px                 | 767px               | Yes
-MD - LG                 | 768px               | 1199px              | Yes
-XL                      | 1200px              | Infinite            | Yes
+| Bootstrap Breakpoint ID | Minimum Pixel Width | Maximum Pixel Width | Correctly Rendered? |
+| ----------------------- | ------------------- | ------------------- | ------------------- |
+| XS - SM                 | 1px                 | 767px               | Yes                 |
+| MD - LG                 | 768px               | 1199px              | Yes                 |
+| XL                      | 1200px              | Infinite            | Yes                 |
 
 ### Links
 
-All internal and external links and buttons were opened whilst the site was hosted in Google Chrome on 22nd May 2020. They were checked to ensure they opened the right site or page in the correct tab, scrolled to the correct section or performed the correct action. 
+All internal and external links and buttons were opened whilst the site was hosted in Google Chrome on 22nd May 2020. They were checked to ensure they opened the right site or page in the correct tab, scrolled to the correct section or performed the correct action.
 
-3 errors were identifed during this process and rectified. 
+3 errors were identifed during this process and rectified.
 
 A final checklist of working links can be found here: [Link Tests 22nd May 2020 PDF](assets/docs/link_test.pdf)
 
 ## Deployment
 
-The site is stored and hosted on GitHub Pages. 
+The site is stored and hosted on GitHub Pages.
 
 It consists of 1 Master branch and no other branches.
 
-The URL for the site is: https://kwsnick.github.io/ScouseDaxie/ 
+The URL for the site is: https://kwsnick.github.io/ScouseDaxie/
 
-The URL for the GitHub Project is: https://github.com/KWSNick/ScouseDaxie 
+The URL for the GitHub Project is: https://github.com/KWSNick/ScouseDaxie
 
 The site is designed to work on any Modern Browser, but was designed and developed specifically in Google Chrome version 81.0.4044.138.
 
@@ -352,7 +361,7 @@ The content was correct to the best of the authors knowledge at the time of issu
 
 The content was created without outside influence including but not limited to payment for advertisement or promotion and bias based upon personal relationships and experiences.
 
-A link to Wikipedia is present on the homepage. This links to an explaination of what a Lambanana is. https://en.wikipedia.org/wiki/Superlambanana 
+A link to Wikipedia is present on the homepage. This links to an explaination of what a Lambanana is. https://en.wikipedia.org/wiki/Superlambanana
 
 ### Media
 
@@ -372,13 +381,13 @@ Thanks to Liverpool City Council for the foresight in overcoming the Red and Blu
 
 Also thank you to the [Code Institute](https://codeinstitute.net/) for the training and Gitpod support files required in order to complete this site.
 
-And a special mention to Akshat Garg who provided mentoring support and guidance throughout the project. 
+And a special mention to Akshat Garg who provided mentoring support and guidance throughout the project.
 
 ## Contributing
 
-This project is a closed example for educational and abilty demonstration purposes. Contribution is not permitted at this time. 
+This project is a closed example for educational and abilty demonstration purposes. Contribution is not permitted at this time.
 
-## Support 
+## Support
 
 For queries or support contact nicholasbowley@googlemail.com.
 
@@ -396,4 +405,4 @@ Redistribution and use in source and binary forms, with or without modification,
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-For clarity all media and textual 'print' content including but limited to images in jpeg, jpg or png format, videos in mp4 or wmv format, titles, headers and paragraphs are protected by Copyright and all rights are resevered on these items. 
+For clarity all media and textual 'print' content including but limited to images in jpeg, jpg or png format, videos in mp4 or wmv format, titles, headers and paragraphs are protected by Copyright and all rights are resevered on these items.
