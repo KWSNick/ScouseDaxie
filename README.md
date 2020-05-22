@@ -128,6 +128,14 @@ As the site is intended for casual and leisure use it is also likely that the co
 
 It is therefore prudent to utilise a mobile first approach and Bootstrap provides such a framework that is also highly responsive. Bootstrap was used to achieve the skeleton objectives towards the identified users.
 
+The following table indicates the breakpoint viewport sizes:
+
+Bootstrap Breakpoint ID | Minimum Pixel Width | Maximum Pixel Width
+------------------------|---------------------|---------------------
+XS - SM                 | 1px                 | 767px
+MD - LG                 | 768px               | 1199px
+XL                      | 1200px              | Infinite
+
 Wireframes were constructed in Basamiq Wireframe 4 in order to provide a design brief for the project, maximise coding productivity and minimise mission creep.
 
 In some instances the wireframe plan was deviated from in order to achieve a better asthetic and user experience not forseen in the wireframe design phase.
@@ -304,7 +312,21 @@ Twitters terms of service can be found here: https://twitter.com/en/tos
 
 ## Testing
 
-Am I Responsive
+###Responsiveness 
+
+The site was test for responsivness using [Am I Responsive](http://ami.responsivedesign.is/), the results of which can be found here: [Responsiveness.PDF](assets/docs/responsiveness.pdf)
+
+Bootstrap Breakpoint ID | Minimum Pixel Width | Maximum Pixel Width | Correctly Rendered?
+------------------------|---------------------|---------------------| -------------------
+XS - SM                 | 1px                 | 767px               | Yes
+MD - LG                 | 768px               | 1199px              | Yes
+XL                      | 1200px              | Infinite            | Yes
+
+### Links
+
+External open in new tab
+
+all links work
 
 ## Deployment
 
