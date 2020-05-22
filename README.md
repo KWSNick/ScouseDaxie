@@ -324,9 +324,11 @@ XL                      | 1200px              | Infinite            | Yes
 
 ### Links
 
-External open in new tab
+All internal and external links and buttons were opened whilst the site was hosted in Google Chrome on 22nd May 2020. They were checked to ensure they opened the right site or page in the correct tab, scrolled to the correct section or performed the correct action. 
 
-all links work
+3 errors were identifed during this process and rectified. 
+
+A final checklist of working links can be found here: [Link Tests 22nd May 2020 PDF](assets/docs/link_test.pdf)
 
 ## Deployment
 
