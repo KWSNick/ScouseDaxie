@@ -60,7 +60,7 @@ ul {
 
 /*Alternative Link*/
 #training-intro a {
-    color: #5c007e;
+  color: #5c007e;
 }
 
 /*Secondary*/
@@ -302,7 +302,7 @@ h5 {
 }
 
 .image-circle-container {
-    margin: 2vh 0;
+  margin: 2vh 0;
 }
 
 .image-circle-container img {
@@ -394,7 +394,7 @@ h5 {
 }
 
 #training-intro a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .training-tips-video iframe {
@@ -511,6 +511,9 @@ h5 {
   .jumbotron-fluid {
     padding-top: 1.5vh;
   }
+  #breed-info {
+    padding: 0 2vh 3vh;
+  }
   .social-link i {
     font-size: 5vw;
   }
@@ -536,6 +539,9 @@ h5 {
 
 /* -------------------------------Large Viewport*/
 @media (min-width: 992px) {
+  #breed-info {
+      padding: 0 5vh 3vh;
+  }
   .training-tips-video iframe {
     width: 30vw;
     height: 18.3vw;
