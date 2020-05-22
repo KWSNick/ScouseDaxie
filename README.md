@@ -314,16 +314,21 @@ Twitters terms of service can be found here: https://twitter.com/en/tos
 
 ### Browser Compatibility
 
-The site was launched in the following browsers and functionality is confirmed.
+Site browser compatability was tested as described in the below table:
 
-| Browser         | Version             | Comments                                                                         |
-| ----------------| --------------------| ---------------------------------------------------------------------------------|
-| Google Chrome   | 83.0.4103.61 64 bit | Fully Functional                                                                 |
-| Mozilla Firefox | 76.0.1 64-bit       | Issue with scroll control dimensions due to element being inline and not a block |
+| Browser                     | Version              | Comments                                                                             | Fixes Applied                 |
+| --------------------------- | -------------------- | ------------------------------------------------------------------------------------ | ----------------------------- |
+| Google Chrome               | 83.0.4103.61 64 bit  | Fully Functional                                                                     |                               |
+| Mozilla Firefox             | 76.0.1 64-bit        | Issue with scroll control dimensions due to element being inline and not a block.    | Yes. Element now inline-block |
+| Microsoft Edge              | 81.0.416.77 64-bit   | Fully Functional                                                                     |                               |
+| Microsoft Internet Explorer | 11.836.18362.0       | Header not fixed to top. Logo link and hover broken. Occasional freezes.             | No. Legacy platform           |
+| Samsung Internet            | 11.2.1.3             | Button styles are overridden to include sun illimination. This removes round border. | No. Not a mainstream platform |
+| Opera                       | 68.0.3618.125 64 bit | Fully Functional                                                                     |                               |
+| Apple Safari                | N/A                  | Could not be tested. Windows no longer supported.                                    |                               |
 
-###Responsiveness
+### Responsiveness
 
-The site was test for responsivness using [Am I Responsive](http://ami.responsivedesign.is/), the results of which can be found here: [Responsiveness.PDF](assets/docs/responsiveness.pdf)
+The site was test for responsivness using [Am I Responsive](http://ami.responsivedesign.is/), the results of which can be found here: [Responsiveness PDF](assets/docs/responsiveness.pdf)
 
 | Bootstrap Breakpoint ID | Minimum Pixel Width | Maximum Pixel Width | Correctly Rendered? |
 | ----------------------- | ------------------- | ------------------- | ------------------- |
