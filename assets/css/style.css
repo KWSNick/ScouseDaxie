@@ -366,6 +366,10 @@ h5 {
   text-transform: capitalize;
 }
 
+.venue-weblink {
+    margin: auto;
+}
+
 .map-container iframe {
   border: none;
 }
