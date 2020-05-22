@@ -381,6 +381,10 @@ h5 {
     margin: auto;
 }
 
+.map-container {
+    height: 460px;
+}
+
 .map-container iframe {
   border: none;
 }
