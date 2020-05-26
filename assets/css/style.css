@@ -625,6 +625,9 @@ h5 {
   body {
     font-size: 2rem;
   }
+  #logo {
+      width: 15vw;
+  }
   h2 {
       font-size: 4rem;
   }
