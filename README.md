@@ -317,15 +317,15 @@ Twitters terms of service can be found here: https://twitter.com/en/tos
 
 Site browser compatability was tested as described in the below table:
 
-| Browser                     | Version              | Comments                                                                             | Fixes Applied                 |
-| --------------------------- | -------------------- | ------------------------------------------------------------------------------------ | ----------------------------- |
-| Google Chrome               | 83.0.4103.61 64 bit  | Fully Functional                                                                     |                               |
-| Mozilla Firefox             | 76.0.1 64-bit        | Issue with scroll control dimensions due to element being inline and not a block.    | Yes. Element now inline-block |
-| Microsoft Edge              | 81.0.416.77 64-bit   | Fully Functional                                                                     |                               |
-| Microsoft Internet Explorer | 11.836.18362.0       | Header not fixed to top. Logo link and hover broken. Occasional freezes.             | No. Legacy platform           |
-| Samsung Internet            | 11.2.1.3             | Button styles are overridden to include sun illumination. This removes round border. | No.                           |
-| Opera                       | 68.0.3618.125 64 bit | Fully Functional                                                                     |                               |
-| Apple Safari                | N/A                  | Could not be tested. Windows no longer supported.                                    |                               |
+| Browser                     | Version              | Comments                                                                             | Fixes Applied                               |
+| --------------------------- | -------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------- |
+| Google Chrome               | 83.0.4103.61 64 bit  | Fully Functional                                                                     |                                             |
+| Mozilla Firefox             | 76.0.1 64-bit        | Issue with scroll control dimensions due to element being inline and not a block.    | Yes. Element now inline-block               |
+| Microsoft Edge              | 81.0.416.77 64-bit   | Fully Functional                                                                     |                                             |
+| Microsoft Internet Explorer | 11.836.18362.0       | Header not fixed to top. Logo link and hover broken. Occasional freezes.             | No. Legacy platform                         |
+| Samsung Internet            | 11.2.1.3             | Button styles are overridden to include sun illumination. This removes round border. | Yes. type="button" changed to role="button" |
+| Opera                       | 68.0.3618.125 64 bit | Fully Functional                                                                     |                                             |
+| Apple Safari                | N/A                  | Could not be tested. Windows no longer supported.                                    |                                             |
 
 ### Responsiveness
 
