@@ -681,4 +681,7 @@ h5 {
   .form-control {
     font-size: 1.8rem;
   }
+  .close {
+      font-size: 4rem;
+  }
 }
