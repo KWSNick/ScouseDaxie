@@ -648,4 +648,8 @@ h5 {
       font-size: 2rem;
       padding: 0.5rem 1rem;
   }
+  .btn-lg {
+      font-size: 3rem;
+      padding: 1rem 2rem;
+  }
 }
