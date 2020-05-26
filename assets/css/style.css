@@ -660,7 +660,7 @@ h5 {
   .card-scroll-y-container,
   .map-container,
   .map-container iframe {
-      height: 800px;
+    height: 800px;
   }
   .footer-left,
   .footer-left small,
@@ -669,12 +669,15 @@ h5 {
     font-size: 0.9vw;
   }
   .socials li {
-      margin-right: 2rem !important;
+    margin-right: 2rem !important;
   }
   .social-link i {
     font-size: 3.2vw;
   }
   .modal-lg {
-      max-width: 1200px;
+    max-width: 1200px;
+  }
+  .form-control {
+    font-size: 1.8rem;
   }
 }
