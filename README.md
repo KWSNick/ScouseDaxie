@@ -353,6 +353,10 @@ A final checklist of working links can be found here: [Link Tests 22nd May 2020 
 | General Consumer     | Keywords make site easy to find. Content provides advice on dog friendly venues and for training. Social media provides interactivty and further chances of becoming aware of the brand.|
 | 3rd Party Businesses | Keywords will bring businesses to the site. Word of mouth and direct approach from the business will encourage collaboration.                                                           |
 
+### Subscribe Form
+
+The form was tested to ensure that correctly complete form was accepted and the user returned to the home page, the omission of each required field in turn resulted in a submission error message and that the incorrect entry of an email address also presented the user with an error message. 
+
 ### W3C HTML Validator
 
 Each page was run through W3C (World Wide Web Consortium) Markup Validator, the results of which are summarised below:
