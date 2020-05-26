@@ -511,8 +511,8 @@ h5 {
 /* -------------------------------Medium Viewport*/
 @media (min-width: 768px) {
   .navbar-toggler-icon {
-    width: 10vw;
-    height: 10vw;
+    width: 7vw;
+    height: 7vw;
   }
 
   #logo {
@@ -520,7 +520,7 @@ h5 {
   }
 
   .navbar-dark .navbar-nav .nav-link {
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
 
   .navbar-item {
