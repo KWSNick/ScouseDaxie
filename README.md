@@ -406,6 +406,14 @@ With all actions completed the index.html page was re-checked in the W3C Markup 
 
 With all actions completed the index.html page was re-checked in the W3C Markup Validator to confirm all changes were successful. 
 
+#### style.css
+
+The CSS file was run through W3C (World Wide Web Consortium) CSS Validator, the results of which are summarised below:
+
+| Message Type | Message                                                                                   | Action Taken                                                                    |
+| ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Error        | 	.steps-text ol	Property padding-inline-start doesn't exist : 20px
+
 ## Deployment
 
 The site is stored and hosted on GitHub Pages.
