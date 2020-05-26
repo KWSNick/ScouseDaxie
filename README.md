@@ -346,6 +346,10 @@ The site was test for responsivness using [Am I Responsive](http://ami.responsiv
 
 A special custom breakpoint was created for screens with resolutions greater than 2560px. This XXL breakpoint will increase the font size of most text and aims to improve the layout of components in some instances such as iframes which are controlled by pixel size.  
 
+| Breakpoint ID           | Minimum Pixel Width | Maximum Pixel Width | Correctly Rendered? |
+| ----------------------- | ------------------- | ------------------- | ------------------- |
+| XXL                     | 2560px              | Infinite            | Yes                 |
+
 ### Links
 
 All internal and external links and buttons were opened whilst the site was hosted in Google Chrome on 22nd May 2020. They were checked to ensure they opened the right site or page in the correct tab, scrolled to the correct section or performed the correct action.
