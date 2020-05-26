@@ -358,11 +358,11 @@ Each page was run through W3C (World Wide Web Consortium) HTML Validator, the re
 
 #### index.html  
 
-| Message Type | Message                                                                     | Action Taken                                            |
-| ------------ | --------------------------------------------------------------------------- | ------------------------------------------------------- |
-| Warning      | The link role is unnecessary for element a with attribute href.             | Removed 14x instances in index.html                     |
-| Warning      | Section lacks heading (Jumbotron).                                          | 
-| Error        | Bad value button for attribute type on element a: Subtype missing.          | 
+| Message Type | Message                                                                     | Action Taken                                                |
+| ------------ | --------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Warning      | The link role is unnecessary for element a with attribute href.             | Removed 14x instances in index.html                         |
+| Warning      | Section lacks heading (Jumbotron).                                          | None, this is intentional as the section contains an image. |
+| Error        | Bad value button for attribute type on element a: Subtype missing.          | type="button" altered to role="button" in 5x instances      |
 | Error        | Bad value dialog for attribute role on element aside.                       |
 | Error        | Attribute name not allowed on element label at this point.                  |
 | Error        | The aria-labelledby attribute must point to an element in the same document.|
