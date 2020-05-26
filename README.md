@@ -404,6 +404,8 @@ With all actions completed the index.html page was re-checked in the W3C Markup 
 | Warning      | The link role is unnecessary for element a with attribute href.                           | 15x instances removed from training.html.                                       |
 | Warning      | Section lacks heading (Jumbotron).                                                        | None, this is intentional as the section contains sub containers with headings. |
 
+With all actions completed the index.html page was re-checked in the W3C Markup Validator to confirm all changes were successful. 
+
 ## Deployment
 
 The site is stored and hosted on GitHub Pages.
