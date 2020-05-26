@@ -635,9 +635,9 @@ h5 {
     height: 10vw;
   }
 
-.navbar-item a i {
+  .navbar-item a i {
     font-size: 2.8vw;
-}
+  }
   .navbar-dark .navbar-nav .nav-link {
     font-size: 1.6vw;
     padding-top: 1.6vw;
@@ -649,14 +649,20 @@ h5 {
     font-size: 2.5rem;
   }
   .btn-sm {
-      font-size: 2rem;
-      padding: 0.5rem 1rem;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
   }
   .btn-lg {
-      font-size: 3rem;
-      padding: 1rem 2rem;
+    font-size: 3rem;
+    padding: 1rem 2rem;
+  }
+  .footer-left,
+  .footer-left small,
+  .footer-left small strong,
+  .footer-left small a {
+    font-size: 0.9vw;
   }
   .social-link i {
-      font-size: 3.2vw;
+    font-size: 3.2vw;
   }
 }
