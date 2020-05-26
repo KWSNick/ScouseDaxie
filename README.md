@@ -394,13 +394,15 @@ The px units were removed from the height value to reduce the number of validato
 | Error        | Bad value button for attribute type on element a: Subtype missing.                        | type="button" altered to role="button" in 7x instances                                                           |
 | Warning      | Section lacks heading.                                                                    | None, this is intentional as the section contains sub containers with headings.                                  |
 
+With all actions completed the index.html page was re-checked in the W3C Markup Validator to confirm all changes were successful. 
+
 #### events.html
 
-| Message Type | Message                                                                                   | Action Taken                                            |
-| ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| Error        | Bad value button for attribute type on element a: Subtype missing.                        |
-| Warning      | The link role is unnecessary for element a with attribute href.                           | 
-| Warning      | Section lacks heading (Jumbotron).                                                        |
+| Message Type | Message                                                                                   | Action Taken                                                                    |
+| ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Error        | Bad value button for attribute type on element a: Subtype missing.                        | type="button" altered to role="button" in 15x instances                         |
+| Warning      | The link role is unnecessary for element a with attribute href.                           | 15x instances removed from training.html.                                       |
+| Warning      | Section lacks heading (Jumbotron).                                                        | None, this is intentional as the section contains sub containers with headings. |
 
 ## Deployment
 
