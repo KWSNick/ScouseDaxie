@@ -354,7 +354,7 @@ A final checklist of working links can be found here: [Link Tests 22nd May 2020 
 
 ### W3C HTML Validator
 
-Each page was run through W3C (World Wide Web Consortium) HTML Validator, the results of which are summarised below:
+Each page was run through W3C (World Wide Web Consortium) Markup Validator, the results of which are summarised below:
 
 #### index.html  
 
@@ -365,17 +365,19 @@ Each page was run through W3C (World Wide Web Consortium) HTML Validator, the re
 | Error        | Bad value button for attribute type on element a: Subtype missing.          | type="button" altered to role="button" in 5x instances      |
 | Error        | Bad value dialog for attribute role on element aside.                       | Switched aside to div for modal                             |
 | Error        | Attribute name not allowed on element label at this point.                  | name moved from label to checkbox element in 2x instances.  |
-| Error        | The aria-labelledby attribute must point to an element in the same document.|
+| Error        | The aria-labelledby attribute must point to an element in the same document.| Added id to modal header and pointed aria at this.          |
+
+With all actions completed the index.html page was re-checked in the W3C Markup Validator to confirm all changes were successful. 
 
 #### dogs_allowed.html
 
-| Message Type | Message                                                                                   | Action Taken                                            |
-| ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| Warning      | The link role is unnecessary for element a with attribute href.                           |
-| Warning      | Section lacks heading (Jumbotron).                                                        | 
-| Error        | Bad value button for attribute type on element a: Subtype missing.                        |
-| Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. | 
-| Error        | The aria-controls attribute must point to an element in the same document.                |
+| Message Type | Message                                                                                   | Action Taken                                                |
+| ------------ | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Warning      | The link role is unnecessary for element a with attribute href.                           | 29x instances removed from dogs_allowed.html                |
+| Warning      | Section lacks heading (Jumbotron).                                                        | None, this is intentional as the section contains an image. |
+| Error        | Bad value button for attribute type on element a: Subtype missing.                        |  type="button" altered to role="button" in 13x instances    |
+| Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. | Added px units to height                                    |
+| Error        | The aria-controls attribute must point to an element in the same document.                | replaced with correct ID                                    |
 
 #### training.html
 
