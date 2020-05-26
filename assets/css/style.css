@@ -634,14 +634,18 @@ h5 {
   .navbar-item {
     height: 10vw;
   }
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 1.6vw;
+    padding-top: 1.6vw;
+  }
   h2 {
     font-size: 4rem;
   }
   h5 {
     font-size: 2.5rem;
   }
-  .navbar-dark .navbar-nav .nav-link {
-      font-size: 1.6vw;
-      padding-top: 1.6vw;
+  .btn-sm {
+      font-size: 2rem;
+      padding: 0.5rem 1rem;
   }
 }
