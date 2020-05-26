@@ -343,7 +343,7 @@ All internal and external links and buttons were opened whilst the site was host
 
 3 errors were identifed during this process and rectified.
 
-A final checklist of working links can be found here: [Link Tests 22nd May 2020 PDF](assets/docs/link_test.pdf)
+A final checklist of working links can be found here: [Link Tests 22nd May 2020 PDF](assets/docs/link_tests.pdf)
 
 ### User Stories 
 
