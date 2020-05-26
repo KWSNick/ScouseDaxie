@@ -412,7 +412,7 @@ The CSS file was run through W3C (World Wide Web Consortium) CSS Validator, the 
 
 | Message Type | Message                                                                                   | Action Taken                                                                    |
 | ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| Error        | 	.steps-text ol	Property padding-inline-start doesn't exist : 20px
+| Error        | 	.steps-text ol	Property padding-inline-start doesn't exist : 20px                     | Swapped to padding-left.                                                        |
 
 ## Deployment
 
