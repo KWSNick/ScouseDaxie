@@ -619,3 +619,13 @@ h5 {
     font-size: 0.7vw;
   }
 }
+
+/* -------------------------------Extra-Extra-Large Viewport*/
+@media (min-width: 2560px) {
+  body {
+    font-size: 2rem;
+  }
+  h2 {
+      font-size: 4rem;
+  }
+}

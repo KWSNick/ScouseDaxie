@@ -136,6 +136,13 @@ The following table indicates the breakpoint viewport sizes:
 | MD - LG                 | 768px               | 1199px              |
 | XL                      | 1200px              | Infinite            |
 
+Following initial testing it was identified that the site performed poorly at higher resolution screens beyond the Bootstrap XL level. A media query was created at a screen size greater than 2560px to accomodate high resolution screens. This was titled XXL. 
+
+| Breakpoint ID           | Minimum Pixel Width | Maximum Pixel Width |
+| ----------------------- | ------------------- | ------------------- |
+| XL                      | 1200px              | 2559px              |
+| XXL (Custom breakpoint) | 2560px              | Infinite            |
+
 Wireframes were constructed in Basamiq Wireframe 4 in order to provide a design brief for the project, maximise coding productivity and minimise mission creep.
 
 In some instances the wireframe plan was deviated from in order to achieve a better asthetic and user experience not forseen in the wireframe design phase.
@@ -336,6 +343,8 @@ The site was test for responsivness using [Am I Responsive](http://ami.responsiv
 | XS - SM                 | 1px                 | 767px               | Yes                 |
 | MD - LG                 | 768px               | 1199px              | Yes                 |
 | XL                      | 1200px              | Infinite            | Yes                 |
+
+A special custom breakpoint was created for screens with resolutions greater than 2560px. This XXL breakpoint will increase the font size of most text and aims to improve the layout of components in some instances such as iframes which are controlled by pixel size.  
 
 ### Links
 
