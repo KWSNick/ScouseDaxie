@@ -1,6 +1,6 @@
 # Scouse Daxie - README
 
-A social space targeting Dachshund owners in Liverpool. The site aims to provide community through existing social media and free organsied social events. The site offers advice and tips on dog friendly bars, pubs, restaurants and other venues/establishments along with training tips and 3rd party training in the area.
+A social and advisory site targeting Dachshund owners in Liverpool. The site aims to provide community through existing social media and free organsied social events. The site offers advice and tips on dog friendly bars, pubs, restaurants and other venues/establishments along with training tips and 3rd party training in the area.
 
 The site could eventually generate revenue through attracting local businesses and suppliers to advertise or promote their relevant offerings. One future option is to create an online store platform selling relevant products either directly or in acting as an intermediary.
 
@@ -14,9 +14,9 @@ The Scouse Daxie site was designed following a User Experience Design planning p
 The scope set out the required pages and content based on several developed user stories.
 An initial site structure was outlined and a future expansion proposed as content and coverage increased.
 Wireframes provided a means of limiting mission creep and making key decisions prior to the commencement of coding.
-Colour schemes, font types and icons were all researched and in advance and a colour palette and template font-family code added to the initial styles.css file for ease of use and consitency.
+Colour schemes, font types and icons were all researched and in advance and a colour palette and template font-family code added to the initial style.css file for ease of use and consitency.
 
-A review meeting refined the initial plan, scaling back the number of pages by combining several sub-pages into their parent pages, and the colour palette and fonts were revised to ensure visual contrast and readibility. The use of free logo making utilies was also advised to reduce the number of utilised fonts.
+A review meeting refined the initial plan, scaling back the number of pages by combining several sub-pages into their parents, and the colour palette and fonts were revised to ensure visual contrast and readibility. The use of free logo making utilies was also advised to reduce the number of utilised fonts.
 
 ### Strategy
 
@@ -184,14 +184,14 @@ Where possible the use of absolute units has been avoided in preference for rela
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | Subscribe to Newsletter Form    | Collect contact information. Direct promotions. Build up user base.                                             | Keep up-to-date with latest information. Inclusion.                                                      | Promote their services or products to an opt in audience.                                          |
 | Homepage Introductory Text      | Sets the purpose of the site and brand and targets intended users                                               | Makes a decision on whether the site is useful to them. Understands its purpose.                         | Makes a decision on whether the site is useful to them. Understands its purpose.                   |
-| Homepage Upcoming Events        | Promote that there are lots more events.                                                                        | Become aware of events. Access events for sign up on social media. Access more events.                   | Sees the potential for hosting/supporting/attending future events.                                 |
+| Homepage Upcoming Events        | Promote that there are lots more events.                                                                        | Become aware that events exist. Access events for sign up on social media. Access more events.           | Sees the potential for hosting/supporting/attending future events.                                 |
 | Footer Social Media Links       | Provides interactivity to users.                                                                                | More familiar interface to become familiar with the brand. Interacts with the brand and each other.      | Becomes aware of the size of the userbase through their interactions.                              |
 | Dogs Allowed Venue Map          | Presents geospatial information in an intuitive way.                                                            | Recieves content in a familiar format. Able to interpret quickly to apply to their own needs.            | Awareness of competition. Awareness of value of this as a promotional tool. Fear of Missing Out.   |
 | Dogs Allowed Venue Cards        | Produces micro-review and opinion content to inform consumers and attract new 3rd party business collaboration. | Provided further information on venue specifics other than location.                                     | Provided information on competitors advantages and disadvantages. Potential promotion opportunity. |
 | How to be Dog Friendly Cards    | Actively targets the 3rd Party Business users to try and include them and provide value for this user group.    | Provides a benchmark to privately assess venues. Potential mouth-to-mouth marketing between user groups. | Receives advice. See's value in the sites content. Works to a standard. Works with the brand.      |
 | Training Tips (Video and Steps) | Recieves greater site traffic.                                                                                  | More likely to come across site. Is provided with practical information. May refer content to a friend.  | May see value in collaboration. Preceives value in site traffic.                                   |
 | Training Recommendations Map    | Presents geospatial information in an intuitive way.                                                            | Recieves content in a familiar format. Able to interpret quickly to apply to their own needs.            | Awareness of competition. Awareness of value of this as a promotional tool. Fear of Missing Out.   |
-| Dogs Allowed Venue Cards        | Produces micro-review and opinion content to inform consumers and attract new 3rd party business collaboration. | Provided further information on venue specifics other than location.                                     | Provided information on competitors advantages and disadvantages. Potential promotion opportunity. |
+| 3rd Party Training Cards        | Produces micro-review and opinion content to inform consumers and attract new 3rd party business collaboration. | Provided further information on 3rd party provider specifics other than location.                        | Provided information on competitors advantages and disadvantages. Potential promotion opportunity. |
 | Events Cards                    | Promotes organised events and encourages user engagement. Sets the tone of the brand. Promotes user interaction | Attends events. Meets like-minded people. Potentially recommends site to others.                         | Perceives value of the site and brand. Collaborates on events.                                     |
 
 ### Minor Improvements
@@ -214,6 +214,7 @@ Where possible the use of absolute units has been avoided in preference for rela
 | Product review/advice      | Expands potential user base for consumers and 3rd party businesses.                                  | More content to consume. More frequent and longer visits to the site. | A new platform to promote their products.            |
 | On site store for products | Provides a revenue stream and further user base expansion.                                           | Source for content relevant products.                                 | A platform to collaborate and use. Also a competitor |
 | Site Gallery               | Enhances user interaction and provides crowd-sourced, self-sustaining content.                       | More streamlined user experience. Added site value.                   | Increase value perception of the brand and site.     |
+| On site forum/posts        | Reduces reliance on external providers. Keeps users on the businesses platform and near its content. | More streamlined user experience.                                     | More professional perception of brand and site.      |
 
 ## Technologies Used
 
@@ -244,7 +245,7 @@ https://logomakr.com/getstarted/terms-conditions/
 
 ### Google Fonts
 
-Google Fonts offers open source font styling options for personal and commercial use. 2 fonts were used within styles.css. A further 2 fonts were used within Logomakr to create the site logo.
+Google Fonts offers open source font styling options for personal and commercial use. 2 fonts were used within style.css. A further 2 fonts were used within Logomakr to create the site logo.
 
 #### License
 
