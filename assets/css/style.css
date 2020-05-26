@@ -570,11 +570,11 @@ h5 {
 /* -------------------------------Extra-Large Viewport*/
 @media (min-width: 1200px) {
   #logo {
-    width: 13vw;
+    width: 10vw;
   }
 
   .strapline {
-    font-size: 1.35vw;
+    font-size: 0.7vw;
   }
 
   .navbar-item {
