@@ -430,6 +430,7 @@ h5 {
 .training-tips-video iframe {
   width: 100vw;
   height: 61vw;
+  border: 0;
 }
 
 .step-by-step {

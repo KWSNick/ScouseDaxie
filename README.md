@@ -371,13 +371,13 @@ With all actions completed the index.html page was re-checked in the W3C Markup 
 
 #### dogs_allowed.html
 
-| Message Type | Message                                                                                   | Action Taken                                                |
-| ------------ | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| Warning      | The link role is unnecessary for element a with attribute href.                           | 29x instances removed from dogs_allowed.html                |
-| Warning      | Section lacks heading (Jumbotron).                                                        | None, this is intentional as the section contains an image. |
-| Error        | Bad value button for attribute type on element a: Subtype missing.                        |  type="button" altered to role="button" in 13x instances    |
-| Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. | Added px units to height. These were removed *see note      |
-| Error        | The aria-controls attribute must point to an element in the same document.                | replaced with correct ID                                    |
+| Message Type | Message                                                                                   | Action Taken                                                                    |
+| ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Warning      | The link role is unnecessary for element a with attribute href.                           | 29x instances removed from dogs_allowed.html                                    |
+| Warning      | Section lacks heading (Jumbotron).                                                        | None, this is intentional as the section contains sub containers with headings. |
+| Error        | Bad value button for attribute type on element a: Subtype missing.                        | type="button" altered to role="button" in 13x instances                         |
+| Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. | Added px units to height. These were removed *see note                          |
+| Error        | The aria-controls attribute must point to an element in the same document.                | replaced with correct ID                                                        |
 
 With all actions completed the dogs_allowed.html page was re-checked in the W3C Markup Validator to confirm all changes were successful. 
 *The iframe issue remained and a new error from including the px units also appeared. 
@@ -386,13 +386,13 @@ The px units were removed from the height value to reduce the number of validato
 
 #### training.html
 
-| Message Type | Message                                                                                   | Action Taken                                            |
-| ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| Error        | The frameborder attribute on the iframe element is obsolete. Use CSS instead.             |
-| Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. |
-| Warning      | The link role is unnecessary for element a with attribute href.                           |
-| Error        | Bad value button for attribute type on element a: Subtype missing.                        |
-| Warning      | Section lacks heading (Jumbotron).                                                        |
+| Message Type | Message                                                                                   | Action Taken                                                                                                     |
+| ------------ | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Error        | The frameborder attribute on the iframe element is obsolete. Use CSS instead.             | This attribute came from Youtube's copied embed code. frameborder was removed and border: 0 added to css iframe. |
+| Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. | No action taken. See comments on dogs_allowed.html.                                                              |
+| Warning      | The link role is unnecessary for element a with attribute href.                           | 16x instances removed from training.html.                                                                        |
+| Error        | Bad value button for attribute type on element a: Subtype missing.                        | type="button" altered to role="button" in 7x instances                                                           |
+| Warning      | Section lacks heading.                                                                    | None, this is intentional as the section contains sub containers with headings.                                  |
 
 #### events.html
 
