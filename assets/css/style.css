@@ -656,6 +656,11 @@ h5 {
     font-size: 3rem;
     padding: 1rem 2rem;
   }
+  .card-scroll-y-container,
+  .map-container,
+  .map-container iframe {
+      height: 800px;
+  }
   .footer-left,
   .footer-left small,
   .footer-left small strong,
