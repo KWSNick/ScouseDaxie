@@ -140,7 +140,7 @@ Wireframes were constructed in Basamiq Wireframe 4 in order to provide a design 
 
 In some instances the wireframe plan was deviated from in order to achieve a better asthetic and user experience not forseen in the wireframe design phase.
 
-[Post Production Wireframe Analysis](wireframes.pdf) provides an overview of the planned wireframes and deviations found in the final product if applicable.
+[Post Production Wireframe Analysis](assets/docs/wireframes.pdf) provides an overview of the planned wireframes and deviations found in the final product if applicable.
 
 ### Surface
 
