@@ -152,7 +152,7 @@ h1 {
 }
 
 #logo {
-  width: 30vw;
+  width: 25vw;
 }
 
 .navbar-toggler {
@@ -162,8 +162,8 @@ h1 {
 }
 
 .navbar-toggler-icon {
-  width: 15vw;
-  height: 15vw;
+  width: 10vw;
+  height: 10vw;
 }
 
 .navbar-item {
