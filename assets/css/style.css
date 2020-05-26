@@ -680,4 +680,7 @@ h5 {
   .form-control {
     font-size: 1.8rem;
   }
+  .subscribe-button .btn {
+      font-size: 2rem;
+  }
 }
