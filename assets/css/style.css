@@ -626,21 +626,21 @@ h5 {
     font-size: 2rem;
   }
   #logo {
-    width: 15vw;
+    width: 13vw;
   }
   .strapline {
-    font-size: 1.8vw;
+    font-size: 1.4vw;
   }
   .navbar-item {
-    height: 10vw;
+    height: 8vw;
   }
 
   .navbar-item a i {
-    font-size: 2.8vw;
+    font-size: 2.5vw;
   }
   .navbar-dark .navbar-nav .nav-link {
-    font-size: 1.6vw;
-    padding-top: 1.6vw;
+    font-size: 1.4vw;
+    padding-top: 1.2vw;
   }
   h2 {
     font-size: 4rem;
