@@ -640,4 +640,8 @@ h5 {
   h5 {
     font-size: 2.5rem;
   }
+  .navbar-dark .navbar-nav .nav-link {
+      font-size: 1.6vw;
+      padding-top: 1.6vw;
+  }
 }
