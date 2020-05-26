@@ -344,6 +344,57 @@ All internal and external links and buttons were opened whilst the site was host
 
 A final checklist of working links can be found here: [Link Tests 22nd May 2020 PDF](assets/docs/link_test.pdf)
 
+### User Stories 
+
+| User                 | Story                                                                                                                                                                                   |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| The Business         | Future over-arching brand has been pre-empted by strapline. Site allows business to approach other businesses for collaboration.                                                        |
+| General Consumer     | Keywords make site easy to find. Content provides advice on dog friendly venues and for training. Social media provides interactivty and further chances of becoming aware of the brand.|
+| 3rd Party Businesses | Keywords will bring businesses to the site. Word of mouth and direct approach from the business will encourage collaboration.                                                           |
+
+### W3C HTML Validator
+
+Each page was run through W3C (World Wide Web Consortium) HTML Validator, the results of which are summarised below:
+
+#### index.html  
+
+| Message Type | Message                                                                     | Action Taken                                            |
+| ------------ | --------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Warning      | The link role is unnecessary for element a with attribute href.             | Removed 14x instances in index.html                     |
+| Warning      | Section lacks heading (Jumbotron).                                          | 
+| Error        | Bad value button for attribute type on element a: Subtype missing.          | 
+| Error        | Bad value dialog for attribute role on element aside.                       |
+| Error        | Attribute name not allowed on element label at this point.                  |
+| Error        | The aria-labelledby attribute must point to an element in the same document.|
+
+#### dogs_allowed.html
+
+| Message Type | Message                                                                                   | Action Taken                                            |
+| ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Warning      | The link role is unnecessary for element a with attribute href.                           |
+| Warning      | Section lacks heading (Jumbotron).                                                        | 
+| Error        | Bad value button for attribute type on element a: Subtype missing.                        |
+| Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. | 
+| Error        | The aria-controls attribute must point to an element in the same document.                |
+
+#### training.html
+
+| Message Type | Message                                                                                   | Action Taken                                            |
+| ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Error        | The frameborder attribute on the iframe element is obsolete. Use CSS instead.             |
+| Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. |
+| Warning      | The link role is unnecessary for element a with attribute href.                           |
+| Error        | Bad value button for attribute type on element a: Subtype missing.                        |
+| Warning      | Section lacks heading (Jumbotron).                                                        |
+
+#### events.html
+
+| Message Type | Message                                                                                   | Action Taken                                            |
+| ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Error        | Bad value button for attribute type on element a: Subtype missing.                        |
+| Warning      | The link role is unnecessary for element a with attribute href.                           | 
+| Warning      | Section lacks heading (Jumbotron).                                                        |
+
 ## Deployment
 
 The site is stored and hosted on GitHub Pages.
