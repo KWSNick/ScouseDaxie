@@ -674,4 +674,7 @@ h5 {
   .social-link i {
     font-size: 3.2vw;
   }
+  .modal-lg {
+      max-width: 1200px;
+  }
 }
