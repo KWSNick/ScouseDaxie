@@ -361,7 +361,7 @@ Each page was run through W3C (World Wide Web Consortium) Markup Validator, the 
 | Message Type | Message                                                                     | Action Taken                                                |
 | ------------ | --------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Warning      | The link role is unnecessary for element a with attribute href.             | Removed 14x instances in index.html                         |
-| Warning      | Section lacks heading (Jumbotron).                                          | None, this is intentional as the section contains an image. |
+| Warning      | Section lacks heading.                                                      | None, this is intentional as sub-sections contain headings. |
 | Error        | Bad value button for attribute type on element a: Subtype missing.          | type="button" altered to role="button" in 5x instances      |
 | Error        | Bad value dialog for attribute role on element aside.                       | Switched aside to div for modal                             |
 | Error        | Attribute name not allowed on element label at this point.                  | name moved from label to checkbox element in 2x instances.  |
@@ -374,7 +374,7 @@ With all actions completed the index.html page was re-checked in the W3C Markup 
 | Message Type | Message                                                                                   | Action Taken                                                                    |
 | ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | Warning      | The link role is unnecessary for element a with attribute href.                           | 29x instances removed from dogs_allowed.html                                    |
-| Warning      | Section lacks heading (Jumbotron).                                                        | None, this is intentional as the section contains sub containers with headings. |
+| Warning      | Section lacks heading.                                                                    | None, this is intentional as the section contains sub containers with headings. |
 | Error        | Bad value button for attribute type on element a: Subtype missing.                        | type="button" altered to role="button" in 13x instances                         |
 | Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. | Added px units to height. These were removed *see note                          |
 | Error        | The aria-controls attribute must point to an element in the same document.                | replaced with correct ID                                                        |
@@ -394,17 +394,17 @@ The px units were removed from the height value to reduce the number of validato
 | Error        | Bad value button for attribute type on element a: Subtype missing.                        | type="button" altered to role="button" in 7x instances                                                           |
 | Warning      | Section lacks heading.                                                                    | None, this is intentional as the section contains sub containers with headings.                                  |
 
-With all actions completed the index.html page was re-checked in the W3C Markup Validator to confirm all changes were successful. 
+With all actions completed the training.html page was re-checked in the W3C Markup Validator to confirm all changes were successful. 
 
 #### events.html
 
-| Message Type | Message                                                                                   | Action Taken                                                                    |
-| ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| Error        | Bad value button for attribute type on element a: Subtype missing.                        | type="button" altered to role="button" in 15x instances                         |
-| Warning      | The link role is unnecessary for element a with attribute href.                           | 15x instances removed from training.html.                                       |
-| Warning      | Section lacks heading (Jumbotron).                                                        | None, this is intentional as the section contains sub containers with headings. |
+| Message Type | Message                                                            | Action Taken                                                |
+| ------------ | ------------------------------------------------------------------ | ----------------------------------------------------------- |
+| Error        | Bad value button for attribute type on element a: Subtype missing. | type="button" altered to role="button" in 15x instances     |
+| Warning      | The link role is unnecessary for element a with attribute href.    | 15x instances removed from training.html.                   |
+| Warning      | Section lacks heading                                              | None, this is intentional as sub-sections contain headings. |
 
-With all actions completed the index.html page was re-checked in the W3C Markup Validator to confirm all changes were successful. 
+With all actions completed the events.html page was re-checked in the W3C Markup Validator to confirm all changes were successful. 
 
 #### style.css
 
@@ -416,6 +416,8 @@ The CSS file was run through W3C (World Wide Web Consortium) CSS Validator, the 
 | Warning      | -webkit-background-size is an unknown vendor extension            | None. Required for safari and other browser compatability. |
 | Warning      | -o-background-size is an unknown vendor extension                 | None. Required for opera compatability.                    |
 | Warning      | -moz-background-size is an unknown vendor extension               | None. Required for mozilla firefox compatability.          |
+
+With all actions completed the style.css file was re-checked in the W3C CSS Validator to confirm all changes were successful. 
 
 ## Deployment
 
