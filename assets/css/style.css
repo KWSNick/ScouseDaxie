@@ -581,7 +581,8 @@ h5 {
   }
 
   .strapline {
-    font-size: 0.72vw;
+    font-size: 1vw;
+    letter-spacing: 0.6vw;
   }
 
   .navbar-item {
