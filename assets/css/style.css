@@ -273,7 +273,7 @@ h5 {
 }
 
 .card-item h5 {
-    margin: 1.5vh;
+  margin: 1.5vh;
 }
 
 .card-item-header,
@@ -363,7 +363,7 @@ h5 {
 }
 
 .venue-icons p {
-    margin: 0;
+  margin: 0;
 }
 
 .venue-icons p i {
@@ -378,11 +378,11 @@ h5 {
 
 .venue-weblink,
 .venue-weblink-b {
-    margin: auto;
+  margin: auto;
 }
 
 .map-container {
-    height: 460px;
+  height: 460px;
 }
 
 .map-container iframe {
@@ -432,7 +432,7 @@ h5 {
 }
 
 .step-by-step {
-    margin-bottom: 2vh;
+  margin-bottom: 2vh;
 }
 
 .steps-text {
@@ -558,12 +558,17 @@ h5 {
     width: 50vw;
     height: 30.5vw;
   }
+  #back-to-top {
+    width: 7vw;
+    height: 7vw;
+    font-size: 4.8vw;
+  }
 }
 
 /* -------------------------------Large Viewport*/
 @media (min-width: 992px) {
   #breed-info {
-      padding: 0 5vh 3vh;
+    padding: 0 5vh 3vh;
   }
 }
 
