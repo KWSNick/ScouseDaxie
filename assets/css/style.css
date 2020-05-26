@@ -634,4 +634,7 @@ h5 {
   h5 {
       font-size: 2.5rem;
   }
+  .strapline {
+      font-size: 1.8vw;
+  }
 }
