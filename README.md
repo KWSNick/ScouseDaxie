@@ -410,7 +410,7 @@ The px units were removed from the height value to reduce the number of validato
 | Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. | No action taken. See comments on dogs_allowed.html.                                                              |
 | Warning      | The link role is unnecessary for element a with attribute href.                           | 16x instances removed from training.html.                                                                        |
 | Error        | Bad value button for attribute type on element a: Subtype missing.                        | type="button" altered to role="button" in 7x instances                                                           |
-| Warning      | Section lacks heading.                                                                    | None, this is intentional as the section contains sub containers with headings.                                  |
+| Warning      | Section lacks heading.                                                                    | Replaced section with div tag as it is only a container                                                          |
 
 With all actions completed the training.html page was re-checked in the W3C Markup Validator to confirm all changes were successful. 
 

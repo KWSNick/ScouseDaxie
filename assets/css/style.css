@@ -387,9 +387,7 @@ h5 {
 }
 
 .map-container iframe {
-  border: none;
-}
-
+  border: none;;
 .how-to-item {
   padding: 0;
   margin: 0;
