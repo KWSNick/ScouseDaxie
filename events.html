@@ -112,6 +112,8 @@
         <div class="col-12 content content-a" id="all-events">
           <div class="row no-gutters flex-xl-nowrap event-summary scroll-x">
             <!--Scroll Left-->
+            <!--Only applicable at >XL screen sizes as content arranged differently at xs-md viewport sizes.-->
+            <!--This is a pseudo button which is linked to an empty div which is located before all the event cards. Pressing it scrolls the content all the way to the left so the first 6 cards are visible.-->
             <div class="col-xl-1 d-none d-xl-block scroll-control scroll-left">
               <a role="button" class="d-xl-inline-block" href="#event-far-left"
                 ><i class="fas fa-chevron-left"></i
