@@ -366,6 +366,18 @@ A final checklist of working links can be found here: [Link Tests 22nd May 2020 
 | General Consumer     | Keywords make site easy to find. Content provides advice on dog friendly venues and for training. Social media provides interactivty and further chances of becoming aware of the brand.|
 | 3rd Party Businesses | Keywords will bring businesses to the site. Word of mouth and direct approach from the business will encourage collaboration.                                                           |
 
+#### Example Images of User Story Satisfying Content
+
+![Deployed Strapline](assets/images/deployed_strapline.PNG)
+
+![Dog Friendly Advice](assets/images/advice_dog_friendly.PNG)
+
+![Training Advice](assets/images/advice_training.PNG)
+
+![Social Media Links](assets/images/social_media_links.PNG)
+
+![Keywords](assets/images/keywords.PNG)
+
 ### Subscribe Form
 
 The form was tested to ensure that a correctly completed form was accepted and the user returned to the home page, the omission of each required field in turn resulted in a submission error message and that the incorrect entry of an email address also presented the user with an error message. 
@@ -444,7 +456,7 @@ The URL for the site is: https://kwsnick.github.io/ScouseDaxie/
 
 The URL for the GitHub Project is: https://github.com/KWSNick/ScouseDaxie
 
-The site is designed to work on any Modern Browser, but was designed and developed specifically in Google Chrome version 81.0.4044.138.
+The site is designed to work on any Modern Browser, but was designed and developed specifically in Google Chrome version 81.0.4044.138. See Browser Compatibility section with Testing for details.
 
 ## Credits
 
