@@ -1,4 +1,4 @@
-# Scouse Daxie - README
+# Scouse Daxie
 
 A social and advisory site targeting Dachshund owners in Liverpool. The site aims to provide community through existing social media and free organsied social events. The site offers advice and tips on dog friendly bars, pubs, restaurants and other venues/establishments along with training tips and 3rd party training in the area.
 
