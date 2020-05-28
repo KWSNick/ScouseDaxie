@@ -144,6 +144,7 @@
                     restraint, and keeps all the attention on you!
                   </p>
                   <!--Collapse function from Bootstrap 4-->
+                  <!--Step-by-step instructions are collapsed by default to reduce information overload and allow user choice for consuming content. Prevents obscuring other competing content on the page.-->
                   <div class="col-12 step-by-step">
                     <a
                       href="#training-1-steps"
@@ -226,6 +227,7 @@
                     teach them to use a bell!
                   </p>
                   <!--Collapse function from Bootstrap 4-->
+                  <!--Step-by-step instructions are collapsed by default to reduce information overload and allow user choice for consuming content. Prevents obscuring other competing content on the page.-->                
                   <div class="col-12 step-by-step order-md-3">
                     <a
                       href="#training-2-steps"
@@ -316,6 +318,7 @@
                     peaceful dreams.
                   </p>
                   <!--Collapse function from Bootstrap 4-->
+                  <!--Step-by-step instructions are collapsed by default to reduce information overload and allow user choice for consuming content. Prevents obscuring other competing content on the page.-->
                   <div class="col-12 step-by-step">
                     <a
                       href="#training-3-steps"
@@ -406,7 +409,7 @@
           </div>
         </section>
         <!--3rd Party Training Recommendations-->
-        <article class="col-12 content content-a" id="3rd-party-training">
+        <section class="col-12 content content-a" id="3rd-party-training">
           <div class="row no-gutters training-recc">
             <div class="col-12 training-tips-head-title">
               <h2>Training Recommendations</h2>
@@ -423,17 +426,18 @@
               </p>
             </div>
             <div class="col-12 col-md-6 col-xl-8 map-container">
+            <!--iframe contains custom google map presenting geospatial information on the providers outlined in the cards.-->
               <iframe
                 src="https://www.google.com/maps/d/embed?mid=1s4T7cypJwY0YuOB99jDM_veO03B4TGDw"
                 width="100%"
                 height="460"
               ></iframe>
             </div>
-            <!--Scrolling container at >md-->
+            <!--Scrolling container at >md. Scrolling allows a compact containment of these cards, minimising full page scroll for the user to better appreciate all content on the page.-->
             <div class="col-12 col-md-6 col-xl-4 card-scroll-y-container">
               <div class="row no-gutters places">
                 <!--Provider 1-->
-                <div class="col-12 card-item card-a" id="provider-1">
+                <article class="col-12 card-item card-a" id="provider-1">
                   <h5>
                     <a
                       href="https://www.google.com/maps/place/All+Souls+Church,+Mather+Ave,+Liverpool+L19+4TF/@53.3645064,-2.8896051,17z/data=!4m2!3m1!1s0x487b2002e3a9a633:0x48b9d7ae81062f8d"
@@ -444,6 +448,7 @@
                     >
                   </h5>
                   <!--Training Provider Summary-->
+                  <!--Critical information which allows the user to make an informed choice as to whether this content is of value to them and if they wish to find out more.-->
                   <div class="col-12 venue-icons">
                     <p>
                       <i class="fas fa-users"></i>
@@ -498,9 +503,9 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </article>
                 <!--Provider 2-->
-                <div class="col-12 card-item card-b" id="provider-2">
+                <article class="col-12 card-item card-b" id="provider-2">
                   <h5>
                     <a
                       href="https://www.google.com/maps/place/Hope+School,+251+Hartsbourne+Ave,+Belle+Vale,+Liverpool+L25+2RY/@53.39172,-2.8618476,16z/data=!4m2!3m1!1s0x487b1f99225f453b:0x1d5ce5e8c333c576"
@@ -559,9 +564,9 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </article>
                 <!--Provider 3-->
-                <div class="col-12 card-item card-a" id="provider-3">
+                <article class="col-12 card-item card-a" id="provider-3">
                   <h5>
                     <a
                       href="https://goo.gl/maps/bNqYUof3pfxWNs5G9"
@@ -622,9 +627,9 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </article>
                 <!--Provider 4-->
-                <div class="col-12 card-item card-b" id="provider-4">
+                <article class="col-12 card-item card-b" id="provider-4">
                   <h5>
                     <a
                       href="https://goo.gl/maps/xDBSZe1N4ufTnaUx6"
@@ -684,9 +689,9 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </article>
                 <!--Provider 5-->
-                <div class="col-12 card-item card-a" id="provider-5">
+                <article class="col-12 card-item card-a" id="provider-5">
                   <h5>
                     <a
                       href="https://goo.gl/maps/kEBVKtRvT82nEbom9"
@@ -749,9 +754,9 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </article>
                 <!--Provider 6-->
-                <div class="col-12 card-item card-b" id="provider-6">
+                <article class="col-12 card-item card-b" id="provider-6">
                   <h5>
                     <a
                       href="https://goo.gl/maps/F1FuqjsZaSBbD7Dz8"
@@ -811,11 +816,11 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </article>
               </div>
             </div>
           </div>
-        </article>
+        </section>
       </div>
       <!--Back To Top Button-->
       <div class="row no-gutters back-to-top-container">
