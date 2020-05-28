@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;700;800;900&family=Londrina+Solid:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/*Ensure full width of all fuild container without bleeding off screen*/
 .container-fluid {
   padding: 0;
 }
-
+/*Remove bullet points from all unordered lists*/
 ul {
   list-style: none;
 }
@@ -125,7 +126,6 @@ ul {
 }
 
 /* ------------------------------------------Header*/
-
 .navigation {
   padding: 0;
   box-shadow: 0px 0px 25px 5px;
@@ -336,6 +336,7 @@ h5 {
   z-index: 9999;
 }
 
+/*Allows the events to continue off page in a single row when at >XL breakpoint, with buttons to scroll from left to right*/
 .scroll-x {
   overflow-x: hidden;
 }
@@ -687,6 +688,6 @@ h5 {
     font-size: 1.8rem;
   }
   .close {
-      font-size: 4rem;
+    font-size: 4rem;
   }
 }
