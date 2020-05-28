@@ -392,7 +392,7 @@ With all actions completed the index.html page was re-checked in the W3C Markup 
 | Message Type | Message                                                                                   | Action Taken                                                                    |
 | ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | Warning      | The link role is unnecessary for element a with attribute href.                           | 29x instances removed from dogs_allowed.html                                    |
-| Warning      | Section lacks heading.                                                                    | None, this is intentional as the section contains sub containers with headings. |
+| Warning      | Section lacks heading.                                                                    | Replaced section with div tag as it is only a container                         |
 | Error        | Bad value button for attribute type on element a: Subtype missing.                        | type="button" altered to role="button" in 13x instances                         |
 | Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. | Added px units to height. These were removed *see note                          |
 | Error        | The aria-controls attribute must point to an element in the same document.                | replaced with correct ID                                                        |
