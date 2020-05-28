@@ -507,6 +507,9 @@ h5 {
 .socials {
   margin: 2.3vw 0;
 }
+.socials .list-inline-item {
+    margin: 0;
+}
 
 .social-link i {
   font-size: 7vw;
