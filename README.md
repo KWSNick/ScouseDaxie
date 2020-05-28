@@ -389,25 +389,22 @@ With all actions completed the index.html page was re-checked in the W3C Markup 
 
 #### dogs_allowed.html
 
-| Message Type | Message                                                                                   | Action Taken                                                                    |
-| ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| Warning      | The link role is unnecessary for element a with attribute href.                           | 29x instances removed from dogs_allowed.html                                    |
-| Warning      | Section lacks heading.                                                                    | Replaced section with div tag as it is only a container                         |
-| Error        | Bad value button for attribute type on element a: Subtype missing.                        | type="button" altered to role="button" in 13x instances                         |
-| Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. | Added px units to height. These were removed *see note                          |
-| Error        | The aria-controls attribute must point to an element in the same document.                | replaced with correct ID                                                        |
+| Message Type | Message                                                                                   | Action Taken                                                                                           |
+| ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Warning      | The link role is unnecessary for element a with attribute href.                           | 29x instances removed from dogs_allowed.html                                                           |
+| Warning      | Section lacks heading.                                                                    | Replaced section with div tag as it is only a container                                                |
+| Error        | Bad value button for attribute type on element a: Subtype missing.                        | type="button" altered to role="button" in 13x instances                                                |
+| Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. | Removed width and height from iframe inline. Class added to iframe. attributes controlled in style.css |
+| Error        | The aria-controls attribute must point to an element in the same document.                | replaced with correct ID                                                                               |
 
 With all actions completed the dogs_allowed.html page was re-checked in the W3C Markup Validator to confirm all changes were successful. 
-*The iframe issue remained and a new error from including the px units also appeared. 
-iframes should use digits only for fixed sizing however in this instance a % is appropriate as the iframe contains a map, which can show more or less of the map area whilst always displaying all of the populated layers, without causing distortion or cropping of the content. 
-The px units were removed from the height value to reduce the number of validator errors. 
 
 #### training.html
 
 | Message Type | Message                                                                                   | Action Taken                                                                                                     |
 | ------------ | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Error        | The frameborder attribute on the iframe element is obsolete. Use CSS instead.             | This attribute came from Youtube's copied embed code. frameborder was removed and border: 0 added to css iframe. |
-| Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. | No action taken. See comments on dogs_allowed.html.                                                              |
+| Error        | Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. | Removed width and height from iframe inline. Class added to iframe. attributes controlled in style.css           |
 | Warning      | The link role is unnecessary for element a with attribute href.                           | 16x instances removed from training.html.                                                                        |
 | Error        | Bad value button for attribute type on element a: Subtype missing.                        | type="button" altered to role="button" in 7x instances                                                           |
 | Warning      | Section lacks heading.                                                                    | Replaced section with div tag as it is only a container                                                          |
