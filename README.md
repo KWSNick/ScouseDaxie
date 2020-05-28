@@ -106,7 +106,7 @@ The header and footer will be common across all pages to improve familiarity acr
 
 The inital navigation structure was planned in a simple tree, minimising the number of clicks for the user. All pages are accessible from all other pages thanks to the common header and footer.
 
-![Planned Site Structure](assets/images/planned_structure.PNG)
+![Planned Site Structure](assets/images/planned_structure.png)
 
 This was revised following the initial planning meeting to further reduce the site complexity by merging the sub-pages into their parent pages i.e. "How to become a dog friendly venue" content is present on the "Dog Friendly" page.
 
@@ -116,7 +116,7 @@ The purpose of the revised structure would be to reduce the reliance on external
 
 As an aside this is the justification for the inclusion of a strapline or sub-heading, as this would form the overarching brand as currently the main brand is both geographically and breed constrained.
 
-![Planned Site Structure](assets/images/future_structure.PNG)
+![Planned Site Structure](assets/images/future_structure.png)
 
 The expanded structure would segregate geographic content, and breed specific content within that and add in common features such as an online store.
 
@@ -167,11 +167,11 @@ A logo was created using an online tool in order to utilise decorative cursive f
 
 A further cursive font, Londrina Solid, was utilised sparingly for the navigation links in the header bar and the strapline/subtitle in order to not overwhelm the user with intricate font faces whilst maintaining a fun and casual feel.
 
-![Londrina Solid Font](assets/images/londrina_solid.PNG)
+![Londrina Solid Font](assets/images/londrina_solid.png)
 
 A slightly more formal, but interesting sans-serif derived Google Font, Rubik, was used for all remaining text to ensure legibility and maximum effectiveness of conveying the sites content.
 
-![Rubik Font](assets/images/rubik.PNG)
+![Rubik Font](assets/images/rubik.png)
 
 Across the site and its pages it was critical to ensure consitency with styling of all elements including text, headers, buttons and media. This ensures maximum potential for user understanding and learning.
 
@@ -368,15 +368,15 @@ A final checklist of working links can be found here: [Link Tests 22nd May 2020 
 
 #### Example Images of User Story Satisfying Content
 
-![Deployed Strapline](assets/images/deployed_strapline.PNG)
+![Deployed Strapline](assets/images/deployed_strapline.png)
 
-![Dog Friendly Advice](assets/images/advice_dog_friendly.PNG)
+![Dog Friendly Advice](assets/images/advice_dog_friendly.png)
 
-![Training Advice](assets/images/advice_training.PNG)
+![Training Advice](assets/images/advice_training.png)
 
-![Social Media Links](assets/images/social_media_links.PNG)
+![Social Media Links](assets/images/social_media_links.png)
 
-![Keywords](assets/images/keywords.PNG)
+![Keywords](assets/images/keywords.png)
 
 ### Subscribe Form
 
