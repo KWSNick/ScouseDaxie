@@ -8,7 +8,8 @@ ul {
   list-style: none;
 }
 
-/* ------------------------------------------Colours*/
+/* ------------------------------------------Colors*/
+/*color-palette is not assigned to any element but is here to provide a quick reference for all colors in use*/
 .color-palette {
   color: #8e24ae; /*Primary*/
   color: #c159e1; /*Primary Light*/
@@ -20,7 +21,7 @@ ul {
   color: #324749; /*Secondary Text*/
 }
 
-/*Primary*/
+/*Primary - Background*/
 .navigation,
 .dropdown-menu,
 .content-b,
@@ -30,7 +31,7 @@ ul {
   background-color: #8e24ae;
 }
 
-/*Primary Text*/
+/*Primary Text - Text Color*/
 .strapline,
 .navbar-dark .navbar-nav .nav-link,
 .dropdown-item,
@@ -46,11 +47,13 @@ ul {
 .how-to-item-a,
 .training-tips-item-a,
 .content-a .btn-secondary:hover,
-.content-b .btn-secondary:hover {
+.content-b .btn-secondary:hover,
+.btn-secondary:hover,
+.btn-secondary:focus {
   color: #fbffe2;
 }
 
-/*Primary Dark*/
+/*Primary Dark - Background*/
 .navbar-item:hover,
 .navbar-nav .active,
 .sub-link,
@@ -58,12 +61,12 @@ ul {
   background-color: #5c007e;
 }
 
-/*Alternative Link*/
+/*Primary Dark - Alternative Link*/
 #training-intro a {
   color: #5c007e;
 }
 
-/*Secondary*/
+/*Secondary - Text Color*/
 .navbar-dark .navbar-nav .nav-link:hover,
 .content-b a,
 .content-a a,
@@ -71,22 +74,35 @@ ul {
   color: #99fcff;
 }
 
-/*Secondary Text*/
+/*Secondary - Background*/
+.btn-secondary,
+.content-a .btn-secondary,
+.content-b .btn-secondary {
+  background-color: #99fcff;
+}
+
+/*Secondary Text - Text Color*/
 .content-a,
 .modal-content,
-.scroll-control a i {
+.scroll-control a i,
+.btn-secondary,
+.content-a .btn-secondary,
+.content-b .btn-secondary {
   color: #324749;
 }
 
-.divider {
+/*Secondary Text - Background*/
+.divider,
+.btn-secondary:active {
   background-color: #324749;
 }
 
+/*Translucent dark hover - Background*/
 .scroll-control a:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/*Secondary Dark*/
+/*Secondary Dark - Text Color*/
 .content-b a:hover,
 .content-a a:hover,
 .footer a:hover,
@@ -94,29 +110,18 @@ ul {
   color: #65c9cc;
 }
 
-/*Primary Light*/
-.card-a,
-.how-to-item-a,
-.training-tips-item-a {
-  background-color: #c159e1;
-}
-
-/*Button*/
-.btn-secondary,
-.content-a .btn-secondary,
-.content-b .btn-secondary {
-  background-color: #99fcff;
-  color: #324749;
-}
+/*Secondary Dark - Background*/
 
 .btn-secondary:hover,
 .btn-secondary:focus {
   background-color: #65c9cc;
-  color: #fbffe2;
 }
 
-.btn-secondary:active {
-  background-color: #324749;
+/*Primary Light - Background*/
+.card-a,
+.how-to-item-a,
+.training-tips-item-a {
+  background-color: #c159e1;
 }
 
 /* ------------------------------------------Header*/
@@ -387,7 +392,9 @@ h5 {
 }
 
 .map-container iframe {
-  border: none;;
+  border: none;
+}
+
 .how-to-item {
   padding: 0;
   margin: 0;
