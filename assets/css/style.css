@@ -487,6 +487,9 @@ h5 {
 
 /* ------------------------------------------Footer*/
 
+.footer .row {
+    box-shadow: 0px 0px 25px 0px #c159e1 inset;
+}
 .footer-left,
 .footer-left small,
 .footer-left small strong,
