@@ -130,19 +130,15 @@ ul {
   padding: 0;
   box-shadow: 0px 0px 25px 5px;
 }
-
 .navbar-branding {
   margin: 0 0 0 1vw;
 }
-
 .navbar-brand {
   padding: 0;
 }
-
 .navbar-brand img:hover {
   filter: hue-rotate(210deg) saturate(2) brightness(2);
 }
-
 .strapline {
   padding: 0;
   font-family: "Londrina Solid", cursive;
@@ -151,33 +147,27 @@ ul {
   text-align: center;
   font-size: 1.85vw;
 }
-
 h1 {
   font-size: 4.6vw;
   margin: 0;
 }
-
 #logo {
   width: 25vw;
 }
-
 .navbar-toggler {
   font-size: 4vw;
   border: none;
   padding: 2vw;
 }
-
 .navbar-toggler-icon {
   width: 10vw;
   height: 10vw;
 }
-
 .navbar-item {
   width: 100%;
   height: 13vw;
   padding: 0 3vw;
 }
-
 .navbar-dark .navbar-nav .nav-link {
   height: 100%;
   font-family: "Londrina Solid", cursive;
@@ -186,7 +176,6 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.5vw;
 }
-
 .navbar-item a i {
   font-size: 6vw;
 }
@@ -196,13 +185,11 @@ h1 {
 .jumbotron-fluid {
   padding: 2.5vh 1vh;
 }
-
 .hero-tron {
   text-align: center;
   font-family: "Rubik", sans-serif;
   margin: 0;
 }
-
 .hero-image-a {
   height: 65vh;
   background: url("../images/object_hero_a.jpg") no-repeat top right;
@@ -211,7 +198,6 @@ h1 {
   -o-background-size: cover;
   -moz-background-size: cover;
 }
-
 .hero-image-d {
   height: 65vh;
   background: url("../images/object_hero_d.jpg") no-repeat center;
@@ -220,108 +206,86 @@ h1 {
   -o-background-size: cover;
   -moz-background-size: cover;
 }
-
 .btn-secondary {
   border: none;
   text-transform: uppercase;
 }
-
 .main-content {
   text-align: center;
   font-family: "Rubik", sans-serif;
 }
-
 .divider {
   width: 25%;
   height: 0.5vh;
   margin: 3vh auto 0 auto;
 }
-
 .intro-button-container {
   padding: 2vh;
 }
-
 h2 {
   margin: 3vh 0;
 }
-
 .how-to-dog-friendly-head-title h2 {
   padding: 0 5vh;
 }
-
 h6 {
   margin: 3vh 0 0 0;
 }
-
 h5 {
   margin: 2.5vh;
 }
-
 #breed-info,
 #training-intro,
 #training-recc-intro {
   padding: 0 5vh 3vh;
 }
-
 .event-details {
   padding: 0;
 }
-
 .event-details-item,
 .event-desc,
 .place-desc {
   margin: 1vh;
 }
-
 .event-desc p,
 .place-desc p {
   margin-bottom: 1vh;
 }
-
 .card-item h5 {
   margin: 1.5vh;
 }
-
 .card-item-header,
 .how-to-item-text h5,
 .training-tips-text h5 {
   text-transform: uppercase;
 }
-
 .event-details-item-category {
   font-weight: 700;
 }
-
 .events-button-container {
   padding: 3vh;
 }
-
 .event-desc-image {
   width: 90%;
   margin-bottom: 1vh;
 }
-
 .sub-link {
   font-family: "Londrina Solid", cursive;
   font-size: 4vw;
 }
-
 .place-desc-image {
   width: 100%;
   margin-bottom: 1vh;
 }
-
 .image-circle-container {
   margin: 2vh 0;
 }
-
 .image-circle-container img {
   border-radius: 50%;
   height: 20vh;
   border: 0.5vh solid #99fcff;
   padding: 0.5vh;
 }
-
 #back-to-top {
   width: 8vw;
   height: 8vw;
@@ -335,12 +299,10 @@ h5 {
   right: 0;
   z-index: 9999;
 }
-
 /*Allows the events to continue off page in a single row when at >XL breakpoint, with buttons to scroll from left to right*/
 .scroll-x {
   overflow-x: hidden;
 }
-
 .scroll-control {
   background: transparent;
   font-size: 7vh;
@@ -350,11 +312,9 @@ h5 {
   width: 3%;
   height: 100%;
 }
-
 .scroll-left {
   left: 0;
 }
-
 .scroll-right {
   right: 0;
 }
@@ -362,96 +322,76 @@ h5 {
   height: 100%;
   width: 100%;
 }
-
 .scroll-control a i {
   position: relative;
   top: 30%;
   vertical-align: middle;
 }
-
 .venue-icons p {
   margin: 0;
 }
-
 .venue-icons p i {
   margin: 0 1vw;
 }
-
 .venue-keywords p {
   text-transform: capitalize;
   margin-bottom: 0;
   padding: 1vh;
 }
-
 .venue-weblink,
 .venue-weblink-b {
   margin: auto;
 }
-
 .map-container {
   height: 460px;
 }
-
 .map-container iframe {
   border: none;
 }
-
 .google-map {
   width: 100%;
   height: 460px;
 }
-
 .how-to-item {
   padding: 0;
   margin: 0;
 }
-
 .how-to-item-row {
   height: 100%;
 }
-
 .how-to-item-icon {
   font-size: 10vh;
 }
-
 .how-to-item-icon i {
   position: relative;
   top: 30%;
 }
-
 .how-to-item-text p,
 .training-tips-text p {
   padding: 0 2vh;
 }
-
 #training-intro a {
   text-decoration: underline;
 }
-
 .training-tips-video iframe {
   position: relative;
   vertical-align: middle;
   padding: 5%;
 }
-
 .uppercase {
   text-transform: uppercase;
 }
-
 .training-tips-video iframe {
   width: 100vw;
   height: 61vw;
   border: 0;
 }
-
 .step-by-step {
   margin-bottom: 2vh;
 }
-
 .steps-text {
   text-align: left;
 }
-
 .steps-text ol {
   padding-left: 20px;
 }
@@ -460,26 +400,21 @@ h5 {
 .modal-content {
   font-family: "Rubik", sans-serif;
 }
-
 .modal-header {
   border: none;
 }
-
 .modal-header h2 {
   margin: 0;
 }
-
 .required {
   text-align: right;
   font-style: italic;
 }
-
 .modal-footer {
   border: none;
   padding-top: 0;
   padding-bottom: 0;
 }
-
 .subscribe-button {
   text-align: center;
   margin: 1rem;
@@ -594,21 +529,17 @@ h5 {
   #logo {
     width: 10vw;
   }
-
   .strapline {
     font-size: 1vw;
     letter-spacing: 0.6vw;
   }
-
   .navbar-item {
     height: 6.5vw;
   }
-
   .navbar-dark .navbar-nav .nav-link {
     font-size: 1vw;
     padding-top: 1.4vw;
   }
-
   .navbar-item a i {
     font-size: 1.8vw;
   }
@@ -627,7 +558,6 @@ h5 {
   .socials {
     margin: 1.5vw 0;
   }
-
   .social-link i {
     font-size: 2.5vw;
   }
@@ -653,7 +583,6 @@ h5 {
   .navbar-item {
     height: 7.5vw;
   }
-
   .navbar-item a i {
     font-size: 2.2vw;
   }
