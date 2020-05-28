@@ -379,7 +379,7 @@ Each page was run through W3C (World Wide Web Consortium) Markup Validator, the 
 | Message Type | Message                                                                     | Action Taken                                                |
 | ------------ | --------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Warning      | The link role is unnecessary for element a with attribute href.             | Removed 14x instances in index.html                         |
-| Warning      | Section lacks heading.                                                      | None, this is intentional as sub-sections contain headings. |
+| Warning      | Section lacks heading.                                                      | Replaced section with div tag as it is only a container     |
 | Error        | Bad value button for attribute type on element a: Subtype missing.          | type="button" altered to role="button" in 5x instances      |
 | Error        | Bad value dialog for attribute role on element aside.                       | Switched aside to div for modal                             |
 | Error        | Attribute name not allowed on element label at this point.                  | name moved from label to checkbox element in 2x instances.  |
