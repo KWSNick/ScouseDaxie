@@ -420,7 +420,7 @@ With all actions completed the training.html page was re-checked in the W3C Mark
 | ------------ | ------------------------------------------------------------------ | ----------------------------------------------------------- |
 | Error        | Bad value button for attribute type on element a: Subtype missing. | type="button" altered to role="button" in 15x instances     |
 | Warning      | The link role is unnecessary for element a with attribute href.    | 15x instances removed from training.html.                   |
-| Warning      | Section lacks heading                                              | None, this is intentional as sub-sections contain headings. |
+| Warning      | Section lacks heading                                              | Replaced section with div tag as it is only a container     |
 
 With all actions completed the events.html page was re-checked in the W3C Markup Validator to confirm all changes were successful. 
 
