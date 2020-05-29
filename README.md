@@ -205,6 +205,8 @@ Where possible the use of absolute units has been avoided in preference for rela
 
 - Tooltips would be advantageous on venue icons to improve user understanding.
 
+- Add in a confirmation message following successful subscribe form submission.
+
 - The events carousel at large breakpoints could be improved to allow a greater number of events to be posted. Currently it is limited to 12 due to the toggle buttons linking to the start and end of the overflowed container, with only 6 events displayed on the page at any one time.
 
 - The down caret icons added to all collapsing toggles could be made to switch to up carets when the collapsed item is open.
@@ -381,6 +383,12 @@ A final checklist of working links can be found here: [Link Tests 22nd May 2020 
 ### Subscribe Form
 
 The form was tested to ensure that a correctly completed form was accepted and the user returned to the home page, the omission of each required field in turn resulted in a submission error message and that the incorrect entry of an email address also presented the user with an error message. 
+
+### Independent Testing
+
+The site was given to several independent testers who confirmed the links all worked, the visual layout was logical and appealing, and the intent of the site was clear. 
+
+Several suggestions were made on site improvements, including the addition of a confirmation message when the subscribe form is successfully submitted. As this required JavaScript this is beyond the scope of the site currently but has been added to the minor improvements section of this README. 
 
 ### W3C HTML Validator
 
